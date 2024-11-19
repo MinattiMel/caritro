@@ -2,6 +2,7 @@
 import Header from "../components/Header.vue";
 import Hero from "../components/Hero.vue";
 import Footer from "../components/Footer.vue";
+import Social from "../components/Social.vue";
 </script>
 
 <template>
