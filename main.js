@@ -1,7 +1,24 @@
+import { createApp } from 'vue';
 import './index.css';
+import App from "./App.vue";
+import Home from "./pages/Home.vue";
+import SwipeFestival from "./pages/SwipeFestival.vue";
+import Festival from "./pages/Festival.vue";
+import {createMemoryHistory, createRouter} from "vue-router";
 
-document.addEventListener("DOMContentLoaded", () => {
-    // qui ci va il codice da eseguire una volta che la pagina è completamente caricata
-    console.log("DOM caricato");
-});
+
+
+// definisco le routes e le collego ad una componente
+const routes = [
+    { path: '/', component: Home },
+    { path: '/swipe-festival', component: SwipeFestival },
+    { path: '/festival/:eventName', component: Festival },
+]
+
+const router = createRouter({
+    history: createMemoryHistory(),
+    routes,
+})
+
+createApp(App).use(router).mount('#app');
 
