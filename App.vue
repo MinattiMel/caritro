@@ -39,15 +39,13 @@
 
 <template>
 
-    <nav>
-        <RouterLink to="/">Go to Home</RouterLink>
-        <RouterLink to="/swipe-festival">Go to Swipe</RouterLink>
-        <RouterLink to="/festival/nome-evento">Go to Event</RouterLink>
-    </nav>
     <main>
         <RouterView />
     </main>
-    <p>
-        <strong>Current route path:</strong> {{ $route.fullPath }}
-    </p>
+
+    <nav>
+        <RouterLink to="/">Go to Home</RouterLink>
+        <RouterLink to="/swipe-festival">Go to Swipe</RouterLink>
+    </nav>
+    
 </template>
