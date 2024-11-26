@@ -1,7 +1,10 @@
 <script setup>
+    import Social from "./Social.vue";
 </script>
 
 <template>
+
+
 
      <footer class="self-end flex flex-col gap-10">
         <h3 class="sr-only">Contattaci</h3>
@@ -14,6 +17,9 @@
             <li><a href="https://www.fondazionecaritro.it/" target="blank"><img class="h-16" alt="Fondazione Caritro" src="/assets/logo-caritro.svg"></a></li>
             <li><img class="h-16" alt="Sideout" src="/assets/logo-sideout.svg"></li>
         </ul>
+
+         <Social />
+
     </footer>
 
 </template>

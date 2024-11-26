@@ -1,15 +1,27 @@
 <script setup>
 import Header from "../components/Header.vue";
-import Hero from "../components/Hero.vue";
 import Footer from "../components/Footer.vue";
-import Social from "../components/Social.vue";
+import Card from "../components/Card.vue";
 </script>
 
 <template>
 
-    <div class="grid gap-8 xl:grid-cols-3 p-8 lg:p-16 min-h-screen min-w-screen">
+    <div class="xl:grid xl:gap-8 xl:grid-cols-3 p-8 lg:p-16 min-h-screen min-w-screen">
 
         <Header/>
+
+        <Card
+            title="Rudy Zerbi"
+            details="Moderatore"
+            socialTitle="@rudyzerbi"
+            socialUrl="https://www.instagram.com/rudyzerbi/"
+        />
+
+        <Card
+            title="Rudy Zerbi"
+            details="Moderatore"
+            socialTitle="Titolo per il social"
+        />
 
         <div class="xl:justify-self-end flex flex-col gap-8 xl:col-start-2 xl:col-span-2 xl:row-span-2">
             <div class="grid gap-2 xl:grid-cols-3 xl:pt-12">
