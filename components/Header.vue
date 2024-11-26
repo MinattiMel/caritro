@@ -1,10 +1,12 @@
 <script setup>
+import Button from "./Button.vue";
+import Social from "./Social.vue";
 </script>
 
 <template>
 
-    <header>
-        <svg class="mb-20 max-w-lg xl:max-w-2xl xl:w-full" viewBox="0 0 224 70">
+    <header class="pt-16 px-8 min-h-screen min-w-screen"> <!--ridefinire questa griglia, togliere-->
+        <svg class="mb-4 max-w-lg xl:max-w-2xl xl:w-full" viewBox="0 0 224 70">
             <title>Swipe</title>
             <clipPath id="logo-swipe">
                 <path d="M 0.59 0.179993 L 223.399998 0.179993 L 223.399998 69.600006 L 0.59 69.600006 Z"/>
@@ -17,10 +19,31 @@
                 <path id="path4" fill="#ffffff" stroke="none" d="M 223.410004 44.240005 L 223.410004 33.059998 L 179.339996 33.059998 L 179.339996 69.369995 L 223.410004 69.369995 L 223.410004 58.190002 L 192.110001 58.190002 L 192.110001 55.820007 L 219.980011 55.820007 L 219.980011 46.509995 L 192.110001 46.509995 L 192.110001 44.240005 L 223.410004 44.240005 Z"/>
             </g>
         </svg>
-        <h1 class="flex items-center uppercase text-3xl xl:text-4xl text-secondary mb-4 [text-shadow:0px_0px_9px_#00A3A3]"><span class="sr-only">Swipe</span> Scorrendo tra le generazioni <img class="w-24 xl:w-40 drop-shadow-lg" alt="" src="/assets/arrows.svg"></h1>
-        <p class="text-xl">Confronto tra giovani e adulti <br> sulle sfide nell'era digitale</p>
-        <p class="text-xl">Biglietti disponibili dal 16 dicembre 2024</p>
+        <h1 class="flex items-center uppercase text-3xl text-secondary mb-4 [text-shadow:0px_0px_2px_#ffffff]"><span class="sr-only">Swipe</span> Scorrendo tra<br>le generazioni</h1>
+
+        <div class="pt-8 mb-8">
+            <div class="">
+                <p class="text-5xl text-secondary [text-shadow:0px_0px_4px_#ffffff]">20.01.2025</p> <!--text-shadow:0px_0px_9px_#07fbfb-->
+                <p class="text-2xl">Auditorium S. Chiara<br>Trento | Ore 17</p>
+            </div>
+        </div>
+
+        <Button class=""
+        text="Prenota"
+        link="https://google.it"
+
+        />
+     <div class="mt-16"> <!--è giusto metterlo in un div?. Non riuscivamo a spostare i partner più in basso-->
+        <Social/>
+     </div>
+
+    
+
+       <!--<img class="w-24 xl:w-40 drop-shadow-lg" alt="" src="/assets/arrows.svg">-->
+
     </header>
+
+    
 
 </template>
 
