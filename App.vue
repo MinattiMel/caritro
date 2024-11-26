@@ -42,10 +42,5 @@
     <main>
         <RouterView />
     </main>
-
-    <nav>
-        <RouterLink to="/">Go to Home</RouterLink>
-        <RouterLink to="/swipe-festival">Go to Swipe</RouterLink>
-    </nav>
     
 </template>
