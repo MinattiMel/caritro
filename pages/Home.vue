@@ -25,7 +25,7 @@ import Link from "../components/Link.vue";
             details="Moderatore"
             socialTitle="Titolo per il social"
         />
-"
+ 
         <Button 
         text="prova"
         />
