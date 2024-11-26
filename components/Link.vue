@@ -1,7 +1,15 @@
 <script setup>
+defineProps([
+    'text','target'
+])
 </script>
 
 <template>
-   <div>
-   </div>
+  
+   <a
+           v-if="text"
+           :target="target"
+           :href="link"
+       >{{ text }}</a>
+
 </template>
