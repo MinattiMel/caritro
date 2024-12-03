@@ -28,6 +28,8 @@ import Link from "../components/Link.vue";
                 details="Moderatore"
                 socialTitle="@rudyzerbi"
                 socialUrl="https://www.instagram.com/rudyzerbi/"
+                imageAlt="immagine di Rudy Zerbi"
+                imageUrl="../assets/Rudy Zerbi-def.jpg"
             />
 
             <Card
