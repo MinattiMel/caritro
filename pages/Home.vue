@@ -139,11 +139,11 @@ import Link from "../components/Link.vue";
                 <ul class="space-y-8 text-2xl">
                     <li class="flex items-center space-x-4">
                         <img src="../assets/Calendario.svg" alt="">
-                        <p class="text-2xl">20.01.2025</p>
+                        <p class="text-3xl">20.01.2025</p>
                     </li>
                     <li class="flex items-center space-x-4">
                         <img src="../assets/Orologio.svg" alt="">
-                        <p class="text-2xl">17</p>
+                        <p class="text-3xl">17</p>
                     </li>
                     <li class="flex items-start space-x-4 text-2xl">
                         <img src="../assets/Luogo.svg" alt=""> 
@@ -160,11 +160,11 @@ import Link from "../components/Link.vue";
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5536.789462893989!2d11.122055476176241!3d46.06316987109008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478276b33c048b87%3A0x450ed9ac2257c812!2sCentro%20Servizi%20Culturali%20Santa%20Chiara!5e0!3m2!1sit!2sit!4v1733231302929!5m2!1sit!2sit" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </li>
-                    <li class="flex text-xl items-start space-x-4">
+                    <li class="flex text-3xl items-start space-x-4">
                         <img src="../assets/Biglietto.svg">
                         <div>
                             <p class="">Biglietti dal 16.11.2024</p>
-                            <p class="mt-2 leading-7">
+                            <p class="text-2xl mt-2 leading-7">
                                 Non è necessario stampare i biglietti puoi semplicemente mostrare il QR code all’ingresso.
                             </p>
                         </div>
