@@ -29,8 +29,8 @@ import Link from "../components/Link.vue";
             <div class="max-w-[1200px] w-full">
 
                 <div class="w-full flex items-center justify-center">
-                    <div class="p-6 rounded-full flex items-center justify-center w-40 bg-quinary -mt-14">
-                        <img class="" src="../assets/frecce-in-giu.png">
+                    <div class="p-4 rounded-full flex items-center justify-center w-40 bg-quinary -mt-14">
+                        <img class="" src="../assets/frecce.png">
                     </div>
                 </div>
 
