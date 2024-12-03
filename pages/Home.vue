@@ -26,13 +26,16 @@ import Link from "../components/Link.vue";
   </g>
 </svg>
 
+<h2 class="text-3xl uppercase px-8 text-secondary [text-shadow:0px_0px_4px_#ffffff]">Ospiti</h2>
+
         <Card
             title="Rudy Zerbi"
             details="Moderatore"
             socialTitle="@rudyzerbi"
             socialUrl="https://www.instagram.com/rudyzerbi/"
             imageAlt="immagine di Rudy zerbi"
-            imageUrl="../assets/Rudy Zerbi.jpg"
+            imageUrl="../assets/Rudy Zerbi-def.jpg"
+            main="true"
         />
 
         <Card
@@ -40,6 +43,10 @@ import Link from "../components/Link.vue";
             details="Artista musicale"
             socialTitle="@kidyugiy3p"
             socialUrl="https://www.instagram.com/kidyugiy3p/"
+            imageAlt="immagine di kid Yugi"
+            imageUrl="../assets/Kid Yugi-def.jpg"
+            reverse="true"
+            right="true"
         />
 
         <Card
@@ -47,6 +54,8 @@ import Link from "../components/Link.vue";
             details="Content creator"
             socialTitle="@ilrossopiubellodiinstagraam"
             socialUrl="https://www.instagram.com/ilrossopiubellodiinstagraam/"
+            imageAlt="immagine di Il Rosso"
+            imageUrl="../assets/Il Rosso.png"
 
         />
 
@@ -55,6 +64,10 @@ import Link from "../components/Link.vue";
             details="Consulente sessuale"
             socialTitle="@livioricciardi"
             socialUrl="https://www.instagram.com/livioricciardi/"
+            imageAlt="immagine di Livio Ricciardi"
+            imageUrl="../assets/Livio Ricciardi.jpg"
+            reverse="true"
+            right="true"
 
         />
  
@@ -63,6 +76,8 @@ import Link from "../components/Link.vue";
             details="Discografico e manager"
             socialTitle="@cirobuccolieri"
             socialUrl="https://www.instagram.com/cirobuccolieri/"
+            imageAlt="immagine di Ciro Buccolieri"
+            imageUrl="../assets/Ciro Buccolieri-def.jpg"
 
         />
 
@@ -71,6 +86,10 @@ import Link from "../components/Link.vue";
             details="Psicoterapeuta"
             socialTitle="@serena-valorzi"
             socialUrl="https://it.linkedin.com/in/serena-valorzi-31235146"
+            imageAlt="immagine di Serena Valorzi"
+            imageUrl="../assets/Serena-Valorzi-def.jpg"
+            reverse="true"
+            right="true"
 
         />
 

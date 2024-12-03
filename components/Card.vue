@@ -1,31 +1,39 @@
 <script setup>
-defineProps([
-    'title','details', 'socialTitle','socialUrl', 'imageAlt', 'imageUrl'
+const props=defineProps([
+    'title','details', 'socialTitle','socialUrl', 'imageAlt', 'imageUrl','reverse','main','right'
 ])
+const isReverse = props.reverse
+const isMain = props.main
+const isRight = props.right
 </script>
 
 <template>
-   <div class="grid grid-cols-2 px-8 py-8">
+   <div 
+    class="px-8 py-8 flex grow-0 gap-4 text-left text-white"
+    :class="{ 'flex-row-reverse': isReverse , 'text-right': isRight }"
+   >
 
-    <div class="cols-span-2">
-       <img class="rounded-full w-24"
+       <img class="rounded-full w-32"
            v-if="imageUrl"
            :alt="imageAlt"
            :src="imageUrl"
        />
-    </div>
 
-    <div class="cols-span-1">
-       <h2 class="text-2xl">{{ title }}</h2>
+    <div 
+     :class="{'text-quaternary': isMain}"
+    >
+        <h2 class="text-3xl uppercase">{{ title }}</h2>
+        <div>
+            <p class="text-s">{{ details }}</p>
 
-       <p>{{ details }}</p>
-
-       <a
-           v-if="socialTitle && socialUrl"
-           target="_blank"
-           :href="socialUrl"
-       >{{ socialTitle }}</a>
+            <a class="text-s"
+             v-if="socialTitle && socialUrl"
+             target="_blank"
+             :href="socialUrl"
+            >{{ socialTitle }}</a>
+        </div>
     </div>
 
    </div>
 </template>
+<!--flex con img e div con nome e details. flex row reverse-->
