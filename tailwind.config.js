@@ -16,6 +16,7 @@ export default {
                 tertiary: '#801b72',
                 quaternary:'#df0d78',
                 quinary: '#8c0876',
+                sextiary: '#7805ff'
             }
         }
     },
