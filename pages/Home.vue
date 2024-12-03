@@ -104,8 +104,8 @@ import Link from "../components/Link.vue";
 
         <div class="xl:col-span-3 p-8 px-8 bg-[#2e0059] text-white flex flex-col items-center">
             <div class="max-w-[1200px] w-full">
-<h2 class="text-2xl font-bold text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-4">I TEMI</h2>
-                <ul class="list-disc pl-5 space-y-0 text-lg">
+<h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-4">I TEMI</h2>
+                <ul class="list-disc pl-5 space-y-0 text-2xl">
                     <li>SOCIAL NETWORK</li>
                     <li>MONDO DEL WEB</li>
                     <li>RELAZIONI E SESSUALITÀ</li>
@@ -113,8 +113,8 @@ import Link from "../components/Link.vue";
                     <li>LIBERTÀ DI ESPRESSIONE</li>
                     <li>SALUTE MENTALE</li>
                 </ul>
-                <h2 class="text-2xl font-bold text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mt-8 mb-4">IL PERCHÉ</h2>
-                <p class="text-base leading-7">
+                <h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mt-8 mb-4">IL PERCHÉ</h2>
+                <p class="text-xl font-regular leading-7">
                     Un evento per dare voce alla <strong>Gen Z</strong> e costruire un <strong>ponte tra generazioni</strong>.
                     Fondazione Caritro e Sideout Music presentano un progetto che mira a dare alle nuove generazioni uno spazio autentico per 
                     <strong>esprimersi</strong> su temi cruciali della <strong>contemporaneità</strong>.
@@ -122,7 +122,8 @@ import Link from "../components/Link.vue";
                     <strong>simbolo universale</strong>, capace di <strong>unire generazioni diverse</strong>
                     attraverso un'azione ormai familiare a tutti.
                     In un momento storico ricco di <strong>sfide</strong> e <strong>riflessioni</strong>, 
-                    questo evento punta a creare un <strong>dialogo autentico</strong> e inclusivo tra figli e genitori, studenti e adulti.
+                    questo evento punta a creare un <strong>dialogo autentico</strong> e inclusivo tra figli e genitori, studenti e insegnanti, nonni e nipoti. 
+                    Un’occasione per <strong>confrontarsi</strong>, <strong>comprendersi</strong> e immaginare insieme il <strong>futuro</strong>.
                 </p>
 
             </div>
@@ -131,21 +132,21 @@ import Link from "../components/Link.vue";
         <div class="xl:col-span-3 px-8 py-6 bg-[#d90a72] text-white flex flex-col items-center">
             <div class="max-w-[1200px] w-full">
 
-                <h2 class="text-2xl font-bold text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-6">INFO UTILI</h2>
-                <ul class="space-y-4">
+                <h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-10">INFO UTILI</h2>
+                <ul class="space-y-8">
                     <li class="flex items-center space-x-4">
-                        <span class="text-2xl"></span>
-                        <span class="text-lg">20.01.2025</span>
+                        <span class="text-2xl"><img src="../assets/Calendario.svg" alt=""></span>
+                        <span class="text-2xl">20.01.2025</span>
                     </li>
                     <li class="flex items-center space-x-4">
-                        <span class="text-2xl"></span>
-                        <span class="text-lg">17</span>
+                        <span class="text-2xl"><img src="../assets/Orologio.svg" alt=""></span>
+                        <span class="text-2xl">17</span>
                     </li>
-                    <li class="flex items-center space-x-4">
-                        <span class="text-2xl"></span>
+                    <li class="flex space-x-4">
+                        <span class="text-2xl"><img src="../assets/Luogo.svg" alt=""></span>
                         <div>
-                            <span class="block text-lg font-bold">Auditorium S. Chiara Trento</span>
-                            <p class="text-base mt-2 leading-7">
+                            <span class="text-2xl">Auditorium S. Chiara Trento</span>
+                            <p class="text-2xl mt-2 leading-7">
                                 La location dell'evento è facilmente accessibile.
                                 In <strong>auto</strong>, si può parcheggiare vicino all'Auditorium presso 
                                 <strong>Piazza di Fiera</strong> (5 minuti a piedi) o <strong>Sanseverino</strong> (15 minuti).
