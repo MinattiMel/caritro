@@ -1,16 +1,15 @@
 <script setup>
 const props=defineProps([
-    'title','details', 'socialTitle','socialUrl', 'imageAlt', 'imageUrl','reverse','main','right'
+    'title','details', 'socialTitle','socialUrl', 'imageAlt', 'imageUrl','reverse','main'
 ])
 const isReverse = props.reverse
 const isMain = props.main
-const isRight = props.right
 </script>
 
 <template>
    <div 
     class="px-8 py-8 flex grow-0 gap-4 text-left text-white items-center"
-    :class="{ 'flex-row-reverse': isReverse , 'text-right': isRight }"
+    :class="{ 'flex-row-reverse': isReverse , 'text-right': isReverse }"
    >
 
        <img class="rounded-full w-32"
