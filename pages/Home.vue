@@ -83,12 +83,6 @@ import Link from "../components/Link.vue";
 
         </div>
 
-        <div class="xl:justify-self-end flex flex-col gap-8 xl:col-start-2 xl:col-span-2 xl:row-span-2">
-            <div class="grid gap-2 xl:grid-cols-3 xl:pt-12">
-                <p class="xl:col-start-2 xl:col-span-2 text-3xl lg:text-5xl xl:text-7xl 2xl:text-8xl text-secondary [text-shadow:0px_0px_9px_#07fbfb]">20.01.2025</p>
-                <p class="xl:col-start-2 xl:col-span-2 text-xl 2xl:text-3xl">Auditorium S. Chiara - Trento | Ore 17 - 19</p>
-            </div>
-        </div>
 
         <div class="xl:col-span-3 mt-8 p-8 px-8 bg-[#2e0059] text-white">
             <h2 class="text-2xl font-bold text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-4">I TEMI</h2>
