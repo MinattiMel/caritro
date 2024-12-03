@@ -6,7 +6,7 @@ import Social from "./Social.vue";
 <template>
 
     <header class="bg-[url('/assets/bg.png')] bg-no-repeat bg-cover bg-center text-white flex flex-col items-center"> 
-        <div class="pt-16 px-8 max-w-[1200px]">
+        <div class="pt-8 px-4 max-w-[1200px]">
 
                 <svg class="mb-4 max-w-lg xl:max-w-2xl xl:w-full" viewBox="0 0 224 70">
                     <title>Swipe</title>
@@ -36,7 +36,7 @@ import Social from "./Social.vue";
 
                 />
 
-            <div class="mt-16"> <!--è giusto metterlo in un div?. Non riuscivamo a spostare i partner più in basso-->
+            <div class="mt-4 mb-16">
                 <Social/>
             </div>
 
