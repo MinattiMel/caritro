@@ -128,6 +128,9 @@ import Link from "../components/Link.vue";
 
             </div>
         </div>
+        <div>
+            <img src="../assets/fotoTeatro.jpg">
+        </div>
 
         <div class="xl:col-span-3 px-8 py-6 bg-[#d90a72] text-white flex flex-col items-center">
             <div class="max-w-[1200px] w-full">
