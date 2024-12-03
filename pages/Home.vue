@@ -135,18 +135,18 @@ import Link from "../components/Link.vue";
                 <h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-10">INFO UTILI</h2>
                 <ul class="space-y-8">
                     <li class="flex items-center space-x-4">
-                        <span class="text-2xl"><img src="../assets/Calendario.svg" alt=""></span>
+                        <span class="text-2xl"><img src="../assets/Calendario.svg"></span>
                         <span class="text-2xl">20.01.2025</span>
                     </li>
                     <li class="flex items-center space-x-4">
-                        <span class="text-2xl"><img src="../assets/Orologio.svg" alt=""></span>
+                        <span class="text-2xl"><img src="../assets/Orologio.svg"></span>
                         <span class="text-2xl">17</span>
                     </li>
                     <li class="flex space-x-4">
-                        <span class="text-2xl"><img src="../assets/Luogo.svg" alt=""></span>
+                        <img src="../assets/Luogo.svg">
                         <div>
                             <span class="text-2xl">Auditorium S. Chiara Trento</span>
-                            <p class="text-2xl mt-2 leading-7">
+                            <p class="text-xl text-regular leading-7">
                                 La location dell'evento è facilmente accessibile.
                                 In <strong>auto</strong>, si può parcheggiare vicino all'Auditorium presso 
                                 <strong>Piazza di Fiera</strong> (5 minuti a piedi) o <strong>Sanseverino</strong> (15 minuti).
@@ -154,9 +154,18 @@ import Link from "../components/Link.vue";
                                 alla fermata <strong>"Centro Santa Chiara"</strong>.
                                 Dalla <strong>stazione dei treni</strong>, l'Auditorium è raggiungibile in <strong>20 minuti a piedi</strong> o con le stesse linee.
                             </p>
-                            <div>
+                    
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5536.789462893989!2d11.122055476176241!3d46.06316987109008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478276b33c048b87%3A0x450ed9ac2257c812!2sCentro%20Servizi%20Culturali%20Santa%20Chiara!5e0!3m2!1sit!2sit!4v1733231302929!5m2!1sit!2sit" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
+                            
+                        </div>
+                    </li>
+                    <li class="flex text-xl items-start space-x-4">
+                        <img src="../assets/Biglietto.svg">
+                        <div>
+                            <p class="">Biglietti dal 16.11.2024</p>
+                            <p class="mt-2 leading-7">
+                                Non è necessario stampare i biglietti puoi semplicemente mostrare il QR code all’ingresso.
+                            </p>
                         </div>
                     </li>
                 </ul>
