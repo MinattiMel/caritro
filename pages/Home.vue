@@ -9,28 +9,79 @@ import Link from "../components/Link.vue";
 
 <template>
 
-    <div class="xl:grid xl:gap-8 xl:grid-cols-3 p-0 lg:p-16 min-h-screen min-w-screen">
+    <div class="">
 
         <Header/>
 
-        <Card
-            title="Rudy Zerbi"
-            details="Moderatore"
-            socialTitle="@rudyzerbi"
-            socialUrl="https://www.instagram.com/rudyzerbi/"
-        />
+        <div class="bg-quinary">
 
-        <Card
-            title="Rudy Zerbi"
-            details="Moderatore"
-            socialTitle="Titolo per il social"
-        />
-                
-        <Button 
-        text="prova"
-        />
+            <div class="flex items-center justify-center">
+                <div class="p-6 rounded-full flex items-center justify-center w-40 bg-quinary -mt-14">
+                    <img class="" src="../assets/frecce-in-giu.png">
+                </div>
+            </div>
 
-        <Link />
+            <h2 class="text-3xl uppercase px-8 text-secondary [text-shadow:0px_0px_4px_#ffffff]">Ospiti</h2>
+
+            <Card
+                title="Rudy Zerbi"
+                details="Moderatore"
+                socialTitle="@rudyzerbi"
+                socialUrl="https://www.instagram.com/rudyzerbi/"
+            />
+
+            <Card
+                title="Kid Yugi"
+                details="Artista musicale"
+                socialTitle="@kidyugiy3p"
+                socialUrl="https://www.instagram.com/kidyugiy3p/"
+                imageAlt="immagine di kid Yugi"
+                imageUrl="../assets/Kid Yugi-def.jpg"
+                reverse="true"
+            />
+
+            <Card
+                title="Il Rosso"
+                details="Content creator"
+                socialTitle="@ilrossopiubellodiinstagraam"
+                socialUrl="https://www.instagram.com/ilrossopiubellodiinstagraam/"
+                imageAlt="immagine di Il Rosso"
+                imageUrl="../assets/Il Rosso.png"
+
+            />
+
+            <Card
+                title="Livio Ricciardi"
+                details="Consulente sessuale"
+                socialTitle="@livioricciardi"
+                socialUrl="https://www.instagram.com/livioricciardi/"
+                imageAlt="immagine di Livio Ricciardi"
+                imageUrl="../assets/Livio Ricciardi.jpg"
+                reverse="true"
+
+            />
+    
+            <Card
+                title="Ciro Buccolieri"
+                details="Discografico e manager"
+                socialTitle="@cirobuccolieri"
+                socialUrl="https://www.instagram.com/cirobuccolieri/"
+                imageAlt="immagine di Ciro Buccolieri"
+                imageUrl="../assets/Ciro Buccolieri-def.jpg"
+
+            />
+
+            <Card
+                title="Serena Valorzi"
+                details="Psicoterapeuta"
+                socialTitle="@serena-valorzi"
+                socialUrl="https://it.linkedin.com/in/serena-valorzi-31235146"
+                imageAlt="immagine di Serena Valorzi"
+                imageUrl="../assets/Serena-Valorzi-def.jpg"
+                reverse="true"
+            />
+
+        </div>
 
         <div class="xl:justify-self-end flex flex-col gap-8 xl:col-start-2 xl:col-span-2 xl:row-span-2">
             <div class="grid gap-2 xl:grid-cols-3 xl:pt-12">
@@ -38,8 +89,6 @@ import Link from "../components/Link.vue";
                 <p class="xl:col-start-2 xl:col-span-2 text-xl 2xl:text-3xl">Auditorium S. Chiara - Trento | Ore 17 - 19</p>
             </div>
         </div>
-
-        <Footer/>
 
         <div class="xl:col-span-3 mt-8 p-8 px-8 bg-[#2e0059] text-white">
             <h2 class="text-2xl font-bold text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-4">I TEMI</h2>
@@ -64,9 +113,7 @@ import Link from "../components/Link.vue";
             </p>
         </div>
 
-    </div>
-
-    <div class="xl:col-span-3 mt-8 px-8 py-6 bg-[#d90a72] text-white">
+        <div class="xl:col-span-3 mt-8 px-8 py-6 bg-[#d90a72] text-white">
             <h2 class="text-2xl font-bold text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-6">INFO UTILI</h2>
             <ul class="space-y-4">
                 <li class="flex items-center space-x-4">
@@ -93,5 +140,9 @@ import Link from "../components/Link.vue";
                 </li>
             </ul>
         </div>
+
+        <Footer/>
+
+    </div>
 
 </template>
