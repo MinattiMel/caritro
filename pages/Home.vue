@@ -154,7 +154,7 @@ import Link from "../components/Link.vue";
                                 Dalla <strong>stazione dei treni</strong>, l'Auditorium è raggiungibile in <strong>20 minuti a piedi</strong> o con le stesse linee.
                             </p>
                             <div>
-                                <iframe class="sm:justify-center ml-20 sm:ml-0" src="https://maps.app.goo.gl/z8c5cFgWVFfY7RLx8" width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5536.789462893989!2d11.122055476176241!3d46.06316987109008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478276b33c048b87%3A0x450ed9ac2257c812!2sCentro%20Servizi%20Culturali%20Santa%20Chiara!5e0!3m2!1sit!2sit!4v1733231302929!5m2!1sit!2sit" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </li>
