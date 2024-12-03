@@ -13,8 +13,8 @@ import Link from "../components/Link.vue";
         <Header/>
         <div class=" bg-quinary">
             <div class="flex items-center justify-center">
-        <div class="flex items-center justify-center rounded-full w-40 bg-red-500">
-        <img src="../assets/frecce-in-giu.svg">
+        <div class="p-6 rounded-full flex items-center justify-center w-40 bg-quinary -mt-14">
+        <img class="" src="../assets/frecce-in-giu.png">
 </div>
 </div>
 
