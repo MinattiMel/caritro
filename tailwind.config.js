@@ -14,8 +14,8 @@ export default {
                 primary: '#cf1675',
                 secondary: '#07fbfb',
                 tertiary: '#801b72',
-                quaternary:'#df0d78'
-                
+                quaternary:'#df0d78',
+                quinary: '#8c0876',
             }
         }
     },

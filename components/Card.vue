@@ -9,7 +9,7 @@ const isRight = props.right
 
 <template>
    <div 
-    class="px-8 py-8 flex grow-0 gap-4 text-left text-white"
+    class="px-8 py-8 flex grow-0 gap-4 text-left text-white items-center"
     :class="{ 'flex-row-reverse': isReverse , 'text-right': isRight }"
    >
 
