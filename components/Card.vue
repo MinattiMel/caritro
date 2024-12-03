@@ -9,28 +9,34 @@ const isMain = props.main
 <template>
    <div 
     class="px-8 py-8 flex grow-0 gap-4 text-left text-white items-center"
-    :class="{ 'flex-row-reverse': isReverse , 'text-right': isReverse }"
+    :class="{ 'flex-row-reverse': isReverse, 'lg:flex-row': isReverse, 'text-right': isReverse, 'lg:text-left': isReverse }"
    >
 
-       <img class="rounded-full w-32"
+       <img class="rounded-full w-32 lg:hidden"
            v-if="imageUrl"
            :alt="imageAlt"
            :src="imageUrl"
        />
 
     <div 
+    class="lg:grid grid-cols-12 lg:flex-row-reverse"
      :class="{'text-quaternary': isMain}"
     >
-        <h2 class="text-3xl uppercase">{{ title }}</h2>
-        <div>
-            <p class="text-s">{{ details }}</p>
+        <h3 class="text-3xl uppercase order-last col-span-4">{{ title }}</h3>
 
+        <div class="lg:text-right col-span-4">
+            <p class="text-s">
+                {{ details }}
+            </p>
             <a class="text-s"
-             v-if="socialTitle && socialUrl"
-             target="_blank"
-             :href="socialUrl"
-            >{{ socialTitle }}</a>
+                v-if="socialTitle && socialUrl"
+                target="_blank"
+                :href="socialUrl"
+            >   
+                {{ socialTitle }}
+            </a>
         </div>
+
     </div>
 
    </div>

@@ -39,8 +39,6 @@
 
 <template>
 
-    <main>
-        <RouterView />
-    </main>
+    <RouterView />
     
 </template>
