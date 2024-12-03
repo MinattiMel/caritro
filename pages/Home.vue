@@ -137,6 +137,9 @@ import Link from "../components/Link.vue";
                             alla fermata <strong>"Centro Santa Chiara"</strong>.
                             Dalla <strong>stazione dei treni</strong>, l’Auditorium è raggiungibile in <strong>20 minuti a piedi</strong> o con le stesse linee.
                         </p>
+                    <div>
+                        <iframe class="sm:justify-center ml-20 sm:ml-0" src="https://www.bing.com/maps?osid=506703e7-87a6-4bbd-953e-79927d129bf5&cp=46.063345~11.124408&lvl=16&pi=0&imgid=66ba3b2f-04d0-4883-bff0-197aaf1a3dfc&v=2&sV=2&form=S00027" width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                     </div>
                 </li>
             </ul>
