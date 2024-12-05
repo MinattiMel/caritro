@@ -1,6 +1,5 @@
 <script setup>
 
-
 /*
 
  import {ref, computed} from 'vue'
@@ -39,6 +38,6 @@
 
 <template>
 
-    <RouterView />
-    
+    <RouterView/>
+
 </template>

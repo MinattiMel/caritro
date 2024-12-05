@@ -2,7 +2,7 @@
 </script>
 
 <template>
-   <div>
-       HERO
-   </div>
+    <div>
+        HERO
+    </div>
 </template>

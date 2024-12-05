@@ -1,20 +1,8 @@
-const jsImage = document.getElementById('jsImage');
-
-// Aggiungiamo un evento 'mouseenter' per ingrandire l'immagine
-jsImage.addEventListener('mouseenter', () => {
-    jsImage.style.transform = 'scale(1.1)';
-});
-
-// Aggiungiamo un evento 'mouseleave' per riportare l'immagine alla dimensione originale
-jsImage.addEventListener('mouseleave', () => {
-    jsImage.style.transform = 'scale(1)';
-});
 <script setup>
+
 import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 import Card from "../components/Card.vue";
-import Button from "../components/Button.vue";
-import Link from "../components/Link.vue";
 
 </script>
 
@@ -30,7 +18,7 @@ import Link from "../components/Link.vue";
 
                 <div class="w-full flex items-center justify-center">
                     <div class="p-4 rounded-full flex items-center justify-center w-40 bg-quinary -mt-14">
-                        <img class="" src="../assets/frecce.png">
+                        <img class="" src="../assets/frecce.png" alt="">
                     </div>
                 </div>
 
@@ -76,7 +64,7 @@ import Link from "../components/Link.vue";
                     reverse="true"
 
                 />
-        
+
                 <Card
                     title="Ciro Buccolieri"
                     details="Discografico e manager"
@@ -104,32 +92,35 @@ import Link from "../components/Link.vue";
 
         <div class="xl:col-span-3 p-8 px-8 bg-[#2e0059] text-white flex flex-col items-center">
             <div class="max-w-[1200px] w-full">
-<h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-4">I TEMI</h2>
-                <ul class="list-disc pl-5 space-y-0 text-2xl">
-                    <li>SOCIAL NETWORK</li>
-                    <li>MONDO DEL WEB</li>
-                    <li>RELAZIONI E SESSUALITÀ</li>
-                    <li>CAMBIAMENTI DEL LAVORO</li>
-                    <li>LIBERTÀ DI ESPRESSIONE</li>
-                    <li>SALUTE MENTALE</li>
+
+                <h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-4 uppercase">I temi</h2>
+                <ul class="list-disc pl-5 space-y-0 text-2xl uppercase">
+                    <li>Social network</li>
+                    <li>Mondo del web</li>
+                    <li>Relazioni e sessualità</li>
+                    <li>Cambiamenti del lavoro</li>
+                    <li>Libertà di espressione</li>
+                    <li>Salute mentale</li>
                 </ul>
+
                 <h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mt-8 mb-4">IL PERCHÉ</h2>
                 <p class="text-xl font-regular leading-7">
                     Un evento per dare voce alla <strong>Gen Z</strong> e costruire un <strong>ponte tra generazioni</strong>.
-                    Fondazione Caritro e Sideout Music presentano un progetto che mira a dare alle nuove generazioni uno spazio autentico per 
+                    Fondazione Caritro e Sideout Music presentano un progetto che mira a dare alle nuove generazioni uno spazio autentico per
                     <strong>esprimersi</strong> su temi cruciali della <strong>contemporaneità</strong>.
                     Al centro c'è la parola <strong>“SWIPE”</strong>, che da semplice gesto digitale si trasforma in un
                     <strong>simbolo universale</strong>, capace di <strong>unire generazioni diverse</strong>
                     attraverso un'azione ormai familiare a tutti.
-                    In un momento storico ricco di <strong>sfide</strong> e <strong>riflessioni</strong>, 
-                    questo evento punta a creare un <strong>dialogo autentico</strong> e inclusivo tra figli e genitori, studenti e insegnanti, nonni e nipoti. 
+                    In un momento storico ricco di <strong>sfide</strong> e <strong>riflessioni</strong>,
+                    questo evento punta a creare un <strong>dialogo autentico</strong> e inclusivo tra figli e genitori, studenti e insegnanti, nonni e nipoti.
                     Un’occasione per <strong>confrontarsi</strong>, <strong>comprendersi</strong> e immaginare insieme il <strong>futuro</strong>.
                 </p>
 
             </div>
         </div>
-        <div>
-            <img src="../assets/fotoTeatro.jpg">
+
+        <div class="max-h-[400px] overflow-hidden">
+            <img src="../assets/fotoTeatro.jpg" class="w-full" alt="">
         </div>
 
         <div class="xl:col-span-3 px-8 py-6 bg-[#d90a72] text-white flex flex-col items-center">
@@ -137,31 +128,39 @@ import Link from "../components/Link.vue";
 
                 <h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-10">INFO UTILI</h2>
                 <ul class="space-y-8 text-2xl">
+
                     <li class="flex items-center space-x-4">
                         <img src="../assets/Calendario.svg" alt="">
                         <p class="text-3xl">20.01.2025</p>
                     </li>
+
                     <li class="flex items-center space-x-4">
                         <img src="../assets/Orologio.svg" alt="">
                         <p class="text-3xl">17</p>
                     </li>
+
                     <li class="flex items-start space-x-4 text-2xl">
-                        <img src="../assets/Luogo.svg" alt=""> 
+                        <img src="../assets/Luogo.svg" alt="">
                         <div>
                             <p class="text-3xl">Auditorium S. Chiara Trento</p>
                             <p class="text-2xl mt-2 leading-7">
                                 La location dell'evento è facilmente accessibile.
-                                In <strong>auto</strong>, si può parcheggiare vicino all'Auditorium presso 
+                                In <strong>auto</strong>, si può parcheggiare vicino all'Auditorium presso
                                 <strong>Piazza di Fiera</strong> (5 minuti a piedi) o <strong>Sanseverino</strong> (15 minuti).
-                                Con i <strong>mezzi pubblici</strong>, le linee <strong>3, 8 e 4</strong> fermano a 5 minuti dalla sede, 
+                                Con i <strong>mezzi pubblici</strong>, le linee <strong>3, 8 e 4</strong> fermano a 5 minuti dalla sede,
                                 alla fermata <strong>"Centro Santa Chiara"</strong>.
                                 Dalla <strong>stazione dei treni</strong>, l'Auditorium è raggiungibile in <strong>20 minuti a piedi</strong> o con le stesse linee.
                             </p>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5536.789462893989!2d11.122055476176241!3d46.06316987109008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478276b33c048b87%3A0x450ed9ac2257c812!2sCentro%20Servizi%20Culturali%20Santa%20Chiara!5e0!3m2!1sit!2sit!4v1733231302929!5m2!1sit!2sit" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <a href="https://www.google.com/maps?ll=46.064033,11.127248&z=15&t=m&hl=it&gl=IT&mapclient=embed&cid=4976153971624757266" target="_blank">
+                                <img class="hidden 2xl:block w-full" src="../assets/map-lg.png" alt="Mappa">
+                                <img class="hidden lg:block 2xl:hidden w-full" src="../assets/map-md.png" alt="Mappa">
+                                <img class="lg:hidden w-full" src="../assets/map.png" alt="Mappa">
+                            </a>
                         </div>
                     </li>
+
                     <li class="flex text-3xl items-start space-x-4">
-                        <img src="../assets/Biglietto.svg">
+                        <img src="../assets/Biglietto.svg" alt="">
                         <div>
                             <p class="">Biglietti dal 16.11.2024</p>
                             <p class="text-2xl mt-2 leading-7">
@@ -169,6 +168,7 @@ import Link from "../components/Link.vue";
                             </p>
                         </div>
                     </li>
+
                 </ul>
 
             </div>

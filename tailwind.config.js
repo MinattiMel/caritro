@@ -3,7 +3,7 @@ export default {
     content: [
         "./components/*.{html,js,vue}",
         "./pages/*.{html,js,vue}",
-        "./*.{html,js,vue}",
+        "./*.{html,js,vue}"
     ],
     theme: {
         extend: {
@@ -14,7 +14,7 @@ export default {
                 primary: '#cf1675',
                 secondary: '#07fbfb',
                 tertiary: '#801b72',
-                quaternary:'#df0d78',
+                quaternary: '#df0d78',
                 quinary: '#8c0876',
                 sextiary: '#7805ff'
             }
