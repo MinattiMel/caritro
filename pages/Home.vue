@@ -104,7 +104,7 @@ import Card from "../components/Card.vue";
                 </ul>
 
                 <h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mt-8 mb-4">IL PERCHÉ</h2>
-                <p class="text-xl font-regular leading-7">
+                <p class="text-xl font-regular leading-7 lg:pl-32">
                     Un evento per dare voce alla <strong>Gen Z</strong> e costruire un <strong>ponte tra generazioni</strong>.
                     Fondazione Caritro e Sideout Music presentano un progetto che mira a dare alle nuove generazioni uno spazio autentico per
                     <strong>esprimersi</strong> su temi cruciali della <strong>contemporaneità</strong>.
@@ -130,13 +130,12 @@ import Card from "../components/Card.vue";
                 <ul class="space-y-8">
 
                     <li class="flex items-center space-x-4">
-                        <img src="../assets/Calendario.svg" alt="icona calendario">
-                        <p class="text-3xl">20.01.2025</p>
-                    </li>
-
-                    <li class="flex items-center space-x-4">
-                        <img src="../assets/Orologio.svg" alt="icona orologio">
-                        <p class="text-3xl">17</p>
+                        <div class="lg:flex">
+                            <img src="../assets/Calendario.svg" alt="icona calendario">
+                            <p class="text-3xl">20.01.2025</p>
+                            <img src="../assets/Orologio.svg" alt="icona orologio">
+                            <p class="text-3xl">17</p>
+                        </div>
                     </li>
 
                     <li class="flex items-start space-x-4">
