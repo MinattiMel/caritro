@@ -127,23 +127,23 @@ import Card from "../components/Card.vue";
             <div class="max-w-[1200px] w-full">
 
                 <h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-10">INFO UTILI</h2>
-                <ul class="space-y-8 text-2xl">
+                <ul class="space-y-8">
 
                     <li class="flex items-center space-x-4">
-                        <img src="../assets/Calendario.svg" alt="">
+                        <img src="../assets/Calendario.svg" alt="icona calendario">
                         <p class="text-3xl">20.01.2025</p>
                     </li>
 
                     <li class="flex items-center space-x-4">
-                        <img src="../assets/Orologio.svg" alt="">
+                        <img src="../assets/Orologio.svg" alt="icona orologio">
                         <p class="text-3xl">17</p>
                     </li>
 
-                    <li class="flex items-start space-x-4 text-2xl">
-                        <img src="../assets/Luogo.svg" alt="">
+                    <li class="flex items-start space-x-4">
+                        <img src="../assets/Luogo.svg" alt="icona luogo">
                         <div>
                             <p class="text-3xl">Auditorium S. Chiara Trento</p>
-                            <p class="text-2xl mt-2 leading-7">
+                            <p class="text-xl mt-2 leading-7 pb-8">
                                 La location dell'evento è facilmente accessibile.
                                 In <strong>auto</strong>, si può parcheggiare vicino all'Auditorium presso
                                 <strong>Piazza di Fiera</strong> (5 minuti a piedi) o <strong>Sanseverino</strong> (15 minuti).
@@ -160,10 +160,10 @@ import Card from "../components/Card.vue";
                     </li>
 
                     <li class="flex text-3xl items-start space-x-4">
-                        <img src="../assets/Biglietto.svg" alt="">
+                        <img src="../assets/Biglietto.svg" alt="icona biglietto cartaceo">
                         <div>
                             <p class="">Biglietti dal 16.11.2024</p>
-                            <p class="text-2xl mt-2 leading-7">
+                            <p class="text-xl mt-2 leading-7">
                                 Non è necessario stampare i biglietti puoi semplicemente mostrare il QR code all’ingresso.
                             </p>
                         </div>
