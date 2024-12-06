@@ -4,7 +4,7 @@ import Social from "./Social.vue";
 
 <template>
 
-    <footer class="bg-sextiary">
+    <footer class="bg-sextiary flex flex-col items-center">
         <div class="flex flex-col items-start max-w-[1200px] w-full py-16 px-8">
             <div class="pb-8">
                 <img class="w-48" src="../assets/swipe-logo.svg" alt="Swipe Festival">
@@ -15,7 +15,9 @@ import Social from "./Social.vue";
 
             <div>
                 <p class="text-white text-xs">Un progetto di:</p>
-                <Social/>
+                <div class="py-4">
+                    <Social/>
+                </div>
             </div>
 
             <div class="text-white text-xs pb-16">
