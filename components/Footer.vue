@@ -5,7 +5,7 @@ import Social from "./Social.vue";
 <template>
 
     <footer class="bg-sextiary">
-        <div class="flex flex-col items-right max-w-[1200px] w-full">
+        <div class="flex flex-col items-start max-w-[1200px] w-full py-16 px-8">
             <div class="pb-8">
                 <img class="w-48" src="../assets/swipe-logo.svg" alt="Swipe Festival">
                 <a class="text-white text-xs" href="https://www.instagram.com/swipe.festival/">

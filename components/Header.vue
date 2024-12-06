@@ -6,7 +6,7 @@ import Social from "./Social.vue";
 <template>
 
     <header class="bg-[url('/assets/bg.png')] bg-no-repeat bg-cover bg-center text-white flex flex-col items-center">
-        <div class="flex flex-col items-center max-w-[1200px] w-full">
+        <div class="flex flex-col items-start max-w-[1200px] w-full py-16 px-8">
 
             <svg class="mb-4 max-w-lg xl:max-w-2xl xl:w-full" viewBox="0 0 224 70">
                 <title>Swipe</title>
