@@ -6,7 +6,7 @@ import Social from "./Social.vue";
 <template>
 
     <header class="bg-[url('/assets/bg.png')] bg-no-repeat bg-cover bg-center text-white flex flex-col items-center">
-        <div class="flex flex-col items-start max-w-[1200px] w-full py-16 px-8 lg:grid grid-cols-12 gap-4">
+        <div class="flex flex-col items-start max-w-[1200px] w-full pt-16 pb-8 px-8 lg:grid grid-cols-12 gap-4">
 
             <svg class="mb-4 max-w-lg lg:max-w-2xl lg:w-full lg:col-span-8 row-start-2 lg:-mt-24" viewBox="0 0 224 70">
                 <title>Swipe</title>
@@ -25,11 +25,11 @@ import Social from "./Social.vue";
                 </g>
             </svg>
 
-            <h1 class="flex items-center uppercase text-3xl text-secondary mb-4 [text-shadow:0px_0px_2px_#ffffff] xl:text-4xl font-medium row-start-3 col-span-12">
+            <h1 class="flex items-center uppercase text-3xl text-secondary mb-4 lg:mb-0 [text-shadow:0px_0px_2px_#ffffff] xl:text-4xl font-medium row-start-3 col-span-12">
                 <span class="sr-only">Swipe</span> Scorrendo tra le generazioni
             </h1>
 
-            <div class="pt-8 mb-8 row-start-4 col-span-12">
+            <div class="pt-8 mb-8 lg:pt-0 lg:mb-0 row-start-4 col-span-12">
                 <div class="xl:flex flex-row">
                     <p class="text-5xl text-secondary [text-shadow:0px_0px_4px_#ffffff] lg:text-2xl lg:pr-8">20.01.2025</p> <!--text-shadow:0px_0px_9px_#07fbfb-->
                     <p class="text-2xl">Auditorium S. Chiara Trento | Ore 17</p>
@@ -49,6 +49,9 @@ import Social from "./Social.vue";
             </div>
 
         </div>
+        <div class="hidden lg:block max-w-[1200px] w-full">
+                <img src="../assets/foto_ospiti_desktop.png" alt="foto degli ospiti dell'evento">
+            </div>
     </header>
 
 </template>

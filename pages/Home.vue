@@ -17,7 +17,7 @@ import Card from "../components/Card.vue";
             <div class="max-w-[1200px] w-full">
 
                 <div class="w-full flex items-center justify-center">
-                    <div class="p-4 rounded-full flex items-center justify-center w-40 bg-quinary -mt-14">
+                    <div class="p-4 rounded-full flex items-center justify-center w-40 bg-quinary -mt-14 lg:bg-transparent lg:-mt-48">
                         <img class="" src="../assets/frecce.png" alt="">
                     </div>
                 </div>
