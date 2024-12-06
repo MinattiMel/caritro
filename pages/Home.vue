@@ -94,7 +94,7 @@ import Card from "../components/Card.vue";
             <div class="max-w-[1200px] w-full">
 
                 <h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-4 uppercase">I temi</h2>
-                <ul class="list-disc pl-5 space-y-0 text-2xl uppercase">
+                <ul class="list-disc pl-5 space-y-0 text-2xl uppercase lg:columns-2">
                     <li>Social network</li>
                     <li>Mondo del web</li>
                     <li>Relazioni e sessualità</li>
