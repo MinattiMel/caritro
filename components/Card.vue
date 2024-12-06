@@ -19,12 +19,12 @@ const isMain = props.main
         />
 
         <div
-            class="lg:grid grid-cols-12 lg:flex-row-reverse"
+            class="lg:grid grid-cols-12 lg:flex-row-reverse lg:w-full"
             :class="{'text-quaternary': isMain}"
         >
-            <h3 class="text-3xl uppercase order-last col-span-4">{{ title }}</h3>
+            <h3 class="text-3xl uppercase col-end-13 col-span-7">{{ title }}</h3>
 
-            <div class="lg:text-right col-span-4">
+            <div class="lg:text-right col-span-4 row-start-1">
                 <p class="text-s">
                     {{ details }}
                 </p>
@@ -41,4 +41,3 @@ const isMain = props.main
 
     </div>
 </template>
-<!--flex con img e div con nome e details. flex row reverse-->
