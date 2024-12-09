@@ -3,6 +3,12 @@
 import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 import Card from "../components/Card.vue";
+import imgZerbi from "../assets/ospiti/rudy-zerbi-def.jpg";
+import imgYugi from "../assets/ospiti/kid-yugi-def.jpg";
+import imgIlRosso from "../assets/ospiti/il-rosso.png";
+import imgRicciardi from "../assets/ospiti/livio-ricciardi.jpg";
+import imgBuccolieri from "../assets/ospiti/ciro-buccolieri-def.jpg";
+import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
 
 </script>
 
@@ -21,7 +27,7 @@ import Card from "../components/Card.vue";
                     </div>
                 </div>
 
-                <h2 class="text-3xl lg:text-5xl text-secondary [text-shadow:0px_0px_4px_#ffffff] mb-6 lg:mb-12 uppercase">Ospiti</h2>
+                <h2 class="text-4xl lg:text-5xl text-secondary [text-shadow:0px_0px_4px_#ffffff] mb-6 lg:mb-12 uppercase">Ospiti</h2>
 
                 <Card
                     title="Rudy Zerbi"
@@ -29,7 +35,7 @@ import Card from "../components/Card.vue";
                     socialTitle="@rudyzerbi"
                     socialUrl="https://www.instagram.com/rudyzerbi/"
                     imageAlt="immagine di Rudy Zerbi"
-                    imageUrl="../assets/Rudy Zerbi-def.jpg"
+                    :imageUrl="imgZerbi"
                     main="true"
                 />
 
@@ -39,7 +45,7 @@ import Card from "../components/Card.vue";
                     socialTitle="@kidyugiy3p"
                     socialUrl="https://www.instagram.com/kidyugiy3p/"
                     imageAlt="immagine di kid Yugi"
-                    imageUrl="../assets/Kid Yugi-def.jpg"
+                    :imageUrl="imgYugi"
                     reverse="true"
                 />
 
@@ -49,7 +55,7 @@ import Card from "../components/Card.vue";
                     socialTitle="@ilrossopiubellodiinstagraam"
                     socialUrl="https://www.instagram.com/ilrossopiubellodiinstagraam/"
                     imageAlt="immagine di Il Rosso"
-                    imageUrl="../assets/Il Rosso.png"
+                    :imageUrl="imgIlRosso"
 
                 />
 
@@ -59,7 +65,7 @@ import Card from "../components/Card.vue";
                     socialTitle="@livioricciardi"
                     socialUrl="https://www.instagram.com/livioricciardi/"
                     imageAlt="immagine di Livio Ricciardi"
-                    imageUrl="../assets/Livio Ricciardi.jpg"
+                    :imageUrl="imgRicciardi"
                     reverse="true"
 
                 />
@@ -70,7 +76,7 @@ import Card from "../components/Card.vue";
                     socialTitle="@cirobuccolieri"
                     socialUrl="https://www.instagram.com/cirobuccolieri/"
                     imageAlt="immagine di Ciro Buccolieri"
-                    imageUrl="../assets/Ciro Buccolieri-def.jpg"
+                    :imageUrl="imgBuccolieri"
 
                 />
 
@@ -80,7 +86,7 @@ import Card from "../components/Card.vue";
                     socialTitle="@serena-valorzi"
                     socialUrl="https://it.linkedin.com/in/serena-valorzi-31235146"
                     imageAlt="immagine di Serena Valorzi"
-                    imageUrl="../assets/Serena-Valorzi-def.jpg"
+                    :imageUrl="imgValorzi"
                     reverse="true"
                 />
 
@@ -91,7 +97,7 @@ import Card from "../components/Card.vue";
         <div class="bg-[#2e0059] text-white flex flex-col items-center">
             <div class="max-w-[1920px] w-full p-8 lg:p-16">
 
-                <h2 class="text-3xl lg:text-5xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-6 lg:mb-12 uppercase">I temi</h2>
+                <h2 class="text-4xl lg:text-5xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-6 lg:mb-12 uppercase">I temi</h2>
                 <ul class="list-disc pl-5 space-y-0 text-2xl uppercase lg:columns-2">
                     <li>Social network</li>
                     <li>Mondo del web</li>
@@ -101,7 +107,7 @@ import Card from "../components/Card.vue";
                     <li>Salute mentale</li>
                 </ul>
 
-                <h2 class="text-3xl lg:text-5xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mt-8 lg:mt-16 mb-6 lg:mb-12 uppercase">Il perchè</h2>
+                <h2 class="text-4xl lg:text-5xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mt-8 lg:mt-16 mb-6 lg:mb-12 uppercase">Il perchè</h2>
                 <p class="text-xl font-regular leading-7 lg:px-32">
                     Un evento per dare voce alla <strong>Gen Z</strong> e costruire un <strong>ponte tra generazioni</strong>.
                     Fondazione Caritro e Sideout Music presentano un progetto che mira a dare alle nuove generazioni uno spazio autentico per
@@ -118,29 +124,29 @@ import Card from "../components/Card.vue";
         </div>
 
         <div class="max-h-[400px] overflow-hidden">
-            <img src="../assets/fotoTeatro.jpg" class="w-full" alt="Foto del teatro">
+            <img src="../assets/foto-teatro.jpg" class="w-full" alt="Foto del teatro">
         </div>
 
         <div class="bg-[#d90a72] text-white flex flex-col items-center">
             <div class="max-w-[1920px] w-full p-8 lg:p-16">
 
-                <h2 class="text-3xl lg:text-5xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-6 lg:mb-12 uppercase">Info utili</h2>
+                <h2 class="text-4xl lg:text-5xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-6 lg:mb-12 uppercase">Info utili</h2>
 
                 <ul class="space-y-8 lg:pl-20">
 
                     <li class="block lg:flex lg:space-x-0 space-y-8 lg:space-y-0">
                         <div class="space-x-4 flex lg:w-[50%]">
-                            <img class="w-[38px]" src="../assets/Calendario.svg" alt="Icona calendario">
+                            <img class="w-[38px]" src="../assets/icon-calendario.svg" alt="Icona calendario">
                             <p class="text-3xl">20.01.2025</p>
                         </div>
                         <div class="space-x-4 flex">
-                            <img class="w-[38px]" src="../assets/Orologio.svg" alt="Icona orologio">
+                            <img class="w-[38px]" src="../assets/icon-orologio.svg" alt="Icona orologio">
                             <p class="text-3xl">17</p>
                         </div>
                     </li>
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[40px]" src="../assets/Luogo.svg" alt="icona luogo">
+                        <img class="w-[40px]" src="../assets/icon-luogo.svg" alt="icona luogo">
                         <div>
                             <p class="text-3xl mb-6">Auditorium S. Chiara Trento</p>
                             <p class="text-xl leading-7 pb-8">
@@ -150,15 +156,15 @@ import Card from "../components/Card.vue";
                                 Dalla <strong>stazione dei treni</strong>, l'Auditorium è raggiungibile in <strong>20 minuti a piedi</strong> o con le stesse linee.
                             </p>
                             <a href="https://www.google.com/maps?ll=46.064033,11.127248&z=15&t=m&hl=it&gl=IT&mapclient=embed&cid=4976153971624757266" target="_blank">
-                                <img class="hidden 2xl:block w-full" src="../assets/map-lg.png" alt="Mappa">
-                                <img class="hidden lg:block 2xl:hidden w-full" src="../assets/map-md.png" alt="Mappa">
-                                <img class="lg:hidden w-[99.5vw] max-w-none -ml-24" src="../assets/map.png" alt="Mappa">
+                                <img class="hidden 2xl:block w-full" src="../assets/maps/map-lg.png" alt="Mappa">
+                                <img class="hidden lg:block 2xl:hidden w-full" src="../assets/maps/map-md.png" alt="Mappa">
+                                <img class="lg:hidden w-[99.5vw] max-w-none -ml-24" src="../assets/maps/map.png" alt="Mappa">
                             </a>
                         </div>
                     </li>
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[40px]" src="../assets/Biglietto.svg" alt="Icona biglietto cartaceo">
+                        <img class="w-[40px]" src="../assets/icon-biglietto.svg" alt="Icona biglietto cartaceo">
                         <div>
                             <p class="text-3xl mb-6">Biglietti dal 16.11.2024</p>
                             <p class="text-xl leading-7">

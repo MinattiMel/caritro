@@ -25,7 +25,7 @@ import Social from "./Social.vue";
                 </g>
             </svg>
 
-            <h1 class="flex items-center uppercase text-3xl lg:text-5xl text-secondary mb-4 lg:mb-0 [text-shadow:0px_0px_2px_#ffffff] font-medium row-start-3 col-span-12">
+            <h1 class="flex items-center uppercase text-4xl lg:text-5xl text-secondary mb-4 lg:mb-0 [text-shadow:0px_0px_2px_#ffffff] font-medium row-start-3 col-span-12">
                 <span class="sr-only">Swipe</span> Scorrendo tra le generazioni
             </h1>
 
@@ -50,7 +50,7 @@ import Social from "./Social.vue";
 
         </div>
         <div class="hidden max-w-[1920px] w-full lg:flex flex-col items-center">
-            <img src="../assets/foto_ospiti_desktop.png" class="w-full" alt="Foto degli ospiti dell'evento">
+            <img src="../assets/ospiti/panoramica-ospiti.png" class="w-full" alt="Foto degli ospiti dell'evento">
         </div>
     </header>
 
