@@ -6,7 +6,7 @@ import Social from "./Social.vue";
 <template>
 
     <header class="bg-[url('/assets/bg.png')] bg-no-repeat bg-cover bg-center text-white flex flex-col items-center">
-        <div class="flex flex-col items-start max-w-[1200px] w-full pt-16 pb-8 px-8 lg:grid grid-cols-12 gap-4">
+        <div class="flex flex-col items-start max-w-[1920px] w-full p-8 pt-16 lg:grid grid-cols-12 gap-4">
 
             <svg class="mb-4 max-w-lg lg:max-w-2xl lg:w-full lg:col-span-8 row-start-2 lg:-mt-24" viewBox="0 0 224 70">
                 <title>Swipe</title>
@@ -25,33 +25,33 @@ import Social from "./Social.vue";
                 </g>
             </svg>
 
-            <h1 class="flex items-center uppercase text-3xl text-secondary mb-4 lg:mb-0 [text-shadow:0px_0px_2px_#ffffff] xl:text-4xl font-medium row-start-3 col-span-12">
+            <h1 class="flex items-center uppercase text-3xl lg:text-5xl text-secondary mb-4 lg:mb-0 [text-shadow:0px_0px_2px_#ffffff] font-medium row-start-3 col-span-12">
                 <span class="sr-only">Swipe</span> Scorrendo tra le generazioni
             </h1>
 
             <div class="pt-8 mb-8 lg:pt-0 lg:mb-0 row-start-4 col-span-12">
                 <div class="xl:flex flex-row">
-                    <p class="text-5xl text-secondary [text-shadow:0px_0px_4px_#ffffff] lg:text-2xl lg:pr-8">20.01.2025</p> <!--text-shadow:0px_0px_9px_#07fbfb-->
-                    <p class="text-2xl">Auditorium S. Chiara Trento | Ore 17</p>
+                    <p class="text-5xl text-secondary [text-shadow:0px_0px_4px_#ffffff] lg:text-3xl lg:pr-8">20.01.2025</p>
+                    <p class="text-2xl lg:text-3xl">Auditorium S. Chiara Trento | Ore 17</p>
                 </div>
             </div>
 
-            <div class="row-start-1 col-end-12">
-                <Button
-                    class=""
-                    text="Prenota"
-                    link="https://google.it"
-                />
-            </div>
+<!--            <div class="row-start-1 col-end-12">-->
+<!--                <Button-->
+<!--                    class=""-->
+<!--                    text="Prenota"-->
+<!--                    link="https://google.it"-->
+<!--                />-->
+<!--            </div>-->
 
             <div class="py-4 lg:p-0 mt-4 mb-16 lg:m-0 col-span-3 row-start-1">
                 <Social/>
             </div>
 
         </div>
-        <div class="hidden lg:block max-w-[1200px] w-full">
-                <img src="../assets/foto_ospiti_desktop.png" alt="foto degli ospiti dell'evento">
-            </div>
+        <div class="hidden max-w-[1920px] w-full lg:flex flex-col items-center">
+            <img src="../assets/foto_ospiti_desktop.png" class="w-full" alt="Foto degli ospiti dell'evento">
+        </div>
     </header>
 
 </template>

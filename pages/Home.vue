@@ -13,16 +13,15 @@ import Card from "../components/Card.vue";
         <Header/>
 
         <div class="bg-quinary flex flex-col items-center">
-
-            <div class="max-w-[1200px] w-full">
+            <div class="max-w-[1920px] w-full p-8 pt-0 lg:p-16">
 
                 <div class="w-full flex items-center justify-center">
-                    <div class="p-4 rounded-full flex items-center justify-center w-40 bg-quinary -mt-14 lg:bg-transparent lg:-mt-48">
-                        <img class="" src="../assets/frecce.png" alt="">
+                    <div class="p-4 rounded-full flex items-center justify-center w-40 bg-quinary lg:bg-transparent -mt-14 lg:-mt-64">
+                        <img class="" src="../assets/frecce.png" alt="Immagine di una freccia verso il basso">
                     </div>
                 </div>
 
-                <h2 class="text-3xl uppercase px-8 text-secondary [text-shadow:0px_0px_4px_#ffffff]">Ospiti</h2>
+                <h2 class="text-3xl lg:text-5xl text-secondary [text-shadow:0px_0px_4px_#ffffff] mb-6 lg:mb-12 uppercase">Ospiti</h2>
 
                 <Card
                     title="Rudy Zerbi"
@@ -86,14 +85,13 @@ import Card from "../components/Card.vue";
                 />
 
             </div>
-
         </div>
 
 
-        <div class="xl:col-span-3 p-8 px-8 bg-[#2e0059] text-white flex flex-col items-center">
-            <div class="max-w-[1200px] w-full">
+        <div class="bg-[#2e0059] text-white flex flex-col items-center">
+            <div class="max-w-[1920px] w-full p-8 lg:p-16">
 
-                <h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-4 uppercase">I temi</h2>
+                <h2 class="text-3xl lg:text-5xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-6 lg:mb-12 uppercase">I temi</h2>
                 <ul class="list-disc pl-5 space-y-0 text-2xl uppercase lg:columns-2">
                     <li>Social network</li>
                     <li>Mondo del web</li>
@@ -103,8 +101,8 @@ import Card from "../components/Card.vue";
                     <li>Salute mentale</li>
                 </ul>
 
-                <h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mt-8 mb-4">IL PERCHÉ</h2>
-                <p class="text-xl font-regular leading-7 lg:pl-32">
+                <h2 class="text-3xl lg:text-5xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mt-8 lg:mt-16 mb-6 lg:mb-12 uppercase">Il perchè</h2>
+                <p class="text-xl font-regular leading-7 lg:px-32">
                     Un evento per dare voce alla <strong>Gen Z</strong> e costruire un <strong>ponte tra generazioni</strong>.
                     Fondazione Caritro e Sideout Music presentano un progetto che mira a dare alle nuove generazioni uno spazio autentico per
                     <strong>esprimersi</strong> su temi cruciali della <strong>contemporaneità</strong>.
@@ -120,49 +118,50 @@ import Card from "../components/Card.vue";
         </div>
 
         <div class="max-h-[400px] overflow-hidden">
-            <img src="../assets/fotoTeatro.jpg" class="w-full" alt="">
+            <img src="../assets/fotoTeatro.jpg" class="w-full" alt="Foto del teatro">
         </div>
 
-        <div class="xl:col-span-3 px-8 py-6 bg-[#d90a72] text-white flex flex-col items-center">
-            <div class="max-w-[1200px] w-full">
+        <div class="bg-[#d90a72] text-white flex flex-col items-center">
+            <div class="max-w-[1920px] w-full p-8 lg:p-16">
 
-                <h2 class="text-4xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-10">INFO UTILI</h2>
-                <ul class="space-y-8">
+                <h2 class="text-3xl lg:text-5xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-6 lg:mb-12 uppercase">Info utili</h2>
 
-                    <li class="flex items-center space-x-4">
-                        <div class="lg:flex">
-                            <img src="../assets/Calendario.svg" alt="icona calendario">
+                <ul class="space-y-8 lg:pl-20">
+
+                    <li class="block lg:flex lg:space-x-0 space-y-8 lg:space-y-0">
+                        <div class="space-x-4 flex lg:w-[50%]">
+                            <img class="w-[38px]" src="../assets/Calendario.svg" alt="Icona calendario">
                             <p class="text-3xl">20.01.2025</p>
-                            <img src="../assets/Orologio.svg" alt="icona orologio">
+                        </div>
+                        <div class="space-x-4 flex">
+                            <img class="w-[38px]" src="../assets/Orologio.svg" alt="Icona orologio">
                             <p class="text-3xl">17</p>
                         </div>
                     </li>
 
                     <li class="flex items-start space-x-4">
-                        <img src="../assets/Luogo.svg" alt="icona luogo">
+                        <img class="w-[40px]" src="../assets/Luogo.svg" alt="icona luogo">
                         <div>
-                            <p class="text-3xl">Auditorium S. Chiara Trento</p>
-                            <p class="text-xl mt-2 leading-7 pb-8">
-                                La location dell'evento è facilmente accessibile.
-                                In <strong>auto</strong>, si può parcheggiare vicino all'Auditorium presso
-                                <strong>Piazza di Fiera</strong> (5 minuti a piedi) o <strong>Sanseverino</strong> (15 minuti).
-                                Con i <strong>mezzi pubblici</strong>, le linee <strong>3, 8 e 4</strong> fermano a 5 minuti dalla sede,
-                                alla fermata <strong>"Centro Santa Chiara"</strong>.
+                            <p class="text-3xl mb-6">Auditorium S. Chiara Trento</p>
+                            <p class="text-xl leading-7 pb-8">
+                                La location dell'evento è facilmente accessibile.<br>
+                                In <strong>auto</strong>, si può parcheggiare vicino all'Auditorium presso <strong>Piazza di Fiera</strong> (5 minuti a piedi) o <strong>Sanseverino</strong> (15 minuti).<br>
+                                Con i <strong>mezzi pubblici</strong>, le linee <strong>3, 8 e 4</strong> fermano a 5 minuti dalla sede, alla fermata <strong>"Centro Santa Chiara"</strong>.<br>
                                 Dalla <strong>stazione dei treni</strong>, l'Auditorium è raggiungibile in <strong>20 minuti a piedi</strong> o con le stesse linee.
                             </p>
                             <a href="https://www.google.com/maps?ll=46.064033,11.127248&z=15&t=m&hl=it&gl=IT&mapclient=embed&cid=4976153971624757266" target="_blank">
                                 <img class="hidden 2xl:block w-full" src="../assets/map-lg.png" alt="Mappa">
                                 <img class="hidden lg:block 2xl:hidden w-full" src="../assets/map-md.png" alt="Mappa">
-                                <img class="lg:hidden w-full" src="../assets/map.png" alt="Mappa">
+                                <img class="lg:hidden w-[99.5vw] max-w-none -ml-24" src="../assets/map.png" alt="Mappa">
                             </a>
                         </div>
                     </li>
 
-                    <li class="flex text-3xl items-start space-x-4">
-                        <img src="../assets/Biglietto.svg" alt="icona biglietto cartaceo">
+                    <li class="flex items-start space-x-4">
+                        <img class="w-[40px]" src="../assets/Biglietto.svg" alt="Icona biglietto cartaceo">
                         <div>
-                            <p class="">Biglietti dal 16.11.2024</p>
-                            <p class="text-xl mt-2 leading-7">
+                            <p class="text-3xl mb-6">Biglietti dal 16.11.2024</p>
+                            <p class="text-xl leading-7">
                                 Non è necessario stampare i biglietti puoi semplicemente mostrare il QR code all’ingresso.
                             </p>
                         </div>
