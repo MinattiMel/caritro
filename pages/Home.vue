@@ -118,7 +118,7 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
         </div>
 
         <div class="max-h-[400px] overflow-hidden">
-            <img src="../assets/FacciamoEco_24.11.12.jpg" class="w-full" alt="Foto del teatro">
+            <img src="../assets/foto_teatro.png" class="w-full" alt="Foto del teatro">
         </div>
 
         <div class="bg-[#d90a72] text-white flex flex-col items-center">
