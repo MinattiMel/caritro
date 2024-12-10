@@ -93,7 +93,7 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
 
                 <h2 class="text-4xl lg:text-7xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-28 uppercase">I temi</h2>
                 <ul class="list-disc pl-5 space-y-0 text-xl uppercase lg:columns-2 lg:text-2xl mb-28">
-                    <li>Social</li>
+                    <li>Social network</li>
                     <li>Mondo del web</li>
                     <li>Relazioni e sessualità</li>
                     <li>Cambiamenti del lavoro</li>
@@ -129,17 +129,17 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
                 <ul class="grid grid-cols-1 lg:grid-cols-2 lg:pl-16 gap-8">
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[38px]" src="../assets/icon-calendario.svg" alt="Icona calendario">
+                        <img class="w-[38px]" src="../assets/calendario_icona.png" alt="Icona calendario">
                         <p class="text-2xl lg:text-3xl">20.01.2025</p>
                     </li>
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[38px]" src="../assets/icon-orologio.svg" alt="Icona orologio">
+                        <img class="w-[38px]" src="../assets/orologio_icona.png" alt="Icona orologio">
                         <p class="text-2xl lg:text-3xl">17</p>
                     </li>
 
                     <li class="flex items-start space-x-4 lg:col-span-2">
-                        <img class="w-[40px]" src="../assets/icon-biglietto.svg" alt="Icona biglietto cartaceo">
+                        <img class="w-[40px]" src="../assets/biglietto_icona.png" alt="Icona biglietto cartaceo">
                         <div>
                             <p class="text-2xl lg:text-3xl mb-6">Biglietti dal 16.11.2024</p>
                             <p class="text-xl leading-7">
@@ -149,7 +149,7 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
                     </li>
 
                     <li class="flex items-start space-x-4 lg:col-span-2">
-                        <img class="w-[40px]" src="../assets/icon-luogo.svg" alt="icona luogo">
+                        <img class="w-[40px]" src="../assets/luogo_icona.png" alt="icona luogo">
                         <div>
                             <p class="text-2xl lg:text-3xl mb-6">Auditorium S. Chiara Trento</p>
                             <p class="text-xl leading-7">
