@@ -8,7 +8,7 @@ const isMain = props.main
 
 <template>
     <div
-        class="px-4 py-8 flex grow-0 gap-2 text-left text-white items-center"
+        class=" py-8 flex grow-0 gap-2 text-left text-white items-center"
         :class="{ 'flex-row-reverse': isReverse, 'lg:flex-row': isReverse, 'text-right': isReverse, 'lg:text-left': isReverse }"
     >
 
@@ -28,7 +28,7 @@ const isMain = props.main
                 <p class="lg:text-xl">
                     {{ details }}
                 </p>
-                <a class="lg:text-xl underline underline-offset-4"
+                <a class="text-xs lg:text-xl underline underline-offset-4"
                    v-if="socialTitle && socialUrl"
                    target="_blank"
                    :href="socialUrl"

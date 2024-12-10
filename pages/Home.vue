@@ -21,7 +21,7 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
         <div class="bg-quinary flex flex-col items-center">
             <div class="max-w-[1920px] w-full pt-28 pb-32 px-8 lg:px-36">
 
-                <h2 class="text-4xl lg:text-7xl text-secondary [text-shadow:0px_0px_4px_#ffffff] mb-28 uppercase">Ospiti</h2>
+                <h2 class="text-4xl lg:text-7xl text-secondary [text-shadow:0px_0px_4px_#ffffff] mb-8 lg:mb-16 uppercase">Ospiti</h2>
 
                 <Card
                     title="Rudy Zerbi"
@@ -91,7 +91,7 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
         <div class="bg-[#2e0059] text-white flex flex-col items-center">
             <div class="max-w-[1920px] w-full pt-28 pb-32 px-8 lg:px-36">
 
-                <h2 class="text-4xl lg:text-7xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-28 uppercase">I temi</h2>
+                <h2 class="text-4xl lg:text-7xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-8 lg:mb-16 uppercase">I temi</h2>
                 <ul class="list-disc pl-5 space-y-0 text-xl uppercase lg:columns-2 lg:text-2xl mb-28">
                     <li>Social network</li>
                     <li>Mondo del web</li>
@@ -101,8 +101,8 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
                     <li>Salute mentale</li>
                 </ul>
 
-                <h2 class="text-4xl lg:text-7xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-28 uppercase">Il perchè</h2>
-                <p class="text-xl font-regular leading-7 px-28">
+                <h2 class="text-4xl lg:text-7xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-8 lg:mb-16 uppercase">Il perchè</h2>
+                <p class="text-xl font-regular leading-7 lg:pl-28">
                     Un evento per dare voce alla <strong>Gen Z</strong> e costruire un <strong>ponte tra generazioni</strong>.
                     Fondazione Caritro e Sideout Music presentano un progetto che mira a dare alle nuove generazioni uno spazio autentico per
                     <strong>esprimersi</strong> su temi cruciali della <strong>contemporaneità</strong>.
@@ -124,7 +124,7 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
         <div class="bg-[#d90a72] text-white flex flex-col items-center">
             <div class="max-w-[1920px] w-full pt-28 pb-32 px-8 lg:px-36">
 
-                <h2 class="text-4xl lg:text-7xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-28 uppercase">Info utili</h2>
+                <h2 class="text-4xl lg:text-7xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-8 lg:mb-16 uppercase">Info utili</h2>
 
                 <ul class="grid grid-cols-1 lg:grid-cols-2 lg:pl-16 gap-8">
 
