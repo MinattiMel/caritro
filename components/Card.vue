@@ -8,7 +8,7 @@ const isMain = props.main
 
 <template>
     <div
-        class="px-8 py-8 flex grow-0 gap-4 text-left text-white items-center"
+        class="px-4 py-8 flex grow-0 gap-2 text-left text-white items-center"
         :class="{ 'flex-row-reverse': isReverse, 'lg:flex-row': isReverse, 'text-right': isReverse, 'lg:text-left': isReverse }"
     >
 
@@ -22,13 +22,13 @@ const isMain = props.main
             class="lg:grid grid-cols-12 lg:flex-row-reverse lg:w-full"
             :class="{'text-quaternary': isMain}"
         >
-            <h3 class="text-4xl lg:text-5xl uppercase col-end-13 col-span-7">{{ title }}</h3>
+            <h3 class="text-2xl md:text-5xl lg:text-7xl uppercase col-end-13 col-span-7">{{ title }}</h3>
 
             <div class="lg:text-right col-span-4 row-start-1">
                 <p class="lg:text-xl">
                     {{ details }}
                 </p>
-                <a class="lg:text-xl"
+                <a class="lg:text-xl underline underline-offset-4"
                    v-if="socialTitle && socialUrl"
                    target="_blank"
                    :href="socialUrl"
