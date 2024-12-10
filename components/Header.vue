@@ -27,7 +27,7 @@ import Social from "./Social.vue";
                     </g>
                 </svg>
 
-                <h1 class="flex items-center uppercase text-5xl lg:text-5xl pb-4 text-secondary [text-shadow:0px_0px_2px_#ffffff] font-medium row-start-3 col-span-12">
+                <h1 class="flex items-center uppercase text-4xl lg:text-5xl pb-4 text-secondary [text-shadow:0px_0px_2px_#ffffff] font-medium row-start-3 col-span-12">
                     <span class="sr-only">Swipe</span> Scorrendo tra le generazioni
                 </h1>
 

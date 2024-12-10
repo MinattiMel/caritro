@@ -25,7 +25,7 @@ import Social from "./Social.vue";
                         </div>
                     </div>
 
-                    <div class="text-white lg:text-lg">
+                    <div class="text-white -mt-16 lg:mt-0 lg:text-lg">
                         <p>
                             Trento, via Calepina 1 - Rovereto, piazza Rosimini 5<br>
                             T 0461 232050 - info@fondazionecaritro.it

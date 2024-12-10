@@ -19,7 +19,7 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
         <Header/>
 
         <div class="bg-quinary flex flex-col items-center">
-            <div class="max-w-[1920px] w-full pt-28 pb-32 px-8 lg:px-36">
+            <div class="max-w-[1920px] w-full pt-24 pb-28 lg:pt-28 lg:pb-32 px-8 lg:px-36">
 
                 <h2 class="text-4xl lg:text-7xl text-secondary [text-shadow:0px_0px_4px_#ffffff] mb-8 lg:mb-16 uppercase">Ospiti</h2>
 
@@ -89,7 +89,7 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
 
 
         <div class="bg-[#2e0059] text-white flex flex-col items-center">
-            <div class="max-w-[1920px] w-full pt-28 pb-32 px-8 lg:px-36">
+            <div class="max-w-[1920px] w-full pt-24 pb-28 lg:pt-28 lg:pb-32 px-8 lg:px-36">
 
                 <h2 class="text-4xl lg:text-7xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-8 lg:mb-16 uppercase">I temi</h2>
                 <ul class="list-disc pl-5 space-y-0 text-xl uppercase lg:columns-2 lg:text-2xl mb-28">
@@ -122,7 +122,7 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
         </div>
 
         <div class="bg-[#d90a72] text-white flex flex-col items-center">
-            <div class="max-w-[1920px] w-full pt-28 pb-32 px-8 lg:px-36">
+            <div class="max-w-[1920px] w-full  px-8 pt-24 pb-28 lg:pt-28 lg:pb-32 lg:px-36">
 
                 <h2 class="text-4xl lg:text-7xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-8 lg:mb-16 uppercase">Info utili</h2>
 
