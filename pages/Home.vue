@@ -129,17 +129,17 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
                 <ul class="grid grid-cols-1 lg:grid-cols-2 lg:pl-16 gap-8">
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[38px]" src="../assets/icon-calendario.svg" alt="Icona calendario">
+                        <img class="w-[38px]" src="../assets/calendario_icona.png" alt="Icona calendario">
                         <p class="text-2xl lg:text-3xl">20.01.2025</p>
                     </li>
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[38px]" src="../assets/icon-orologio.svg" alt="Icona orologio">
+                        <img class="w-[38px]" src="../assets/orologio_icona.png" alt="Icona orologio">
                         <p class="text-2xl lg:text-3xl">17</p>
                     </li>
 
                     <li class="flex items-start space-x-4 lg:col-span-2">
-                        <img class="w-[40px]" src="../assets/icon-biglietto.svg" alt="Icona biglietto cartaceo">
+                        <img class="w-[40px]" src="../assets/biglietto_icona.png" alt="Icona biglietto cartaceo">
                         <div>
                             <p class="text-2xl lg:text-3xl mb-6">Biglietti dal 16.11.2024</p>
                             <p class="text-xl leading-7">
@@ -149,7 +149,7 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
                     </li>
 
                     <li class="flex items-start space-x-4 lg:col-span-2">
-                        <img class="w-[40px]" src="../assets/icon-luogo.svg" alt="icona luogo">
+                        <img class="w-[40px]" src="../assets/luogo_icona.png" alt="icona luogo">
                         <div>
                             <p class="text-2xl lg:text-3xl mb-6">Auditorium S. Chiara Trento</p>
                             <p class="text-xl leading-7">
