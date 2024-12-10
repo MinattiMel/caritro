@@ -22,7 +22,7 @@ const isMain = props.main
             class="lg:grid grid-cols-12 lg:flex-row-reverse lg:w-full"
             :class="{'text-quaternary': isMain}"
         >
-            <h3 class="text-2xl md:text-5xl lg:text-7xl uppercase col-end-13 col-span-7">{{ title }}</h3>
+            <h3 class="text-2xl lg:text-5xl xl:text-7xl uppercase col-end-13 col-span-7">{{ title }}</h3>
 
             <div class="lg:text-right col-span-4 row-start-1">
                 <p class="lg:text-xl">
