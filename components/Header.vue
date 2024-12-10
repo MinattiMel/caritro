@@ -6,7 +6,7 @@ import Social from "./Social.vue";
 <template>
 
     <header class="bg-[url('/assets/bg.png')] bg-no-repeat bg-cover bg-center text-white flex flex-col items-center relative">
-        <div class="h-screen max-h-[1080px] flex flex-col">
+        <div class="min-h-screen max-h-[1080px] flex flex-col">
 
             <div class="flex flex-col items-start max-w-[1920px] w-full p-8 pt-24 pb-0 lg:grid grid-cols-12 grid-flow-row auto-rows-max gap-8">
 
