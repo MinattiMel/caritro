@@ -42,7 +42,7 @@ import Social from "./Social.vue";
                     <Button
                         class="text-4xl"
                         text="Prenota"
-                        link="https://google.it"
+                        link=" https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"
                     />
                 </div>
 
