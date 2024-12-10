@@ -93,7 +93,7 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
 
                 <h2 class="text-4xl lg:text-7xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-28 uppercase">I temi</h2>
                 <ul class="list-disc pl-5 space-y-0 text-xl uppercase lg:columns-2 lg:text-2xl mb-28">
-                    <li>Social network</li>
+                    <li>Social</li>
                     <li>Mondo del web</li>
                     <li>Relazioni e sessualità</li>
                     <li>Cambiamenti del lavoro</li>
