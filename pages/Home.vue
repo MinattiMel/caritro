@@ -5,7 +5,7 @@ import Footer from "../components/Footer.vue";
 import Card from "../components/Card.vue";
 import imgZerbi from "../assets/ospiti/rudy-zerbi-def.jpg";
 import imgYugi from "../assets/ospiti/kid-yugi-def.jpg";
-import imgIlRosso from "../assets/ospiti/il-rosso.png";
+import imgIlRosso from "../assets/ospiti/il-rosso.jpg";
 import imgRicciardi from "../assets/ospiti/livio-ricciardi.jpg";
 import imgBuccolieri from "../assets/ospiti/ciro-buccolieri-def.jpg";
 import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
