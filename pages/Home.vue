@@ -141,7 +141,7 @@ import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
                     <li class="flex items-start space-x-4 lg:col-span-2">
                         <img class="w-[40px]" src="../assets/biglietto_icona.png" alt="Icona biglietto cartaceo">
                         <div>
-                            <p class="text-2xl lg:text-3xl mb-6">Biglietti dal 16.11.2024</p>
+                            <p class="text-2xl lg:text-3xl mb-6">Biglietti dal 16.12.2024</p>
                             <p class="text-xl leading-7">
                                 Non è necessario stampare i biglietti puoi semplicemente mostrare il QR code all’ingresso.
                             </p>
