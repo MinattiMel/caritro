@@ -36,6 +36,11 @@ import Social from "./Social.vue";
 
             </div>
 
+            <ul>
+                <li><RouterLink to="/">Home</RouterLink></li>
+                <li><RouterLink to="/scorrendo-tra-le-generazioni">Scorrendo tra le generazioni</RouterLink></li>
+            </ul>
+
         </div>
     </footer>
 

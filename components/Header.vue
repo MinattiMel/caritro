@@ -28,23 +28,23 @@ import Social from "./Social.vue";
                 </svg>
 
                 <h1 class="flex items-center uppercase text-4xl lg:text-5xl pb-4 text-secondary [text-shadow:0px_0px_2px_#ffffff] font-medium row-start-3 col-span-12">
-                    <span class="sr-only">Swipe</span> Scorrendo tra le generazioni
+                    <span class="sr-only">Swipe</span> Nuovo evento
                 </h1>
 
-                <div class="row-start-4 col-span-12">
+<!--                <div class="row-start-4 col-span-12">
                     <div class="lg:flex lex-row gap-4">
                         <p class="text-6xl lg:text-3xl pb-4 text-secondary [text-shadow:0px_0px_4px_#ffffff]">20.01.2025</p>
                         <p class="text-4xl lg:text-3xl">Auditorium S. Chiara Trento | Ore 17</p>
                     </div>
-                </div>
+                </div>-->
 
-                <div class="row-start-1 col-end-11">
+<!--                <div class="row-start-1 col-end-11">
                     <Button
                         class="text-4xl"
                         text="Prenota"
                         link=" https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"
                     />
-                </div>
+                </div>-->
 
                 <div class="col-span-3 col-start-1 row-start-1 pt-16 lg:pt-0">
                     <Social/>
@@ -52,15 +52,17 @@ import Social from "./Social.vue";
 
             </div>
 
+<!--
             <img src="../assets/ospiti/panoramica-ospiti.png" class="hidden lg:block w-full mt-auto" alt="Foto degli ospiti dell'evento">
+-->
 
         </div>
-
+<!--
         <div class="absolute right-0 left-0 flex flex-col items-center -bottom-24 lg:bottom-0">
             <div class="p-4 rounded-full w-40 lg:w-32 bg-quinary lg:bg-transparent">
                 <img class="" src="../assets/frecce.png" alt="Immagine di una freccia verso il basso">
             </div>
-        </div>
+        </div>-->
 
     </header>
 
