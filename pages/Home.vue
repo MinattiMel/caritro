@@ -19,7 +19,7 @@
     <div class="font-sans grid gap-8 xl:grid-cols-3 p-8 lg:p-16 bg-[url('/assets/ospiti-maggio/bg2.jpg')] bg-no-repeat bg-cover bg-center min-h-screen min-w-screen text-white">
 
         <header>
-            <svg class="mb-20 max-w-lg xl:max-w-2xl xl:w-full" viewBox="0 0 224 70">
+            <svg class="mb-4 max-w-lg xl:max-w-2xl xl:w-full" viewBox="0 0 224 70">
                 <title>Swipe</title>
                 <clipPath id="logo-swipe">
                     <path d="M 0.59 0.179993 L 223.399998 0.179993 L 223.399998 69.600006 L 0.59 69.600006 Z"/>
@@ -35,7 +35,7 @@
                     <path id="path4" fill="#ffffff" stroke="none" d="M 223.410004 44.240005 L 223.410004 33.059998 L 179.339996 33.059998 L 179.339996 69.369995 L 223.410004 69.369995 L 223.410004 58.190002 L 192.110001 58.190002 L 192.110001 55.820007 L 219.980011 55.820007 L 219.980011 46.509995 L 192.110001 46.509995 L 192.110001 44.240005 L 223.410004 44.240005 Z"/>
                 </g>
             </svg>
-            <h1 class="flex items-center uppercase text-3xl xl:text-4xl text-septenary mb-4 [text-shadow:0px_0px_6px_#725cf7]"><span class="sr-only">Swipe</span> Scorrendo tra le generazioni <img class="w-24 xl:w-40 drop-shadow-lg" alt="" src="/assets/ospiti-maggio/frecce_maggio.png"></h1>
+            <h1 class="flex items-center uppercase text-3xl xl:text-4xl text-septenary mb-4 [text-shadow:0px_0px_6px_#725cf7]"><span class="sr-only">Swipe</span> Scorrendo tra le generazioni <img class="w-24 xl:w-32 drop-shadow-lg" alt="" src="/assets/ospiti-maggio/frecce_maggio.png"></h1>
             <p class="text-xl block invisible">Confronto tra giovani e adulti <br> sulle sfide nell'era digitale</p>
             <p class="text-xl block invisible">Biglietti disponibili dal 16 dicembre 2024</p>
         </header>
@@ -43,16 +43,16 @@
             <div class="grid gap-2 xl:grid-cols-3 xl:pt-12">
                 <p class="xl:col-start-2 xl:col-span-2 text-3xl lg:text-5xl xl:text-7xl 2xl:text-8xl text-septenary [text-shadow:0px_0px_14px_#725cf7]">22.05.2025</p>
                 <p class="xl:col-start-2 xl:col-span-2 text-3xl lg:text-5xl xl:text-7xl 2xl:text-8xl text-septenary [text-shadow:0px_0px_14px_#725cf7]">23.05.2025</p>
-                <p class="uppercase xl:col-start-3 text-xl 2xl:text-3xl">Trento</p>
+                <p class="uppercase xl:col-start-2 text-xl 2xl:text-3xlb font-semibold text-septenary [text-shadow:0px_0px_14px_#725cf7]">Trento</p>
             </div>
             <div class="mt-auto">
                 <h2 class="sr-only">Programma</h2>
                 <ul class="lowercase text-xl lg:text-2xl xl:text-right space-y-3 lg:space-y-7">
-                    <li class="lg:grid items-end gap-12 grid-cols-3">Moderatore <strong class="text-left col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Rudy Zerbi</strong></li>
-                    <li class="lg:grid items-end gap-12 grid-cols-3">Produttore e manager <strong class="text-left col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Shablo</strong></li>
-                    <li class="lg:grid items-end gap-12 grid-cols-3">Produttore e dj <strong class="text-left col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Andry <span class="text-3xl">the Hitmaker</span></strong></li>
+                    <li class="lg:grid items-end gap-12 grid-cols-3">Moderatore <strong class="text-left font-semibold col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Rudy Zerbi</strong></li>
+                    <li class="lg:grid items-end gap-12 grid-cols-3">Produttore e manager <strong class="text-left font-semibold col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Shablo</strong></li>
+                    <li class="lg:grid items-end gap-12 grid-cols-3">Produttore e dj <strong class="text-left font-semibold col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Andry <span class="text-3xl">the Hitmaker</span></strong></li>
                     <!--<li class="lg:grid items-end gap-12 grid-cols-3">Giornalista <strong class="text-left col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Marta Blumi</strong></li>-->
-                    <li class="lg:grid items-end gap-12 grid-cols-3 block invisible">posto <strong class="text-left col-span-2 lg:text-3xl 2xl:text-5xl visible">e tanti altri...</strong></li>
+                    <li class="lg:grid items-end gap-12 grid-cols-3 block invisible">posto <strong class="text-left font-semibold col-span-2 lg:text-3xl 2xl:text-5xl visible">e tanti altri...</strong></li>
                 </ul>
             </div>
         </div>
@@ -65,7 +65,7 @@
             <h3 class="sr-only">Partner</h3>
             <ul class="flex gap-12">
                 <li><a href="https://www.fondazionecaritro.it/" target="blank"><img class="h-16" alt="Fondazione Caritro" src="/assets/logo-caritro.svg"></a></li>
-                <li><img class="h-16" alt="Sideout" src="/assets/logoSide_out.svg"></li>
+                <li><a href="https://www.instagram.com/sideouteventi/" target="blank"><img class="h-16" alt="Sideout" src="/assets/logoSide_out.svg"></a></li>
             </ul>
         </footer>
 
