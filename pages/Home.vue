@@ -36,13 +36,13 @@
                 </g>
             </svg>
             <h1 class="flex items-center uppercase text-3xl xl:text-4xl text-secondary mb-4 [text-shadow:0px_0px_9px_#00A3A3]"><span class="sr-only">Swipe</span> Scorrendo tra le generazioni <img class="w-24 xl:w-40 drop-shadow-lg" alt="" src="/assets/arrows.svg"></h1>
-            <p class="text-xl">Confronto tra giovani e adulti <br> sulle sfide nell'era digitale</p>
-            <p class="text-xl">Biglietti disponibili dal 16 dicembre 2024</p>
+            <!--<p class="text-xl">Confronto tra giovani e adulti <br> sulle sfide nell'era digitale</p>
+            <p class="text-xl">Biglietti disponibili dal 16 dicembre 2024</p>-->
         </header>
         <div class="xl:justify-self-end flex flex-col gap-8 xl:col-start-2 xl:col-span-2 xl:row-span-2">
             <div class="grid gap-2 xl:grid-cols-3 xl:pt-12">
                 <p class="xl:col-start-2 xl:col-span-2 text-3xl lg:text-5xl xl:text-7xl 2xl:text-8xl text-secondary [text-shadow:0px_0px_9px_#07fbfb]">20.01.2025</p>
-                <p class="xl:col-start-2 xl:col-span-2 text-xl 2xl:text-3xl">Auditorium S. Chiara - Trento | Ore 17 - 19</p>
+                <p class="xl:col-start-2 xl:col-span-2 text-xl 2xl:text-3xl">Trento</p>
             </div>
             <div class="mt-auto">
                 <h2 class="sr-only">Programma</h2>
