@@ -36,10 +36,10 @@ import Social from "./Social.vue";
 
             </div>
 
-            <ul>
+<!--            <ul>
                 <li><RouterLink to="/">Home</RouterLink></li>
                 <li><RouterLink to="/scorrendo-tra-le-generazioni">Scorrendo tra le generazioni</RouterLink></li>
-            </ul>
+            </ul>-->
 
         </div>
     </footer>
