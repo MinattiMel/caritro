@@ -51,7 +51,7 @@
                     <li class="lg:grid items-end gap-12 grid-cols-3">moderatore <strong class="text-left font-semibold col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Rudy Zerbi</strong></li>
                     <li class="lg:grid items-end gap-12 grid-cols-3">produttore e manager <strong class="text-left font-semibold col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Shablo</strong></li>
                     <li class="lg:grid items-end gap-12 grid-cols-3">produttore musicale <strong class="text-left font-semibold col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Andry the Hitmaker</strong></li>
-                    <li class="lg:grid items-end gap-12 grid-cols-3">giornalista <strong class="text-left font-semibold col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Marta Blumi</strong></li>
+                    <li class="lg:grid items-end gap-12 grid-cols-3">giornalista <strong class="text-left font-semibold col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Marta Blumi Tripodi</strong></li>
                     <li class="lg:grid items-end gap-12 grid-cols-3">AR Director <br>(Warner Music Italia) <strong class="text-left font-semibold col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Marco Masoli</strong></li>
                     <li class="lg:grid items-end gap-12 grid-cols-3">A&R Emi <br>(Universal Music Italia)</br><strong class="text-left font-semibold col-span-2 uppercase lg:text-5xl 2xl:text-7xl">Michele Nudo</strong></li>
                 </ul>
