@@ -1,17 +1,22 @@
 <script setup>
+import {ref} from "vue";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+import {LMap, LTileLayer} from "@vue-leaflet/vue-leaflet";
 
 import Footer from "../components/Footer.vue";
-import Card from "../components/Card.vue";
-import imgZerbi from "../assets/ospiti/rudy-zerbi-def.jpg";
-import imgYugi from "../assets/ospiti/kid-yugi-def.jpg";
-import imgIlRosso from "../assets/ospiti/il-rosso.jpg";
-import imgRicciardi from "../assets/ospiti/livio-ricciardi.jpg";
-import imgBuccolieri from "../assets/ospiti/ciro-buccolieri-def.jpg";
-import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
-import Social from "../components/Social.vue";
-import Button from "../components/Button.vue";
 import Header from "../components/Header.vue";
 import Beat from "../components/Beat.vue";
+
+const zoom = ref(20)
+const center = ref([46.067131, 11.1226172])
+const markerPos = ref([46.0668766, 11.1226172])
+const link = "https://maps.app.goo.gl/iJ7hKnmCw4e2c3CW6";
+
+const onMapReady = (map) => {
+    const marker = L.marker(markerPos.value).addTo(map);
+    marker.bindPopup('<b>Fondazione Caritro</b><br />Via Calepina, 1<br />38122 Trento TN<br /><br /><a target="_blank" href="' + link + '">Indicazioni stradali</a>').openPopup();
+};
 
 </script>
 
@@ -19,7 +24,7 @@ import Beat from "../components/Beat.vue";
 
     <div class="bg-gradient-to-b from-[#ff7931] to-[#9e2a00] min-h-screen w-full">
 
-        <Header 
+        <Header
             pageTitle="Masterclass - 23.05.25 - Trento"
             linkLable="Talk - 22.05.25 - Trento"
             linkUrl="/"
@@ -35,7 +40,7 @@ import Beat from "../components/Beat.vue";
                 <div class="lg:pb-[35px] pt-[37px]">
                     <p class="lg:w-[550px]">Scopri il processo creativo dietro la produzione musicale, guidato da un <strong class="black">ospite speciale</strong> che mostrerà ogni passo, dall'idea al risultato finale.</p>
                 </div>
-                <div class="block grid grid-cols-2 items-center md:hidden">
+                <div class="grid grid-cols-2 items-center md:hidden">
                     <svg class="w-auto" viewBox="0 0 155 191" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M22.0001 1.99994C9.0001 10.9999 1.00033 37.4999 2.5002 55.9999C4.00006 74.4999 23.5003 101 46.0002 101C68.5001 101 84.0002 86.0064 95.5002 81.4999C107 76.9935 116.411 81.7106 119.487 89.7715C123.849 103.582 111.205 112.465 100.211 117.588C86.9239 123.895 71.1654 126.888 58.2561 134.615C36.1942 148.439 47.0001 176.611 68.5001 179.611C90.0001 182.611 128 177.582 148.5 169.611" stroke="#31006B" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
                         <path d="M126 161.955L151.6 169.15L132.968 188.994" stroke="#31006B" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -57,12 +62,9 @@ import Beat from "../components/Beat.vue";
                     <p class="lg:w-[510px]">Porta la tua curiosità e<strong class="black"> lasciati ispirare </strong>dal potenziale creativo di questo mondo.</p>
                 </li>
             </ul>
-   
-   
-        </div>
-        
 
-        
+
+        </div>
 
         <div class="max-h-[400px] overflow-hidden">
             <img src="../assets/foto_teatro.png" class="w-full" alt="Foto del teatro">
@@ -96,12 +98,20 @@ import Beat from "../components/Beat.vue";
 
             </div>
 
-            <div class="w-full overflow-hidden">
-                <a class="" href="https://www.google.com/maps?ll=46.064033,11.127248&z=15&t=m&hl=it&gl=IT&mapclient=embed&cid=4976153971624757266" target="_blank">
-                    <img class="hidden 2xl:block w-full" src="../assets/maps/map-lg.png" alt="Mappa">
-                    <img class="hidden lg:block 2xl:hidden w-full" src="../assets/maps/map-md.png" alt="Mappa">
-                    <img class="lg:hidden w-full" src="../assets/maps/map.png" alt="Mappa">
-                </a>
+            <div class="w-full h-96">
+
+                <l-map
+                    ref="mapRef"
+                    v-model:zoom="zoom"
+                    v-model:center="center"
+                    @ready="onMapReady"
+                >
+                    <l-tile-layer
+                        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                        layer-type="base"
+                    ></l-tile-layer>
+                </l-map>
+
             </div>
 
         </div>

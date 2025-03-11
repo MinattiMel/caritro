@@ -1,5 +1,10 @@
 <script setup>
 
+import {ref} from "vue";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+import {LMap, LTileLayer} from "@vue-leaflet/vue-leaflet";
+
 import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 import CardMaggio from "../components/Card-maggio.vue";
@@ -10,13 +15,23 @@ import imgMasoli from "../assets/ospiti/maggio/masoli.png";
 import imgTripodi from "../assets/ospiti/maggio/tripodi.png";
 import imgNudo from "../assets/ospiti/maggio/nudo.png";
 
+const zoom = ref(20)
+const center = ref([46.065335, 11.123905])
+const markerPos = ref([46.065135, 11.123905])
+const link = "https://maps.app.goo.gl/JNZyrwv4gqKkBHCS8";
+
+const onMapReady = (map) => {
+    const marker = L.marker(markerPos.value).addTo(map);
+    marker.bindPopup('<b>Piazza Fiera: Lounge fuori Festival</b><br />Piazza Fiera<br />38122 Trento TN<br /><br /><a target="_blank" href="' + link + '">Indicazioni stradali</a>').openPopup();
+};
+
 </script>
 
 <template class="">
 
     <div class="bg-gradient-to-b from-[#ff7931] to-[#9e2a00] min-h-screen w-full">
 
-        <Header 
+        <Header
             pageTitle="Talk - 22.05.25 - Trento"
             linkLable="Masterclass - 23.05.25 - Trento"
             linkUrl="/masterclass"
@@ -153,12 +168,20 @@ import imgNudo from "../assets/ospiti/maggio/nudo.png";
 
             </div>
 
-            <div class="w-full overflow-hidden">
-                <a class="" href="https://www.google.com/maps?ll=46.064033,11.127248&z=15&t=m&hl=it&gl=IT&mapclient=embed&cid=4976153971624757266" target="_blank">
-                    <img class="hidden 2xl:block w-full" src="../assets/maps/map-lg.png" alt="Mappa">
-                    <img class="hidden lg:block 2xl:hidden w-full" src="../assets/maps/map-md.png" alt="Mappa">
-                    <img class="lg:hidden w-full" src="../assets/maps/map.png" alt="Mappa">
-                </a>
+            <div class="w-full h-96">
+
+                <l-map
+                    ref="mapRef"
+                    v-model:zoom="zoom"
+                    v-model:center="center"
+                    @ready="onMapReady"
+                >
+                    <l-tile-layer
+                        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                        layer-type="base"
+                    ></l-tile-layer>
+                </l-map>
+
             </div>
 
         </div>
