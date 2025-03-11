@@ -30,7 +30,10 @@ const onMapReady = (map) => {
             linkUrl="/"
             imageSrc="../assets/ospiti/andry.png"
             imageAlt="Foto di Andry the Hitmaker"
+            buttonlabel="Iscriviti"
+            buttonUrl="x"
         />
+
 
 
         <div class="pt-24 pb-28 lg:pt-28 lg:pb-32 text-white">
