@@ -1,17 +1,22 @@
 <script setup>
+import {ref} from "vue";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+import {LMap, LTileLayer} from "@vue-leaflet/vue-leaflet";
 
 import Footer from "../components/Footer.vue";
-import Card from "../components/Card.vue";
-import imgZerbi from "../assets/ospiti/rudy-zerbi-def.jpg";
-import imgYugi from "../assets/ospiti/kid-yugi-def.jpg";
-import imgIlRosso from "../assets/ospiti/il-rosso.jpg";
-import imgRicciardi from "../assets/ospiti/livio-ricciardi.jpg";
-import imgBuccolieri from "../assets/ospiti/ciro-buccolieri-def.jpg";
-import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
-import Social from "../components/Social.vue";
 import Header from "../components/Header.vue";
 import Beat from "../components/Beat.vue";
-import Button from "../components/Button-giallo.vue";
+
+const zoom = ref(20)
+const center = ref([46.067131, 11.1226172])
+const markerPos = ref([46.0668766, 11.1226172])
+const link = "https://maps.app.goo.gl/iJ7hKnmCw4e2c3CW6";
+
+const onMapReady = (map) => {
+    const marker = L.marker(markerPos.value).addTo(map);
+    marker.bindPopup('<b>Fondazione Caritro</b><br />Via Calepina, 1<br />38122 Trento TN<br /><br /><a target="_blank" href="' + link + '">Indicazioni stradali</a>').openPopup();
+};
 
 </script>
 
@@ -19,7 +24,7 @@ import Button from "../components/Button-giallo.vue";
 
     <div class="bg-gradient-to-b from-[#ff7931] to-[#9e2a00] min-h-screen w-full">
 
-        <Header 
+        <Header
             pageTitle="Masterclass - 23.05.25 - Trento"
             linkLable="Talk - 22.05.25 - Trento"
             linkUrl="/"
@@ -28,7 +33,7 @@ import Button from "../components/Button-giallo.vue";
             buttonlabel="Iscriviti"
             buttonUrl="x"
         />
-       
+
 
 
         <div class="pt-24 pb-28 lg:pt-28 lg:pb-32 text-white">
@@ -60,12 +65,9 @@ import Button from "../components/Button-giallo.vue";
                     <p class="lg:w-[510px]">Porta la tua curiosità e<strong class="black"> lasciati ispirare </strong>dal potenziale creativo di questo mondo.</p>
                 </li>
             </ul>
-   
-   
-        </div>
-        
 
-        
+
+        </div>
 
         <div class="max-h-[400px] overflow-hidden">
             <img src="../assets/foto_teatro.png" class="w-full" alt="Foto del teatro">
@@ -99,12 +101,20 @@ import Button from "../components/Button-giallo.vue";
 
             </div>
 
-            <div class="w-full overflow-hidden">
-                <a class="" href="https://www.google.com/maps?ll=46.064033,11.127248&z=15&t=m&hl=it&gl=IT&mapclient=embed&cid=4976153971624757266" target="_blank">
-                    <img class="hidden 2xl:block w-full" src="../assets/maps/map-lg.png" alt="Mappa">
-                    <img class="hidden lg:block 2xl:hidden w-full" src="../assets/maps/map-md.png" alt="Mappa">
-                    <img class="lg:hidden w-full" src="../assets/maps/map.png" alt="Mappa">
-                </a>
+            <div class="w-full h-96">
+
+                <l-map
+                    ref="mapRef"
+                    v-model:zoom="zoom"
+                    v-model:center="center"
+                    @ready="onMapReady"
+                >
+                    <l-tile-layer
+                        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                        layer-type="base"
+                    ></l-tile-layer>
+                </l-map>
+
             </div>
 
         </div>

@@ -225,9 +225,9 @@ import Button from "../components/Button.vue";
 
             <div class="w-full overflow-hidden">
                 <a class="" href="https://www.google.com/maps?ll=46.064033,11.127248&z=15&t=m&hl=it&gl=IT&mapclient=embed&cid=4976153971624757266" target="_blank">
-                    <img class="hidden 2xl:block w-full" src="../assets/maps/map-lg.png" alt="Mappa">
-                    <img class="hidden lg:block 2xl:hidden w-full" src="../assets/maps/map-md.png" alt="Mappa">
-                    <img class="lg:hidden w-full" src="../assets/maps/map.png" alt="Mappa">
+                    <img class="hidden 2xl:block w-full" src="../assets/maps-santa-chiara/map-lg.png" alt="Mappa">
+                    <img class="hidden lg:block 2xl:hidden w-full" src="../assets/maps-santa-chiara/map-md.png" alt="Mappa">
+                    <img class="lg:hidden w-full" src="../assets/maps-santa-chiara/map.png" alt="Mappa">
                 </a>
             </div>
 
