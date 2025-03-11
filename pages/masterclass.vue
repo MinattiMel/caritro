@@ -109,7 +109,9 @@ import Button from "../components/Button-giallo.vue";
 
         </div>
 
-        <Footer/>
+        <Footer
+        main="true"
+        />
 
     </div>
 

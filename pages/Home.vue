@@ -136,17 +136,13 @@ import imgNudo from "../assets/ospiti/maggio/nudo.png";
                         <p class="text-2xl lg:text-3xl">15</p>
                     </li>
 
-                    <li class="flex items-start space-x-4 lg:col-span-2">
+                    <li class="flex items-start space-x-4">
                         <img class="w-[40px]" src="../assets/posizione-viola.png" alt="icona luogo">
-                        <div>
-                            <p class="text-2xl lg:text-3xl mb-6">Piazza Fiera:<br>"Lounge FuoriFestival"</p>
-                        </div>
+                        <p class="text-2xl lg:text-3xl mb-6">Piazza Fiera:<br>"Lounge FuoriFestival"</p>
                     </li>
-                    <li class="flex items-start space-x-4 lg:col-span-2">
+                    <li class="flex items-start space-x-4">
                         <a class="" href="https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"><img class="w-[40px]" src="../assets/biglietto-viola.png" alt="Icona biglietto cartaceo"></a>
-                        <div>
-                            <p class="text-2xl lg:text-3xl mb-6">Ingresso libero</p>
-                        </div>
+                        <p class="text-2xl lg:text-3xl mb-6">Ingresso libero</p>
                     </li>
 
                 </ul>
@@ -164,7 +160,9 @@ import imgNudo from "../assets/ospiti/maggio/nudo.png";
         </div>
 
 
-        <Footer/>
+        <Footer
+        main="true"
+        />
 
     </div>
 

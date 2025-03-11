@@ -1,10 +1,16 @@
 <script setup>
 import Social from "./Social.vue";
+const props = defineProps([
+    'main'
+])
+const isMain = props.main
 </script>
 
 <template>
 
-    <footer class="bg-sextiary flex flex-col items-center">
+    <footer class="bg-sextiary flex flex-col items-center"
+            :class="{'bg-[#31006B]': isMain }"
+    >
         <div class="max-w-[1920px] w-full pt-28 pb-32 px-8 lg:px-36">
 
             <div class="flex flex-col lg:flex-row justify-between items-start gap-8">
@@ -35,12 +41,6 @@ import Social from "./Social.vue";
                 </div>
 
             </div>
-
-            <ul>
-                <li><RouterLink to="/">Home</RouterLink></li>
-                <li><RouterLink to="/masterclass">Masterclass</RouterLink></li>
-            </ul>
-
         </div>
     </footer>
 
