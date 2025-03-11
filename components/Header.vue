@@ -1,8 +1,8 @@
 <script setup>
-import Button from "./Button.vue";
 import Social from "./Social.vue";
+import Button from "../components/Button-giallo.vue";
 defineProps([
-    'pageTitle', 'imageSrc', 'imageAlt', 'linkLable', 'linkUrl'
+    'pageTitle', 'imageSrc', 'imageAlt', 'linkLable', 'linkUrl', 'buttonlabel', 'buttonUrl'
 ])
 </script>
 
@@ -29,9 +29,18 @@ defineProps([
                         </g>
                     </svg>
 
+
                     <h1 class="flex items-center uppercase text-4xl lg:text-[52px] pt-2 pb-4 text-octree font-medium row-start-3 col-span-12">
                         <span class="sr-only">Swipe</span> Scorrendo tra le generazioni
                     </h1>
+                    <div v-if="buttonlabel && buttonUrl" class="row-start-1 col-end-11">
+                        <Button
+
+                            class="text-4xl"
+                            :text="buttonlabel"
+                            :link="buttonUrl"
+                        />
+                    </div>
 
                     <div class="row-start-4 col-span-12">
                         <div class="text-octree">
