@@ -38,7 +38,7 @@ import Social from "./Social.vue";
 
             <ul>
                 <li><RouterLink to="/">Home</RouterLink></li>
-                <li><RouterLink to="/scorrendo-tra-le-generazioni">Scorrendo tra le generazioni</RouterLink></li>
+                <li><RouterLink to="/masterclass">Masterclass</RouterLink></li>
             </ul>
 
         </div>
