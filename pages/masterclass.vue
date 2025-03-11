@@ -9,9 +9,9 @@ import imgRicciardi from "../assets/ospiti/livio-ricciardi.jpg";
 import imgBuccolieri from "../assets/ospiti/ciro-buccolieri-def.jpg";
 import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
 import Social from "../components/Social.vue";
-import Button from "../components/Button.vue";
 import Header from "../components/Header.vue";
 import Beat from "../components/Beat.vue";
+import Button from "../components/Button-giallo.vue";
 
 </script>
 
@@ -25,7 +25,10 @@ import Beat from "../components/Beat.vue";
             linkUrl="/"
             imageSrc="../assets/ospiti/andry.png"
             imageAlt="Foto di Andry the Hitmaker"
+            buttonlabel="Iscriviti"
+            buttonUrl="x"
         />
+       
 
 
         <div class="pt-24 pb-28 lg:pt-28 lg:pb-32 text-white">
@@ -35,7 +38,7 @@ import Beat from "../components/Beat.vue";
                 <div class="lg:pb-[35px] pt-[37px]">
                     <p class="lg:w-[550px]">Scopri il processo creativo dietro la produzione musicale, guidato da un <strong class="black">ospite speciale</strong> che mostrerà ogni passo, dall'idea al risultato finale.</p>
                 </div>
-                <div class="block grid grid-cols-2 items-center md:hidden">
+                <div class="grid grid-cols-2 items-center md:hidden">
                     <svg class="w-auto" viewBox="0 0 155 191" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M22.0001 1.99994C9.0001 10.9999 1.00033 37.4999 2.5002 55.9999C4.00006 74.4999 23.5003 101 46.0002 101C68.5001 101 84.0002 86.0064 95.5002 81.4999C107 76.9935 116.411 81.7106 119.487 89.7715C123.849 103.582 111.205 112.465 100.211 117.588C86.9239 123.895 71.1654 126.888 58.2561 134.615C36.1942 148.439 47.0001 176.611 68.5001 179.611C90.0001 182.611 128 177.582 148.5 169.611" stroke="#31006B" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
                         <path d="M126 161.955L151.6 169.15L132.968 188.994" stroke="#31006B" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
