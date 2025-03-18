@@ -2,9 +2,21 @@
 </script>
 <template>
 
-    <div class="w-full relative">
+<div class="flex w-full">
+    <div class="w-96 h-64 flex-1 aspect-square bg-center bg-cover bg-repeat bg-[url('/assets/masterclass-beat/box01.svg')] hidden sm:block"></div>
+    <div class="w-64 h-64 flex-1 aspect-square bg-center bg-cover bg-no-repeat bg-[url('/assets/masterclass-beat/box02.svg')] sm:block flex flex-col">
+        <div class="h-1/2 flex items-center justify-center bg-transparent">
+            <p class="text-[45px] mt-[15%] align-center font-medium text-white uppercase">Andry the Hitmaker</p>
+        </div>
+        <div class="h-1/2 flex items-center justify-center bg-transparent">
+            <p class="text-lg font-bold text-white">Produttore musicale<br><a src="https://www.instagram.com/andrythehitmaker/" underline>@andrythehitmaker</a></p>
+        </div>
+    </div>
+    <div class="w-64 h-64 flex-1 aspect-square bg-center bg-cover bg-repeat bg-[url('/assets/masterclass-beat/box03.svg')] hidden sm:block"></div>
 
-        <svg class="invisible md:visible" viewBox="0 0 1279 163" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+        <!--
+        <svg viewBox="0 0 1279 163" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_745_1064)">
                 <path d="M1338.06 77.0493H0V79.0366H1338.06V77.0493Z" fill="#31006B"/>
                 <mask id="path-2-inside-1_745_1064" fill="white">
@@ -20,16 +32,12 @@
                     <rect width="1349" height="163" fill="white"/>
                 </clipPath>
             </defs>
-        </svg>
+        </svg>-->
         <!--<svg class="visible ml-4 md:invisible" width="155" height="191" viewBox="0 0 155 191" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M22.0001 1.99994C9.0001 10.9999 1.00033 37.4999 2.5002 55.9999C4.00006 74.4999 23.5003 101 46.0002 101C68.5001 101 84.0002 86.0064 95.5002 81.4999C107 76.9935 116.411 81.7106 119.487 89.7715C123.849 103.582 111.205 112.465 100.211 117.588C86.9239 123.895 71.1654 126.888 58.2561 134.615C36.1942 148.439 47.0001 176.611 68.5001 179.611C90.0001 182.611 128 177.582 148.5 169.611" stroke="#31006B" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
             <path d="M126 161.955L151.6 169.15L132.968 188.994" stroke="#31006B" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
         </svg> da mettere qui?-->
 
-
-        <div class="static lg:absolute uppercase text-xl text-right right-[12%] top-[50%] -mt-10 lg:text-[60px]">Andry the hitmaker</div><!--Non funzionano i break point con questa soluzione class="static lg:absolute uppercase text-xl text-right right-[12%] top-[50%] -mt-10  
-max-900:text-red-500 max-1000:text-yellow-500 lg:text-[60px]"-->
-        <div class="static lg:absolute text-xl lg:text-xl right-[12%] top-[50%] mt-4 text-right">Produttore musicale:<br><a href="https://www.instagram.com/andrythehitmaker/" class="underline underline-offset-1">@andrythehitmaker</a></div> 
     
     </div>
 

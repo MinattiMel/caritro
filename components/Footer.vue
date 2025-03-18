@@ -1,9 +1,9 @@
 <script setup>
 import Social from "./Social.vue";
 const props = defineProps([
-    'main'
+    'title', 'details', 'socialTitle', 'socialUrl', 'imageAlt', 'imageUrl', 'reverse', 'main'
 ])
-const isMain = props.main
+const isMain = props.main //dopo il merge non funziona più, capire perchè
 </script>
 
 <template>
