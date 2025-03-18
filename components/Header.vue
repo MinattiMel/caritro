@@ -41,6 +41,9 @@ defineProps([
                             :link="buttonUrl"
                         />
                     </div>
+                    <div v-else class="row-start-1 col-end-11">
+                    <p class="text-4xl font-bold text-white whitespace-nowrap">Ingresso libero</p>
+                    </div>
 
                     <div class="row-start-4 col-span-12">
                         <div class="text-octree">
