@@ -56,16 +56,20 @@ const onMapReady = (map) => {
             <Beat/>
             <ul class="list-disc list-inside">
                 <li class="max-w-[1920px] px-8 lg:px-36 pb-[35px] pt-[37px]">
-                    <h3 class="text-xl lg:text-4xl font-medium">Pratica e sperimenta</h3>
-                    <p class="lg:w-[550px]">Non solo teoria: avrai l’opportunità di<strong class="black"> metterti in gioco </strong>e creare, esplorando il lato pratico del beatmaking.</p>
-
+                    <h3 class="text-xl lg:text-4xl font-medium inline-block">Pratica e sperimenta</h3>
+                    <p class="lg:w-[550px] pl-6">
+                    Non solo teoria: avrai l’opportunità di<strong class="black"> metterti in gioco </strong>
+                    e creare, esplorando il lato pratico del beatmaking.
+                    </p>
                 </li>
                 <li class="max-w-[1920px] px-8 lg:px-36 pb-[35px] pt-[37px]">
-                    <h3 class="text-xl lg:text-4xl font-medium">Vivi un'esperienza unica</h3>
-                    <p class="lg:w-[510px]">Porta la tua curiosità e<strong class="black"> lasciati ispirare </strong>dal potenziale creativo di questo mondo.</p>
+                    <h3 class="text-xl lg:text-4xl font-medium inline-block">Vivi un'esperienza unica</h3>
+                    <p class="lg:w-[510px] pl-6">
+                    Porta la tua curiosità e<strong class="black"> lasciati ispirare </strong>
+                    dal potenziale creativo di questo mondo.
+                    </p>
                 </li>
             </ul>
-
 
         </div>
 

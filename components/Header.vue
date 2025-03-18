@@ -42,7 +42,7 @@ defineProps([
                         />
                     </div>
                     <div v-else class="row-start-1 col-end-11">
-                    <p class="text-4xl font-bold text-white whitespace-nowrap">Ingresso libero</p>
+                    <p class="text-4xl font-medium text-white uppercase whitespace-nowrap">Ingresso libero</p>
                     </div>
 
                     <div class="row-start-4 col-span-12">
