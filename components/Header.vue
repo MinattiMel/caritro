@@ -4,7 +4,7 @@ import Button from "../components/Button-giallo.vue";
 defineProps([
     'pageTitle', 'imageSrc', 'imageAlt', 'linkLable', 'linkUrl', 'buttonlabel', 'buttonUrl'
 ])
-</script>
+</script setup>
 
 <template>
     <header class="bg-[url('./assets/sfondi/bg-arancione.png')] bg-no-repeat bg-cover bg-center text-white flex flex-col items-center relative">
@@ -81,3 +81,16 @@ defineProps([
         </header>
 
 </template>
+<script>
+export default {
+  computed: {
+    isMasterclass() {
+      return this.$route.name === 'Home';
+    }
+  },
+  props: {
+    buttonlabel: String,
+    buttonUrl: String,
+  },
+};
+</script>

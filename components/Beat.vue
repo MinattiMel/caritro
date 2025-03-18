@@ -3,13 +3,13 @@
 <template>
 
 <div class="flex w-full">
-    <div class="w-96 h-64 flex-1 aspect-square bg-center bg-cover bg-repeat bg-[url('/assets/masterclass-beat/box01.svg')] hidden sm:block"></div>
-    <div class="w-64 h-64 flex-1 aspect-square bg-center bg-cover bg-no-repeat bg-[url('/assets/masterclass-beat/box02.svg')] sm:block flex flex-col">
-        <div class="h-1/2 flex items-center justify-center bg-transparent">
-            <p class="text-[45px] mt-[15%] align-center font-medium text-white uppercase">Andry the Hitmaker</p>
+    <div class="w-64 h-64 flex-1 aspect-square bg-center bg-cover bg-repeat bg-[url('/assets/SVG/box01giusta.svg')] hidden sm:block"></div>
+    <div class="w-64 h-64 flex-1 aspect-square bg-center bg-cover bg-no-repeat bg-[url('/assets/SVG/box02giusta.svg')] sm:block flex flex-col">
+        <div class="h-1/2 flex items-end justify-center bg-transparent">
+            <p class="text-[45px] align-center font-medium text-white uppercase">Andry the Hitmaker</p>
         </div>
-        <div class="h-1/2 flex items-center justify-center bg-transparent">
-            <p class="text-lg font-bold text-white">Produttore musicale<br><a src="https://www.instagram.com/andrythehitmaker/" underline>@andrythehitmaker</a></p>
+        <div class="h-1/2 flex items-start justify-left bg-transparent">
+            <p class="text-lg text-white">Produttore musicale<br><a class="underline cursor-pointer" src="https://www.instagram.com/andrythehitmaker/">@andrythehitmaker</a></p>
         </div>
     </div>
     <div class="w-64 h-64 flex-1 aspect-square bg-center bg-cover bg-repeat bg-[url('/assets/masterclass-beat/box03.svg')] hidden sm:block"></div>
