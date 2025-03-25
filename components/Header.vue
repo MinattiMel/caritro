@@ -47,7 +47,7 @@ defineProps([
 
                     <div class="row-start-4 col-span-12">
                         <div class="text-octree">
-                            <p class="text-4xl uppercase lg:text-4xl">{{ pageTitle }}</p>
+                            <p class="text-2xl uppercase lg:text-4xl">{{ pageTitle }}</p>
                             <p v-if="linkLable" class="group text-xl uppercase cursor-pointer lg:text-xl flex items-center underline underline-offset-2 decoration-octree">
                                 <img class="frecce px-2 transition-all duration-200" alt="frecce" src="../assets/frecce-sx.png">
                                 <RouterLink :to="linkUrl" class="group-hover:text-[22px] transition-all duration-200">{{ linkLable }}</RouterLink>
