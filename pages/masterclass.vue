@@ -49,6 +49,7 @@ const onMapReady = (map) => {
                         <path d="M126 161.955L151.6 169.15L132.968 188.994" stroke="#31006B" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
                     </svg>
                     <img class="w-[250px] pr-2 pt-12" alt="foto di Andry the Hitmaker" src="../assets/ospiti/maggio/andry-02.png">
+                    <p class="text-white"><span class="uppercase justify-center text-2xl whitespace-nowrap">Andry the hitmaker</span><br><span class="justify-right"> Produttore musicale <a class="underline" src="https://www.instagram.com/andrythehitmaker/">@andrythehitmaker</a></span></p><!--sistemo che non va bene-->
 
                 </div>
             </div>

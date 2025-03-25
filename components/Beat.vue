@@ -2,7 +2,7 @@
 </script>
 <template>
 
-<div class="flex w-full">
+<div class="hidden md:flex md:w-full">
     <div class="w-64 h-64 flex-1 aspect-square bg-center bg-cover bg-repeat bg-[url('/assets/SVG/box01giusta.svg')] hidden sm:block"></div>
     <div class="w-64 h-64 flex-1 aspect-square bg-center bg-cover bg-no-repeat bg-[url('/assets/SVG/box02giusta.svg')] sm:block flex flex-col">
         <div class="h-1/2 flex items-end justify-center bg-transparent">
@@ -13,6 +13,7 @@
         </div>
     </div>
     <div class="w-64 h-64 flex-1 aspect-square bg-center bg-cover bg-repeat bg-[url('/assets/masterclass-beat/box03.svg')] hidden sm:block"></div>
+</div>
 
 
         <!--
@@ -38,7 +39,5 @@
             <path d="M126 161.955L151.6 169.15L132.968 188.994" stroke="#31006B" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
         </svg> da mettere qui?-->
 
-    
-    </div>
 
 </template>
