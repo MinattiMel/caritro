@@ -22,7 +22,7 @@ const onMapReady = (map) => {
 
 <template>
 
-    <div class="bg-gradient-to-b from-[#ff7931] to-[#9e2a00] min-h-screen w-full">
+    <div class="bg-gradient-to-b from-[#ff7931] to-[#c63804] min-h-screen w-full">
 
         <Header
             pageTitle="Masterclass - 23.05.25 - Trento"
@@ -38,21 +38,28 @@ const onMapReady = (map) => {
 
         <div class="pt-24 pb-28 lg:pt-28 lg:pb-32 text-white">
 
-            <div class="max-w-[1920px] px-8 lg:px-36">
-                <h2 class="text-4xl lg:text-7xl text-octree mb-4 uppercase">Come nasce un beat</h2>
-                <div class="lg:pb-[35px] pt-[37px]">
-                    <p class="lg:w-[550px]">Scopri il processo creativo dietro la produzione musicale, guidato da un <strong class="black">ospite speciale</strong> che mostrerà ogni passo, dall'idea al risultato finale.</p>
-                </div>
-                <div class="grid grid-cols-2 items-center md:hidden">
+        <div class="max-w-[1920px] px-8 lg:px-36">
+            <h2 class="text-4xl lg:text-7xl text-octree mb-4 uppercase">Come nasce un beat</h2>
+            <div class="lg:pb-[35px] pt-[37px]">
+                <p class="lg:w-[550px]">Scopri il processo creativo dietro la produzione musicale, guidato da un <strong class="black">ospite speciale</strong> che mostrerà ogni passo, dall'idea al risultato finale.</p>
+            </div>
+            <div class="grid grid-cols-2 items-center md:hidden">
                     <svg class="w-auto" viewBox="0 0 155 191" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M22.0001 1.99994C9.0001 10.9999 1.00033 37.4999 2.5002 55.9999C4.00006 74.4999 23.5003 101 46.0002 101C68.5001 101 84.0002 86.0064 95.5002 81.4999C107 76.9935 116.411 81.7106 119.487 89.7715C123.849 103.582 111.205 112.465 100.211 117.588C86.9239 123.895 71.1654 126.888 58.2561 134.615C36.1942 148.439 47.0001 176.611 68.5001 179.611C90.0001 182.611 128 177.582 148.5 169.611" stroke="#31006B" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
                         <path d="M126 161.955L151.6 169.15L132.968 188.994" stroke="#31006B" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
                     </svg>
+                <div class="flex flex-col items-end text-white">
                     <img class="w-[250px] pr-2 pt-12" alt="foto di Andry the Hitmaker" src="../assets/ospiti/maggio/andry-02.png">
-                    <p class="text-white"><span class="uppercase justify-center text-2xl whitespace-nowrap">Andry the hitmaker</span><br><span class="justify-right"> Produttore musicale <a class="underline" src="https://www.instagram.com/andrythehitmaker/">@andrythehitmaker</a></span></p><!--sistemo che non va bene-->
-
+                    <div class="text-right">
+                        <p class="uppercase text-2xl whitespace-nowrap">Andry the Hitmaker</p>
+                        <p>Produttore musicale  
+                            <a class="underline" href="https://www.instagram.com/andrythehitmaker/">@andrythehitmaker</a>
+                        </p>
+                    </div>
                 </div>
-            </div>
+
+            </div> <!--sistemare-->
+        </div>
 
             <Beat/>
             <ul class="list-disc list-inside">

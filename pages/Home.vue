@@ -29,7 +29,7 @@ const onMapReady = (map) => {
 
 <template class="">
 
-    <div class="bg-gradient-to-b from-[#ff7931] to-[#9e2a00] min-h-screen w-full">
+    <div class="bg-gradient-to-b from-[#ff7931] to-[#c63804] min-h-screen w-full">
 
         <Header
             pageTitle="Talk - 22.05.25 - Trento"
