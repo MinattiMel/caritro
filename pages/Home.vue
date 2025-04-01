@@ -142,22 +142,22 @@ const onMapReady = (map) => {
                 <ul class="grid grid-cols-1 lg:grid-cols-2 lg:pl-16 gap-8">
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[38px]" src="../assets/calendario-viola.png" alt="Icona calendario">
+                        <img class="w-[28px] lg:w-[38px]" src="../assets/calendario-viola.png" alt="Icona calendario">
                         <p class="text-2xl lg:text-3xl">22.05.2025</p>
                     </li>
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[38px]" src="../assets/orologio-viola.png" alt="Icona orologio">
+                        <img class="w-[28px] lg:w-[38px]" src="../assets/orologio-viola.png" alt="Icona orologio">
                         <p class="text-2xl lg:text-3xl">15</p>
                     </li>
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[40px]" src="../assets/posizione-viola.png" alt="icona luogo">
+                        <img class="w-[28px] lg:w-[38px]" src="../assets/posizione-viola.png" alt="icona luogo">
                         <p class="text-2xl lg:text-3xl mb-6">Piazza Fiera:<br>"Lounge FuoriFestival"</p>
                     </li>
                     <li class="flex items-start space-x-4">
-                        <a class="" href="https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"><img class="w-[40px]" src="../assets/biglietto-viola.png" alt="Icona biglietto cartaceo"></a>
-                        <p class="text-2xl lg:text-3xl mb-6">Ingresso libero</p>
+                        <a class="" href="https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"><img class="w-[30px] lg:w-[38px] -mt-2" src="../assets/biglietto-viola.png" alt="Icona biglietto cartaceo"></a>
+                        <p class="text-2xl -mt-4 lg:text-3xl mb-6">Ingresso libero</p>
                     </li>
 
                 </ul>
@@ -184,7 +184,7 @@ const onMapReady = (map) => {
 
 
         <Footer
-        main="true"
+            main="true"
         />
 
     </div>

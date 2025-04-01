@@ -59,7 +59,7 @@ const onMapReady = (map) => {
                 <a class="underline" href="https://www.instagram.com/andrythehitmaker/">@andrythehitmaker</a>
                 </p>
             </div>
-            </div> <!--sistemare-->
+            </div>
         </div>
 
             <Beat/>
@@ -94,17 +94,17 @@ const onMapReady = (map) => {
                 <ul class="grid grid-cols-1 lg:grid-cols-2 lg:pl-16 gap-8">
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[38px]" src="../assets/calendario-viola.png" alt="Icona calendario">
+                        <img class="w-[28px] lg:w-[38px]" src="../assets/calendario-viola.png" alt="Icona calendario">
                         <p class="text-2xl lg:text-3xl">23.05.2025</p>
                     </li>
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[38px]" src="../assets/orologio-viola.png" alt="Icona orologio">
+                        <img class="w-[28px] lg:w-[38px]" src="../assets/orologio-viola.png" alt="Icona orologio">
                         <p class="text-2xl lg:text-3xl">17 - 19</p>
                     </li>
 
                     <li class="flex items-start space-x-4 lg:col-span-2">
-                        <img class="w-[40px]" src="../assets/posizione-viola.png" alt="icona luogo">
+                        <img class="w-[28px] lg:w-[38px]" src="../assets/posizione-viola.png" alt="icona luogo">
                         <div>
                             <p class="text-2xl lg:text-3xl mb-6">Fondazione Caritro:<br>sala conferenze</p>
                         </div>
@@ -133,7 +133,7 @@ const onMapReady = (map) => {
         </div>
 
         <Footer
-        main="true"
+            main="true"
         />
 
     </div>

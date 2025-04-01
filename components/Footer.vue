@@ -1,15 +1,15 @@
 <script setup>
 import Social from "./Social.vue";
 const props = defineProps([
-    'title', 'details', 'socialTitle', 'socialUrl', 'imageAlt', 'imageUrl', 'reverse', 'main'
+    'main'
 ])
-const isMain = props.main //dopo il merge non funziona più, capire perchè
+const isMain = props.main || false;
 </script>
 
 <template>
 
-    <footer class="bg-sextiary flex flex-col items-center"
-            :class="{'bg-[#31006B]': isMain }"
+    <footer class="flex flex-col items-center"
+            :class="{'bg-[#31006B]': isMain , 'bg-sextiary': !isMain}"
     >
         <div class="max-w-[1920px] w-full pt-28 pb-32 px-8 lg:px-36">
 
