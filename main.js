@@ -3,7 +3,7 @@ import{createWebHistory, createRouter} from "vue-router";
 import './index.css';
 import App from "./App.vue";
 import Home from "./pages/Home.vue";
-import ScorrendoTraLeGenerazioni from "./archive/ScorrendoTraLeGenerazioni.vue";
+import ScorrendoTraLeGenerazioni from "./pages/ScorrendoTraLeGenerazioni.vue";
 import Masterclass from "./pages/Masterclass.vue";
 
 // definisco le routes e le collego ad una componente
