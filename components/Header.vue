@@ -43,7 +43,7 @@ defineProps([
                         />
                     </div>
                     <div v-else class="row-start-1 col-end-11">
-                    <p class="text-2xl font-medium text-white uppercase text-nowrap">Ingresso libero</p>
+                    <p class="text-2xl font-medium text-white uppercase text-nowrap"><img class="inline pb-2 mr-2 w-[14px] lg:w-[16px]" src="../assets/posizione-viola.png" alt="icona luogo"><span class="text-octree">Trento</span><br>Ingresso libero</p>
                     </div>
 
                     <div class="row-start-4 col-span-12">
