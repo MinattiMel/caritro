@@ -33,7 +33,7 @@ defineProps([
                     <h1 class="flex items-center uppercase text-4xl lg:text-[52px] pt-2 pb-4 text-octree font-medium row-start-3 col-span-12">
                         <span class="sr-only">Swipe</span> Scorrendo tra le generazioni
                     </h1>
-                    <div v-if="buttonlabel && buttonUrl" class="row-start-1 col-end-11">
+                    <div v-if="buttonlabel && buttonUrl" class="row-start-1 col-end-11 mb-12">
                         <Button
 
                             class="text-4xl"
@@ -42,12 +42,12 @@ defineProps([
                         />
                     </div>
                     <div v-else class="row-start-1 col-end-11">
-                    <p class="text-4xl font-medium text-white uppercase whitespace-nowrap">Ingresso libero</p>
+                    <p class="text-2xl font-medium text-white uppercase text-nowrap">Ingresso libero</p>
                     </div>
 
                     <div class="row-start-4 col-span-12">
                         <div class="text-octree">
-                            <p class="text-2xl uppercase lg:text-4xl">{{ pageTitle }}</p>
+                            <p class="text-[26px] leading-snug uppercase lg:text-4xl">{{ pageTitle }}</p>
                             <p v-if="linkLable" class="group text-xl uppercase cursor-pointer lg:text-xl flex items-center underline underline-offset-2 decoration-octree">
                                 <img class="frecce px-2 transition-all duration-200" alt="frecce" src="../assets/frecce-sx.png">
                                 <RouterLink :to="linkUrl" class="group-hover:text-[22px] transition-all duration-200">{{ linkLable }}</RouterLink>
@@ -56,14 +56,6 @@ defineProps([
                                 
                         </div>
                     </div>
-
-                    <!--<div class="row-start-1 col-end-11">
-                        <Button
-                            class="text-4xl"
-                            text="Prenota"
-                            link=" https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"
-                        />
-                    </div>-->
 
                     <div class="col-span-3 col-start-1 row-start-1 pt-16 lg:pt-0">
                         <Social/>

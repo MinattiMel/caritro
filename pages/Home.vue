@@ -32,8 +32,8 @@ const onMapReady = (map) => {
     <div class="bg-gradient-to-b from-[#ff7931] to-[#c63804] min-h-screen w-full">
 
         <Header
-            pageTitle="Talk - 22.05.25 - Trento"
-            linkLable="Masterclass - 23.05.25 - Trento"
+            pageTitle="Talk - 22.05.25 - Piazza Fiera"
+            linkLable="Come nasce un beat - 23.05.25 - Fondazione Caritro"
             linkUrl="/masterclass"
             imageSrc="../assets/foto_ospiti_maggio.png"
             imageAlt="Foto degli ospiti dell'evento"
@@ -102,7 +102,7 @@ const onMapReady = (map) => {
 
                 <CardMaggio
                     title="Michele Nudo"
-                    details="A&R Emi (Universal Music Italia)"
+                    details="A&R Director (Emi/Universal Music Italia)"
                     socialTitle="@jkuio"
                     socialUrl="https://www.instagram.com/jkuio/"
                     imageAlt="immagine di Michele Nudo"
@@ -118,7 +118,7 @@ const onMapReady = (map) => {
                 <h2 class="text-4xl lg:text-7xl font-regular text-octree mb-8 lg:mb-16 uppercase">I temi</h2>
                 <ul class="list-disc pl-5 space-y-0 text-xl uppercase lg:columns-2 lg:text-2xl mb-28">
                     <li>Professioni artistiche</li>
-                    <li>Stprie di successo</li>
+                    <li>Storie di successo</li>
                     <li>Cambiamenti musicali</li>
                     <li>Dinamiche sociali</li>
                 </ul>
@@ -153,11 +153,11 @@ const onMapReady = (map) => {
 
                     <li class="flex items-start space-x-4">
                         <img class="w-[28px] lg:w-[38px]" src="../assets/posizione-viola.png" alt="icona luogo">
-                        <p class="text-2xl lg:text-3xl mb-6">Piazza Fiera:<br>"Lounge FuoriFestival"</p>
+                        <p class="text-2xl lg:text-3xl mb-6">Piazza Fiera:<br>"Lounge Fuori Festival"</p>
                     </li>
                     <li class="flex items-start space-x-4">
                         <a class="" href="https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"><img class="w-[30px] lg:w-[38px] -mt-2" src="../assets/biglietto-viola.png" alt="Icona biglietto cartaceo"></a>
-                        <p class="text-2xl -mt-4 lg:text-3xl mb-6">Ingresso libero</p>
+                        <p class="text-2xl -mt-4 lg:text-3xl mb-6">Ingresso libero e gratuito</p>
                     </li>
 
                 </ul>

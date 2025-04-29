@@ -25,12 +25,12 @@ const onMapReady = (map) => {
     <div class="bg-gradient-to-b from-[#ff7931] to-[#c63804] min-h-screen w-full">
 
         <Header
-            pageTitle="Masterclass - 23.05.25 - Trento"
-            linkLable="Talk - 22.05.25 - Trento"
+            pageTitle="Come nasce un beat - 23.05.25 - Fondazione Caritro"
+            linkLable="Talk - 22.05.25 - Piazza Fiera"
             linkUrl="/"
             imageSrc="../assets/ospiti/andry.png"
             imageAlt="Foto di Andry the Hitmaker"
-            buttonlabel="Iscriviti"
+            buttonlabel="Prenota"
             buttonUrl="x"
         />
 
@@ -106,7 +106,7 @@ const onMapReady = (map) => {
                     <li class="flex items-start space-x-4 lg:col-span-2">
                         <img class="w-[28px] lg:w-[38px]" src="../assets/posizione-viola.png" alt="icona luogo">
                         <div>
-                            <p class="text-2xl lg:text-3xl mb-6">Fondazione Caritro:<br>sala conferenze</p>
+                            <p class="text-2xl lg:text-3xl mb-6">Fondazione Caritro (Trento)</p>
                         </div>
                     </li>
 
