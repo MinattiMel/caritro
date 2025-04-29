@@ -31,7 +31,8 @@ const onMapReady = (map) => {
             imageSrc="../assets/ospiti/andry.png"
             imageAlt="Foto di Andry the Hitmaker"
             buttonlabel="Prenota"
-            buttonUrl="x"
+            buttonUrl="https://www.eventbrite.it/e/biglietti-swipe-come-nasce-un-beat-by-andry-the-hitmaker-1343609535289
+"
         />
 
 

@@ -3,6 +3,7 @@ import Social from "./Social.vue";
 import Button from "../components/Button-giallo.vue";
 defineProps([
     'pageTitle', 'imageSrc', 'imageAlt', 'linkLable', 'linkUrl', 'buttonlabel', 'buttonUrl'
+
 ])
 </script setup>
 
