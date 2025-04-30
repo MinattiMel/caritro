@@ -10,7 +10,7 @@ import Footer from "../components/Footer.vue";
 import CardMaggio from "../components/Card-maggio.vue";
 import imgZerbi from "../assets/ospiti/rudy-zerbi-def.jpg";
 import imgShablo from "../assets/ospiti/maggio/shablo.png";
-import imgAndry from "../assets/ospiti/maggio/andry.png";
+import imgAndry from "../assets/ospiti/maggio/andry-new.png";
 import imgMasoli from "../assets/ospiti/maggio/masoli.png";
 import imgTripodi from "../assets/ospiti/maggio/tripodi.png";
 import imgNudo from "../assets/ospiti/maggio/nudo.png";
@@ -148,7 +148,7 @@ const onMapReady = (map) => {
 
                     <li class="flex items-start space-x-4">
                         <img class="w-[28px] lg:w-[38px]" src="../assets/orologio-viola.png" alt="Icona orologio">
-                        <p class="text-2xl lg:text-3xl">15</p>
+                        <p class="text-2xl lg:text-3xl">14:30</p>
                     </li>
 
                     <li class="flex items-start space-x-4">
