@@ -54,7 +54,7 @@ const onMapReady = (map) => {
                 </svg>
             </div>
             <div class="flex justify-center items-center">
-                <img class="w-[250px] pt-12" alt="foto di Andry the Hitmaker" src="../assets/ospiti/maggio/andry-02.png">
+                <img class="w-[250px] pt-12" alt="foto di Andry the Hitmaker" src="../assets/ospiti/maggio/andry-new.png">
             </div>
             <div class="col-span-2 text-right pt-6 text-white">
                 <p class="uppercase text-2xl whitespace-nowrap">Andry the Hitmaker</p>
@@ -106,11 +106,13 @@ const onMapReady = (map) => {
                         <p class="text-2xl lg:text-3xl">17 - 19</p>
                     </li>
 
-                    <li class="flex items-start space-x-4 lg:col-span-2">
+                    <li class="flex items-start space-x-4">
                         <img class="w-[28px] lg:w-[38px]" src="../assets/posizione-viola.png" alt="icona luogo">
-                        <div>
-                            <p class="text-2xl lg:text-3xl mb-6">Fondazione Caritro (Trento)</p>
-                        </div>
+                        <p class="text-2xl lg:text-3xl mb-6">Fondazione Caritro (Trento)</p>
+                    </li>
+                    <li class="flex items-start space-x-4">
+                        <a class="" href="https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"><img class="w-[30px] lg:w-[38px] -mt-2" src="../assets/biglietto-viola.png" alt="Icona biglietto cartaceo"></a>
+                        <p class="text-2xl -mt-4 lg:text-3xl mb-6">Ingresso su prenotazione</p>
                     </li>
 
                 </ul>
