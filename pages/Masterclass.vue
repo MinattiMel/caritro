@@ -8,6 +8,8 @@ import Footer from "../components/Footer.vue";
 import Header from "../components/Header.vue";
 import Beat from "../components/Beat.vue";
 
+import fotoAndy from "../assets/ospiti/andry.png";
+
 const zoom = ref(20)
 const center = ref([46.067131, 11.1226172])
 const markerPos = ref([46.0668766, 11.1226172])
@@ -28,7 +30,7 @@ const onMapReady = (map) => {
             pageTitle="Come nasce un beat - 23.05.25 - Fondazione Caritro"
             linkLable="Talk - 22.05.25 - Piazza Fiera"
             linkUrl="/"
-            imageSrc="../assets/ospiti/andry.png"
+            :imageSrc="fotoAndy"
             imageAlt="Foto di Andry the Hitmaker"
             buttonlabel="Prenota"
             buttonUrl="https://www.eventbrite.it/e/biglietti-swipe-come-nasce-un-beat-by-andry-the-hitmaker-1343609535289
@@ -56,7 +58,7 @@ const onMapReady = (map) => {
             </div>
             <div class="col-span-2 text-right pt-6 text-white">
                 <p class="uppercase text-2xl whitespace-nowrap">Andry the Hitmaker</p>
-                <p>Produttore musicale <br>  
+                <p>Produttore musicale <br>
                 <a class="underline" href="https://www.instagram.com/andrythehitmaker/">@andrythehitmaker</a>
                 </p>
             </div>

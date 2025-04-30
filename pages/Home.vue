@@ -15,6 +15,8 @@ import imgMasoli from "../assets/ospiti/maggio/masoli.png";
 import imgTripodi from "../assets/ospiti/maggio/tripodi.png";
 import imgNudo from "../assets/ospiti/maggio/nudo.png";
 
+import fotoOspitiMaggio from "../assets/foto_ospiti_maggio.png";
+
 const zoom = ref(20)
 const center = ref([46.065335, 11.123905])
 const markerPos = ref([46.065135, 11.123905])
@@ -35,7 +37,7 @@ const onMapReady = (map) => {
             pageTitle="Talk - 22.05.25 - Piazza Fiera"
             linkLable="Come nasce un beat - 23.05.25 - Fondazione Caritro"
             linkUrl="/masterclass"
-            imageSrc="../assets/foto_ospiti_maggio.png"
+            :imageSrc="fotoOspitiMaggio"
             imageAlt="Foto degli ospiti dell'evento"
         />
 
