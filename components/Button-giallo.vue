@@ -7,7 +7,7 @@ defineProps([
 <template>
 
     <a
-        class="bg-[#FFAE00] text-center w-96 px-4 py-2 text-3xl text-[#D13800] rounded-lg uppercase font-bold"
+        class="bg-[#FFAE00] inline-block text-center px-4 py-2 text-3xl text-[#D13800] rounded-lg uppercase font-bold"
         v-if="text"
         :target="target"
         :href="link"

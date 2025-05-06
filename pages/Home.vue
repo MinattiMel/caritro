@@ -34,7 +34,7 @@ const onMapReady = (map) => {
     <div class="bg-gradient-to-b from-[#ff7931] to-[#c63804] min-h-screen w-full">
 
         <Header
-            pageTitle="Talk - 22.05.25 - Piazza Fiera"
+            pageTitle="Talk - 22.05.25 - ore 14:30 - Piazza Fiera"
             linkLable="Come nasce un beat - 23.05.25 - Fondazione Caritro"
             linkUrl="/masterclass"
             :imageSrc="fotoOspitiMaggio"
@@ -132,8 +132,8 @@ const onMapReady = (map) => {
 
             </div>
         </div>
-        <div class="max-h-[400px] overflow-hidden">
-            <img src="../assets/foto_teatro.png" class="w-full" alt="Foto del teatro">
+        <div class="overflow-hidden">
+            <img src="../assets/palco.png" class="max-h-[550px] w-full object-cover object-center" alt="Foto del teatro">
         </div>
 
         <div class=" text-white flex flex-col items-center">

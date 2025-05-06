@@ -11,9 +11,9 @@ defineProps([
     <header class="bg-[url('./assets/sfondi/bg-arancione.png')] bg-no-repeat bg-cover bg-center text-white flex flex-col items-center relative">
             <div class="min-h-screen max-h-[1080px] flex flex-col">
 
-                <div class="flex flex-col items-start max-w-[1920px] w-full p-8 pt-24 pb-0 lg:grid grid-cols-12 grid-flow-row auto-rows-max gap-4">
+                <div class="flex flex-col items-start max-w-[1920px] w-full p-8 pt-18 lg:pt-24 pb-0 lg:grid grid-cols-12 grid-flow-row auto-rows-max gap-4">
 
-                    <svg class="max-w-lg lg:max-w-4xl lg:col-span-8 col-start-1 row-start-2 lg:-mt-24" viewBox="0 0 224 70">
+                    <svg class="max-w-lg lg:max-w-3xl lg:col-span-8 col-start-1 row-start-2 lg:-mt-36" viewBox="0 0 224 70">
                         <title>Swipe</title>
                         <clipPath id="logo-swipe">
                             <path d="M 0.59 0.179993 L 223.399998 0.179993 L 223.399998 69.600006 L 0.59 69.600006 Z"/>
@@ -31,25 +31,30 @@ defineProps([
                     </svg>
 
 
-                    <h1 class="flex items-center uppercase text-4xl lg:text-[52px] pt-2 pb-4 text-octree font-medium row-start-3 col-span-12">
+                    <h1 class="flex items-center uppercase text-2xl lg:text-[35px] pb-4 text-octree font-medium row-start-3 col-span-12">
                         <span class="sr-only">Swipe</span> Scorrendo tra le generazioni
                     </h1>
-                    <div v-if="buttonlabel && buttonUrl" class="row-start-1 col-end-11 mb-12">
-                        <Button
+                    <div class="flex flex-col gap-2 row-start-1 col-end-11 mb-12">
+                        <p class="text-2xl font-medium text-white uppercase text-nowrap"><img class="inline pb-2 mr-2 w-[14px] lg:w-[16px]" src="../assets/posizione-viola.png" alt="icona luogo"><span class="text-octree">Trento</span></p>
 
-                            class="text-4xl"
-                            :text="buttonlabel"
-                            :link="buttonUrl"
-                        />
-                    </div>
-                    <div v-else class="row-start-1 col-end-11">
-                    <p class="text-2xl font-medium text-white uppercase text-nowrap"><img class="inline pb-2 mr-2 w-[14px] lg:w-[16px]" src="../assets/posizione-viola.png" alt="icona luogo"><span class="text-octree">Trento</span><br>Ingresso libero</p>
+                        <div v-if="buttonlabel && buttonUrl">
+                            
+                            <Button
+
+                                class="text-4xl"
+                                :text="buttonlabel"
+                                :link="buttonUrl"
+                            />
+                        </div>
+                        <div v-else class="row-start-1 col-end-11">
+                        <p class="text-2xl font-medium text-white uppercase text-nowrap">Ingresso libero</p>
+                        </div>
                     </div>
 
                     <div class="row-start-4 col-span-12">
                         <div class="text-octree">
-                            <p class="text-[26px] leading-snug uppercase lg:text-4xl">{{ pageTitle }}</p>
-                            <p v-if="linkLable" class="group text-xl uppercase cursor-pointer lg:text-xl flex items-center underline underline-offset-2 decoration-octree">
+                            <p class="text-[26px] py-4 leading-snug uppercase font-bold lg:text-4xl">{{ pageTitle }}</p>
+                            <p v-if="linkLable" class="group mt-8 text-xl uppercase cursor-pointer lg:text-xl flex items-center underline underline-offset-2 decoration-octree">
                                 <img class="frecce px-2 transition-all duration-200" alt="frecce" src="../assets/frecce-sx.png">
                                 <RouterLink :to="linkUrl" class="group-hover:text-[22px] transition-all duration-200">{{ linkLable }}</RouterLink>
                                 <img class="frecce px-2 invisible md:visible transition-all duration-200" alt="frecce" src="../assets/frecce-dx.png">

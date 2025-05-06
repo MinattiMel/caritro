@@ -27,7 +27,7 @@ const onMapReady = (map) => {
     <div class="bg-gradient-to-b from-[#ff7931] to-[#c63804] min-h-screen w-full">
 
         <Header
-            pageTitle="Come nasce un beat - 23.05.25 - Fondazione Caritro"
+            pageTitle="Come nasce un beat - 23.05.25 - ore 17 - Fondazione Caritro"
             linkLable="Talk - 22.05.25 - Piazza Fiera"
             linkUrl="/"
             :imageSrc="fotoAndy"
@@ -44,7 +44,7 @@ const onMapReady = (map) => {
         <div class="max-w-[1920px] px-8 lg:px-36">
             <h2 class="text-4xl lg:text-7xl text-octree mb-4 uppercase">Come nasce un beat</h2>
             <div class="lg:pb-[35px] pt-[37px]">
-                <p class="lg:w-[550px]">Scopri il processo creativo dietro la produzione musicale, guidato da un <strong class="black">ospite speciale</strong> che mostrerà ogni passo, dall'idea al risultato finale.</p>
+                <p class="lg:w-[550px] lg:text-xl">Scopri il processo creativo dietro la produzione musicale, guidato da un <strong class="black">ospite speciale</strong> che mostrerà ogni passo, dall'idea al risultato finale.</p>
             </div>
             <div class="grid grid-cols-2 gap-4 md:hidden">
             <div class="flex justify-center items-center">
@@ -69,14 +69,14 @@ const onMapReady = (map) => {
             <ul class="list-disc list-inside">
                 <li class="max-w-[1920px] px-8 lg:px-36 pb-[35px] pt-[37px]">
                     <h3 class="text-xl lg:text-4xl font-medium inline-block">Pratica e sperimenta</h3>
-                    <p class="lg:w-[550px] pl-6">
+                    <p class="lg:w-[550px] pl-6 lg:text-xl">
                     Non solo teoria: avrai l’opportunità di<strong class="black"> metterti in gioco </strong>
                     e creare, esplorando il lato pratico del beatmaking.
                     </p>
                 </li>
                 <li class="max-w-[1920px] px-8 lg:px-36 pb-[35px] pt-[37px]">
                     <h3 class="text-xl lg:text-4xl font-medium inline-block">Vivi un'esperienza unica</h3>
-                    <p class="lg:w-[510px] pl-6">
+                    <p class="lg:w-[510px] lg:text-xl pl-6">
                     Porta la tua curiosità e<strong class="black"> lasciati ispirare </strong>
                     dal potenziale creativo di questo mondo.
                     </p>
@@ -85,8 +85,8 @@ const onMapReady = (map) => {
 
         </div>
 
-        <div class="max-h-[400px] overflow-hidden">
-            <img src="../assets/foto_teatro.png" class="w-full" alt="Foto del teatro">
+        <div class=" overflow-hidden">
+            <img src="../assets/palco.png" class="max-h-[550px] w-full object-cover object-center" alt="Foto del teatro">
         </div>
 
         <div class=" text-white flex flex-col items-center">
