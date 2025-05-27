@@ -5,11 +5,14 @@ import App from "./App.vue";
 import Home from "./pages/Home.vue";
 import ScorrendoTraLeGenerazioni from "./pages/ScorrendoTraLeGenerazioni.vue";
 import Masterclass from "./pages/Masterclass.vue";
+import Landingpage from "./pages/Landingpage.vue";
+
 
 // definisco le routes e le collego ad una componente
 const routes = [
     {path: '/scorrendo-tra-le-generazioni', component: ScorrendoTraLeGenerazioni},
     {path: '/masterclass', component: Masterclass},
+    {path: '/landingpage', component: Landingpage},
     {path: '/', component: Home},
     //{path: '/', component: Home}
 ]
