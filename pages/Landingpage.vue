@@ -57,27 +57,27 @@ import Social from "../components/Social.vue";
                 </div>
         </header>
 
-        <div class="flex flex-col items-center pt-[64px] lg:pt-[112px] lg:pb-[150px] max-w-[1920px] bg-[#694197]">
-            <h1 class="text-white uppercase text-[32px] font-bold text-left pl-[9%] md:pl-0 lg:text-4xl">Superiamo le barriere</h1>
-            <p class="text-white text-center text-base lg:text-xl pt-[36px] w-[70%]">SWIPE è uno spazio autentico, ideato da Fondazione Caritro e Sideout, per connettere le generazioni!</p>
+        <div class="flex flex-col items-left pt-[64px] pl-12 pb-20 lg:pt-[112px] lg:pl-40 lg:pb-[150px] max-w-[1920px] bg-[#694197]">
+            <h1 class="text-white uppercase text-[32px] font-bold text-left md:pl-0 lg:text-6xl lg:pb-24">Superiamo le barriere</h1>
+            <p class="text-white text-base text-left w-[70%] lg:text-2xl lg:w-[60%]">SWIPE è uno spazio autentico, ideato da Fondazione Caritro e Sideout, per connettere le generazioni!</p>
         </div>
 
         
-        <div class="flex flex-col items-center pt-[64px] pb-[64px] lg:pt-[112px] lg:pb-[128px] max-w-[1920px] w-full bg-[#694197]">
-            <h1 class="text-white uppercase text-[32px] font-bold lg:text-4xl">Edizioni passate</h1>
+        <div class="flex flex-col items-left pt-[32px] pb-[64px] lg:pt-[112px] lg:pl-40 lg:pb-[128px] max-w-[1920px] w-full bg-[#694197]">
+            <h1 class="text-white uppercase text-[32px] font-bold pl-12 lg:text-6xl lg:pb-24">Edizioni passate</h1>
   
                 <div class="mt-12 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 md:w-4/5 place-items-center">
                     <div>
                         <img class="block pb-12 md:hidden" alt="ateprima evento passato swipe talk di maggio" src="../assets/swipe-maggio-mobile.png"/>
-                        <img class="hidden md:block opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300" alt="Swipe Maggio" src="../assets/swipe-maggio-desktop.png" />
+                        <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300" alt="Swipe Maggio" src="../assets/swipe-maggio-desktop.png" />
                     </div>
                     <div>
                         <img class="block pb-12 md:hidden" alt="ateprima evento passato swipe masterclass come nasce un beat di maggio" src="../assets/swipe-masterclass-maggio-mobile.png">
-                        <img class="hidden md:block opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300" alt="Swipe Masterclass" src="../assets/swipe-masterclass-maggio-desktop.png" />
+                        <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300" alt="Swipe Masterclass" src="../assets/swipe-masterclass-maggio-desktop.png" />
                     </div>
                     <div>
                         <img class="block pb-12 md:hidden" alt="ateprima evento passato swipe di marzo" src="../assets/swipe-marzo-mobile.png">
-                        <img class="hidden md:block opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300" alt="Swipe Marzo" src="../assets/swipe-marzo-desktop.png" />
+                        <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300" alt="Swipe Marzo" src="../assets/swipe-marzo-desktop.png" />
                     </div>
                     <div></div>
                 </div>
