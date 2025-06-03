@@ -7,6 +7,7 @@ import {LMap, LTileLayer} from "@vue-leaflet/vue-leaflet";
 import Footer from "../components/Footer.vue";
 import Header from "../components/Header.vue";
 import Beat from "../components/Beat.vue";
+import ImageSlider from "../components/ImageSlider.vue";
 
 import fotoAndry from "../assets/ospiti/maggio/panoramica-ospite-andry.png";
 
@@ -20,21 +21,25 @@ const onMapReady = (map) => {
     marker.bindPopup('<b>Fondazione Caritro</b><br />Via Calepina, 1<br />38122 Trento TN<br /><br /><a target="_blank" href="' + link + '">Indicazioni stradali</a>').openPopup();
 };
 
+defineProps([
+    'imageSliderURL', 'imageSliderAlt'
+    
+
+])
+
 </script>
 
 <template>
 
     <div class="bg-gradient-to-b from-[#ff7931] to-[#c63804] min-h-screen w-full">
 
+        <!--quando presente anche button nell'header-->
         <Header
             pageTitle="Come nasce un beat - 23.05.25 - ore 17 - Fondazione Caritro"
             linkLable="Talk - 22.05.25 - Piazza Fiera"
             linkUrl="/"
             :imageSrc="fotoAndry"
             imageAlt="Foto di Andry the Hitmaker"
-            buttonlabel="Prenota"
-            buttonUrl="https://www.eventbrite.it/e/biglietti-swipe-come-nasce-un-beat-by-andry-the-hitmaker-1343609535289"
-            buttonVariant="orange"
 
         />
 
@@ -84,10 +89,21 @@ const onMapReady = (map) => {
                 </li>
             </ul>
 
-        </div>
+            <ImageSlider
+                :imageSliderURL="[
+                    '../assets/foto-evento-maggio-masterclass/masterclass-01.jpg',
+                    '../assets/foto-evento-maggio-masterclass/masterclass-02.jpg',
+                    '../assets/foto-evento-maggio-masterclass/masterclass-03.jpg',
+                    '../assets/foto-evento-maggio-masterclass/masterclass-04.jpg',
+                ]"
+                :imageSliderALT="[
+                    'Panoramica degli iscritti',
+                    'Andry The Hitmaker in azione',
+                    'Il programma di beatmaking',
+                    'Andry The Hitmaker al lavoro',
+                ]"
+            />
 
-        <div class=" overflow-hidden">
-            <img src="../assets/palco.png" class="max-h-[550px] w-full object-cover object-center" alt="Foto del teatro">
         </div>
 
         <div class=" text-white flex flex-col items-center">

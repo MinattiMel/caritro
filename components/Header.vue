@@ -2,7 +2,7 @@
 import Social from "./Social.vue";
 import Button from "../components/Button.vue";
 defineProps([
-    'pageTitle', 'imageSrc', 'imageAlt', 'linkLable', 'linkUrl', 'buttonlabel', 'buttonUrl', 'buttonVariant'
+    'pageTitle', 'imageSrc', 'imageAlt', 'linkLable', 'linkUrl', 'buttonlabel', 'buttonUrl'
     
 
 ])
@@ -38,8 +38,8 @@ defineProps([
                     <div class="flex flex-col gap-2 row-start-1 col-end-11 mb-12">
                         <p class="text-2xl font-medium text-white uppercase text-nowrap"><img class="inline pb-2 mr-2 w-[14px] lg:w-[16px]" src="../assets/icone-maggio/posizione-viola.png" alt="icona luogo"><span class="text-octree">Trento</span></p>
 
+                        <!--quando presente-->
                         <div v-if="buttonlabel && buttonUrl">
-                            
                             <Button
 
                                 class="text-4xl"
@@ -47,9 +47,6 @@ defineProps([
                                 :link="buttonUrl"
                                 :variant="buttonVariant"
                             />
-                        </div>
-                        <div v-else class="row-start-1 col-end-11">
-                        <p class="text-2xl font-medium text-white uppercase text-nowrap">Ingresso libero</p>
                         </div>
                     </div>
 

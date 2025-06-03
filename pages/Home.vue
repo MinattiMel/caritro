@@ -14,6 +14,7 @@ import imgAndry from "../assets/ospiti/maggio/andry-new.png";
 import imgMasoli from "../assets/ospiti/maggio/masoli.png";
 import imgTripodi from "../assets/ospiti/maggio/tripodi.png";
 import imgNudo from "../assets/ospiti/maggio/nudo.png";
+import ImageSlider from "../components/ImageSlider.vue";
 
 import fotoOspitiMaggio from "../assets/ospiti/maggio/panoramica-ospiti-maggio.png";
 
@@ -26,6 +27,12 @@ const onMapReady = (map) => {
     const marker = L.marker(markerPos.value).addTo(map);
     marker.bindPopup('<b>Piazza Fiera: Lounge fuori Festival</b><br />Piazza Fiera<br />38122 Trento TN<br /><br /><a target="_blank" href="' + link + '">Indicazioni stradali</a>').openPopup();
 };
+
+defineProps([
+    'imageSliderURL', 'imageSliderAlt'
+    
+
+])
 
 </script>
 
@@ -127,9 +134,20 @@ const onMapReady = (map) => {
                 </p>
 
             </div>
-        </div>
-        <div class="overflow-hidden">
-            <img src="../assets/palco.png" class="max-h-[550px] w-full object-cover object-center" alt="Foto del teatro">
+            <ImageSlider
+                :imageSliderURL="[
+                    '../assets/foto-evento-maggio-talk/talk-01.jpg',
+                    '../assets/foto-evento-maggio-talk/talk-02.jpg',
+                    '../assets/foto-evento-maggio-talk/talk-03.jpg',
+                    '../assets/foto-evento-maggio-talk/talk-04.jpg',
+                ]"
+                :imageSliderALT="[
+                    'Foto del pubblico',
+                    'Michele Nudo',
+                    'Shablo',
+                    'Marco Masoli',
+                ]"
+            />
         </div>
 
         <div class=" text-white flex flex-col items-center">

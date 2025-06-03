@@ -23,3 +23,33 @@ const router = createRouter({
 })
 
 createApp(App).use(router).mount('#app');
+
+
+
+// slider per immagini
+const slider = document.getElementById('slider');
+const totalSlides = slider.children.length;
+let index = 0;
+
+document.getElementById('next').addEventListener('click', () => {
+  index = (index + 1) % totalSlides;
+  updateSlider();
+});
+
+document.getElementById('prev').addEventListener('click', () => {
+  index = (index - 1 + totalSlides) % totalSlides;
+  updateSlider();
+});
+
+function updateSlider() {
+  slider.style.transform = `translateX(-${index * 100}%)`;
+}
+
+
+
+
+
+
+
+
+

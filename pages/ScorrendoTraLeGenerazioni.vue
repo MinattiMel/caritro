@@ -10,6 +10,13 @@ import imgBuccolieri from "../assets/ospiti/marzo/ciro-buccolieri.jpg";
 import imgValorzi from "../assets/ospiti/marzo/serena-valorzi.jpg";
 import Social from "../components/Social.vue";
 import Button from "../components/Button.vue";
+import ImageSlider from "../components/ImageSlider.vue";
+
+defineProps([
+    'imageSliderURL', 'imageSliderAlt'
+    
+
+])
 
 </script>
 
@@ -51,13 +58,11 @@ import Button from "../components/Button.vue";
                     </div>
 
                     <div class="row-start-1 col-end-11">
+                        <!--quando presente-->
                         <Button
-                            class="text-4xl"
-                            text="Prenota"
-                            link=" https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"
-                            buttonVariant="default"
                         />
                     </div>
+
 
                     <div class="col-span-3 col-start-1 row-start-1 pt-16 lg:pt-0">
                         <Social/>
@@ -174,11 +179,29 @@ import Button from "../components/Button.vue";
                 </p>
 
             </div>
-        </div>
 
+            <ImageSlider
+                :imageSliderURL="[
+                    '../assets/foto-evento-gennaio/swipe-gennaio-01.jpg',
+                    '../assets/foto-evento-gennaio/swipe-gennaio-02.jpg',
+                    '../assets/foto-evento-gennaio/swipe-gennaio-03.jpg',
+                    '../assets/foto-evento-gennaio/swipe-gennaio-04.jpg',
+                    '../assets/foto-evento-gennaio/swipe-gennaio-05.jpg',
+                ]"
+                :imageSliderALT="[
+                    'Palco con gli ospiti',
+                    'Serena Valorzi',
+                    'Il Rosso',
+                    'Kid Yugi',
+                    'Ciro Buccolieri',
+                ]"
+            />
+        </div>
+        <!--foto singola o slider quando è un evento passato
         <div class="max-h-[400px] overflow-hidden">
             <img src="../assets/foto_teatro.png" class="w-full" alt="Foto del teatro">
         </div>
+        -->
 
         <div class="bg-[#d90a72] text-white flex flex-col items-center">
             <div class="max-w-[1920px] w-full  px-8 pt-24 mb-12 lg:pt-28 lg:px-36">
@@ -188,17 +211,17 @@ import Button from "../components/Button.vue";
                 <ul class="grid grid-cols-1 lg:grid-cols-2 lg:pl-16 gap-8">
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[38px]" src="../assets/icone-marzo/calendario_icona.png" alt="Icona calendario">
+                        <img class="w-[38px]" src="../assets/icone-gennaio/calendario_icona.png" alt="Icona calendario">
                         <p class="text-2xl lg:text-3xl">20.01.2025</p>
                     </li>
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[38px]" src="../assets/icone-marzo/orologio_icona.png" alt="Icona orologio">
+                        <img class="w-[38px]" src="../assets/icone-gennaio/orologio_icona.png" alt="Icona orologio">
                         <p class="text-2xl lg:text-3xl">17</p>
                     </li>
 
                     <li class="flex items-start space-x-4 lg:col-span-2">
-                        <a class="" href="https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"><img class="w-[40px] min-w-[40px] h-auto transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg hover:cursor-pointer" src="../assets/icone-marzo/biglietto_icona.png" alt="Icona biglietto cartaceo"></a>
+                        <a class="" href="https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"><img class="w-[40px] min-w-[40px] h-auto transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg hover:cursor-pointer" src="../assets/icone-gennaio/biglietto_icona.png" alt="Icona biglietto cartaceo"></a>
                         <div>
                             <p class="text-2xl lg:text-3xl mb-6">Biglietti dal 16.12.2024</p>
                             <p class="text-xl leading-7">
@@ -208,7 +231,7 @@ import Button from "../components/Button.vue";
                     </li>
 
                     <li class="flex items-start space-x-4 lg:col-span-2">
-                        <img class="w-[40px]" src="../assets/icone-marzo/luogo_icona.png" alt="icona luogo">
+                        <img class="w-[40px]" src="../assets/icone-gennaio/luogo_icona.png" alt="icona luogo">
                         <div>
                             <p class="text-2xl lg:text-3xl mb-6">Auditorium S. Chiara Trento</p>
                             <p class="text-xl leading-7">
