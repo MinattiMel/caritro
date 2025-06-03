@@ -3,11 +3,11 @@
 import Footer from "../components/Footer.vue";
 import Card from "../components/Card.vue";
 import imgZerbi from "../assets/ospiti/rudy-zerbi.jpg";
-import imgYugi from "../assets/ospiti/marzo/kid-yugi.jpg";
-import imgIlRosso from "../assets/ospiti/marzo/il-rosso.jpg";
-import imgRicciardi from "../assets/ospiti/marzo/livio-ricciardi.jpg";
-import imgBuccolieri from "../assets/ospiti/marzo/ciro-buccolieri.jpg";
-import imgValorzi from "../assets/ospiti/marzo/serena-valorzi.jpg";
+import imgYugi from "../assets/ospiti/gennaio/kid-yugi.jpg";
+import imgIlRosso from "../assets/ospiti/gennaio/il-rosso.jpg";
+import imgRicciardi from "../assets/ospiti/gennaio/livio-ricciardi.jpg";
+import imgBuccolieri from "../assets/ospiti/gennaio/ciro-buccolieri.jpg";
+import imgValorzi from "../assets/ospiti/gennaio/serena-valorzi.jpg";
 import Social from "../components/Social.vue";
 import Button from "../components/Button.vue";
 import ImageSlider from "../components/ImageSlider.vue";
@@ -70,7 +70,7 @@ defineProps([
 
                 </div>
 
-                <img src="../assets/ospiti/marzo/panoramica-ospiti-marzo.png" class="hidden lg:block w-full mt-auto" alt="Foto degli ospiti dell'evento">
+                <img src="../assets/ospiti/gennaio/panoramica-ospiti-gennaio.png" class="hidden lg:block w-full mt-auto" alt="Foto degli ospiti dell'evento">
 
             </div>
 
@@ -152,7 +152,7 @@ defineProps([
         </div>
 
 
-        <div class="bg-[#2e0059] text-white flex flex-col items-center pb-32">
+        <div class="bg-[#2e0059] text-white flex flex-col items-center">
             <div class="max-w-[1920px] w-full pt-24 pb-28 lg:pt-28 lg:pb-32 px-8 lg:px-36">
 
                 <h2 class="text-4xl lg:text-7xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-8 lg:mb-16 uppercase">I temi</h2>
@@ -181,8 +181,9 @@ defineProps([
             </div>
 
             <ImageSlider
-                :imageSliderURL="['../assets/foto-evento-gennaio/swipe-gennaio-01.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-02.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-03.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-04.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-05.jpg']"
-                :imageSliderALT="['Palco con gli ospiti', 'Serena Valorzi sul palco', 'Il Rosso sul palco', 'Kid Yugi sul palco', 'Ciro Buccolieri sul palco']"
+                :imageSliderURL="['../assets/foto-evento-gennaio/swipe-gennaio-01.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-02.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-03.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-04.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-05.jpg', '../assets/foto-evento-gennaio/video-finale-gennaio.png']"
+                :imageSliderALT="['Palco con gli ospiti', 'Serena Valorzi sul palco', 'Il Rosso sul palco', 'Kid Yugi sul palco', 'Ciro Buccolieri sul palco', 'Link al video finale']"
+                :imageSliderLink="['', '', '', '', '', 'https://youtu.be/lZfIpMa4J9Y?si=EQpEo-gjDguf5ILF']"
             />
 
         </div>

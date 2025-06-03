@@ -8,7 +8,7 @@ const isMain = props.main
 
 <template>
     <div
-        class=" py-8 flex grow-0 gap-2 text-left text-white items-center"
+        class="py-8 flex grow-0 gap-2 text-left text-white items-center"
         :class="{ 'flex-row-reverse': isReverse, 'lg:flex-row': isReverse, 'text-right': isReverse, 'lg:text-left': isReverse }"
     >
 
