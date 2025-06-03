@@ -2,12 +2,12 @@
 
 import Footer from "../components/Footer.vue";
 import Card from "../components/Card.vue";
-import imgZerbi from "../assets/ospiti/rudy-zerbi-def.jpg";
-import imgYugi from "../assets/ospiti/kid-yugi-def.jpg";
-import imgIlRosso from "../assets/ospiti/il-rosso.jpg";
-import imgRicciardi from "../assets/ospiti/livio-ricciardi.jpg";
-import imgBuccolieri from "../assets/ospiti/ciro-buccolieri-def.jpg";
-import imgValorzi from "../assets/ospiti/serena-valorzi-def.jpg";
+import imgZerbi from "../assets/ospiti/rudy-zerbi.jpg";
+import imgYugi from "../assets/ospiti/marzo/kid-yugi.jpg";
+import imgIlRosso from "../assets/ospiti/marzo/il-rosso.jpg";
+import imgRicciardi from "../assets/ospiti/marzo/livio-ricciardi.jpg";
+import imgBuccolieri from "../assets/ospiti/marzo/ciro-buccolieri.jpg";
+import imgValorzi from "../assets/ospiti/marzo/serena-valorzi.jpg";
 import Social from "../components/Social.vue";
 import Button from "../components/Button.vue";
 
@@ -17,7 +17,7 @@ import Button from "../components/Button.vue";
 
     <div class="">
 
-        <header class="bg-[url('/assets/bg.png')] bg-no-repeat bg-cover bg-center text-white flex flex-col items-center relative">
+        <header class="bg-[url('/assets/sfondi/bg-viola.png')] bg-no-repeat bg-cover bg-center text-white flex flex-col items-center relative">
             <div class="min-h-screen max-h-[1080px] flex flex-col">
 
                 <div class="flex flex-col items-start max-w-[1920px] w-full p-8 pt-24 pb-0 lg:grid grid-cols-12 grid-flow-row auto-rows-max gap-8">
@@ -64,7 +64,7 @@ import Button from "../components/Button.vue";
 
                 </div>
 
-                <img src="../assets/ospiti/panoramica-ospiti.png" class="hidden lg:block w-full mt-auto" alt="Foto degli ospiti dell'evento">
+                <img src="../assets/ospiti/marzo/panoramica-ospiti-marzo.png" class="hidden lg:block w-full mt-auto" alt="Foto degli ospiti dell'evento">
 
             </div>
 
@@ -187,17 +187,17 @@ import Button from "../components/Button.vue";
                 <ul class="grid grid-cols-1 lg:grid-cols-2 lg:pl-16 gap-8">
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[38px]" src="../assets/calendario_icona.png" alt="Icona calendario">
+                        <img class="w-[38px]" src="../assets/icone-marzo/calendario_icona.png" alt="Icona calendario">
                         <p class="text-2xl lg:text-3xl">20.01.2025</p>
                     </li>
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[38px]" src="../assets/orologio_icona.png" alt="Icona orologio">
+                        <img class="w-[38px]" src="../assets/icone-marzo/orologio_icona.png" alt="Icona orologio">
                         <p class="text-2xl lg:text-3xl">17</p>
                     </li>
 
                     <li class="flex items-start space-x-4 lg:col-span-2">
-                        <a class="" href="https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"><img class="w-[40px] min-w-[40px] h-auto transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg hover:cursor-pointer" src="../assets/biglietto_icona.png" alt="Icona biglietto cartaceo"></a>
+                        <a class="" href="https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"><img class="w-[40px] min-w-[40px] h-auto transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg hover:cursor-pointer" src="../assets/icone-marzo/biglietto_icona.png" alt="Icona biglietto cartaceo"></a>
                         <div>
                             <p class="text-2xl lg:text-3xl mb-6">Biglietti dal 16.12.2024</p>
                             <p class="text-xl leading-7">
@@ -207,7 +207,7 @@ import Button from "../components/Button.vue";
                     </li>
 
                     <li class="flex items-start space-x-4 lg:col-span-2">
-                        <img class="w-[40px]" src="../assets/luogo_icona.png" alt="icona luogo">
+                        <img class="w-[40px]" src="../assets/icone-marzo/luogo_icona.png" alt="icona luogo">
                         <div>
                             <p class="text-2xl lg:text-3xl mb-6">Auditorium S. Chiara Trento</p>
                             <p class="text-xl leading-7">

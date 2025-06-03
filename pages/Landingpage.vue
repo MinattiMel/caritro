@@ -39,16 +39,6 @@ import Social from "../components/Social.vue";
                     </div>
                     </div>
 
-                <!--
-                    <h1 class="flex items-center uppercase text-2xl pb-4 text-white font-medium lg:text-[43px] lg:row-start-3 lg:col-span-12">
-                        <span class="sr-only">Swipe</span> Scorrendo tra le generazioni
-                    </h1>
-
-                    <div class="flex items-center lg:col-span-8 lg:col-start-7 lg:row-start-2 lg:ml-12">
-                        <img class="h-[46px] w-[46px] lg:h-[180px] lg:w-[202px]" alt="frecce che indicano verso destra" src="../assets/freccie-home.png">
-                    </div>
-                    -->
-
                     <div class="col-span-3 col-start-1 lg:row-start-1 pt-16 lg:pt-0">
                         <Social/>
                     </div>
@@ -68,26 +58,20 @@ import Social from "../components/Social.vue";
   
                 <div class="mt-12 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 md:w-4/5 place-items-center">
                     <div>
-                        <img class="block pb-12 md:hidden" alt="ateprima evento passato swipe talk di maggio" src="../assets/swipe-maggio-mobile.png"/>
-                        <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300" alt="Swipe Maggio" src="../assets/swipe-maggio-desktop.png" />
+                        <img class="block pb-12 md:hidden" alt="ateprima evento passato swipe talk di maggio" src="../assets/swipe-contenitore-card/swipe-maggio-mobile.png"/>
+                        <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300" alt="Swipe Maggio" src="../assets/swipe-contenitore-card/swipe-maggio-desktop.png" />
                     </div>
                     <div>
-                        <img class="block pb-12 md:hidden" alt="ateprima evento passato swipe masterclass come nasce un beat di maggio" src="../assets/swipe-masterclass-maggio-mobile.png">
-                        <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300" alt="Swipe Masterclass" src="../assets/swipe-masterclass-maggio-desktop.png" />
+                        <img class="block pb-12 md:hidden" alt="ateprima evento passato swipe masterclass come nasce un beat di maggio" src="../assets/swipe-contenitore-card/swipe-masterclass-maggio-mobile.png">
+                        <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300" alt="Swipe Masterclass" src="../assets/swipe-contenitore-card/swipe-masterclass-maggio-desktop.png" />
                     </div>
                     <div>
-                        <img class="block pb-12 md:hidden" alt="ateprima evento passato swipe di marzo" src="../assets/swipe-marzo-mobile.png">
-                        <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300" alt="Swipe Marzo" src="../assets/swipe-marzo-desktop.png" />
+                        <img class="block pb-12 md:hidden" alt="ateprima evento passato swipe di marzo" src="../assets/swipe-contenitore-card/swipe-marzo-mobile.png">
+                        <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300" alt="Swipe Marzo" src="../assets/swipe-contenitore-card/swipe-marzo-desktop.png" />
                     </div>
                     <div></div>
                 </div>
         </div>
-
-           
-            
-            
-            
-      
 
         <Footer
             main="true"

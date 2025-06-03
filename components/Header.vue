@@ -35,7 +35,7 @@ defineProps([
                         <span class="sr-only">Swipe</span> Scorrendo tra le generazioni
                     </h1>
                     <div class="flex flex-col gap-2 row-start-1 col-end-11 mb-12">
-                        <p class="text-2xl font-medium text-white uppercase text-nowrap"><img class="inline pb-2 mr-2 w-[14px] lg:w-[16px]" src="../assets/posizione-viola.png" alt="icona luogo"><span class="text-octree">Trento</span></p>
+                        <p class="text-2xl font-medium text-white uppercase text-nowrap"><img class="inline pb-2 mr-2 w-[14px] lg:w-[16px]" src="../assets/icone-maggio/posizione-viola.png" alt="icona luogo"><span class="text-octree">Trento</span></p>
 
                         <div v-if="buttonlabel && buttonUrl">
                             
