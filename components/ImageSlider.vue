@@ -36,7 +36,7 @@ function closeModal() {
       :autoplay="{ delay: 4000, disableOnInteraction: false }"
       :keyboard="{ enabled: true }"
       pagination
-      class="w-full h-[650px]"
+      class="w-full h-[405px] lg:h-[650px]"
     >
       <SwiperSlide
         v-for="(src, idx) in imageSliderURL"
@@ -47,7 +47,7 @@ function closeModal() {
           <img
             :src="src"
             :alt="imageSliderALT[idx] || `Immagine ${idx + 1}`"
-            class="object-contain max-h-[600px] max-w-[90%] rounded-2xl cursor-pointer transition-transform duration-200 hover:scale-105"
+            class="object-contain max-h-[400px] lg:max-h-[600px] max-w-[90%] rounded-2xl cursor-pointer transition-transform duration-200 hover:scale-105"
             @click="openImage(src)"
           />
         </div>

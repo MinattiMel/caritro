@@ -118,7 +118,7 @@ defineProps([
             </div>
         </div>
         <div class="text-white flex flex-col items-center">
-            <div class="max-w-[1920px] w-full pt-24 pb-28 lg:pt-28 lg:pb-32 px-8 lg:px-36">
+            <div class="max-w-[1920px] w-full pt-24 pb-12 lg:pt-28 lg:pb-32 px-8 lg:px-36">
 
                 <h2 class="text-4xl lg:text-7xl font-regular text-octree mb-8 lg:mb-16 uppercase">I temi</h2>
                 <ul class="list-disc pl-5 space-y-0 text-xl uppercase lg:columns-2 lg:text-2xl mb-28">

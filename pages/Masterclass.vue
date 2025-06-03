@@ -45,7 +45,7 @@ defineProps([
 
 
 
-        <div class="pt-24 pb-28 lg:pt-28 lg:pb-32 text-white">
+        <div class="pt-24 pb-12 lg:pt-28 lg:pb-32 text-white">
 
         <div class="max-w-[1920px] px-8 lg:px-36">
             <h2 class="text-4xl lg:text-7xl text-octree mb-4 uppercase">Come nasce un beat</h2>
@@ -72,7 +72,7 @@ defineProps([
         </div>
 
             <Beat/>
-            <ul class="list-disc list-inside">
+            <ul class="list-disc list-inside lg:pb-28">
                 <li class="max-w-[1920px] px-8 lg:px-36 pb-[35px] pt-[37px]">
                     <h3 class="text-xl lg:text-4xl font-medium inline-block">Pratica e sperimenta</h3>
                     <p class="lg:w-[550px] pl-6 lg:text-xl">
@@ -104,21 +104,21 @@ defineProps([
                 <ul class="grid grid-cols-1 lg:grid-cols-2 lg:pl-16 gap-8">
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[28px] lg:w-[38px]" src="../assets/calendario-viola.png" alt="Icona calendario">
+                        <img class="w-[28px] lg:w-[38px]" src="../assets/icone-maggio/calendario-viola.png" alt="Icona calendario">
                         <p class="text-2xl lg:text-3xl">23.05.2025</p>
                     </li>
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[28px] lg:w-[38px]" src="../assets/orologio-viola.png" alt="Icona orologio">
+                        <img class="w-[28px] lg:w-[38px]" src="../assets/icone-maggio/orologio-viola.png" alt="Icona orologio">
                         <p class="text-2xl lg:text-3xl">17 - 19</p>
                     </li>
 
                     <li class="flex items-start space-x-4">
-                        <img class="w-[28px] lg:w-[38px]" src="../assets/posizione-viola.png" alt="icona luogo">
+                        <img class="w-[28px] lg:w-[38px]" src="../assets/icone-maggio/posizione-viola.png" alt="icona luogo">
                         <p class="text-2xl lg:text-3xl mb-6">Fondazione Caritro (Trento)</p>
                     </li>
                     <li class="flex items-start space-x-4">
-                        <a class="" href="https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"><img class="w-[30px] lg:w-[38px] -mt-2" src="../assets/biglietto-viola.png" alt="Icona biglietto cartaceo"></a>
+                        <a class="" href="https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"><img class="w-[30px] lg:w-[38px] -mt-2" src="../assets/icone-maggio/biglietto-viola.png" alt="Icona biglietto cartaceo"></a>
                         <p class="text-2xl -mt-4 lg:text-3xl mb-6">Ingresso su prenotazione</p>
                     </li>
 
