@@ -55,6 +55,7 @@ import Button from "../components/Button.vue";
                             class="text-4xl"
                             text="Prenota"
                             link=" https://www.eventbrite.it/e/1096506202569?aff=oddtdtcreator"
+                            buttonVariant="default"
                         />
                     </div>
 

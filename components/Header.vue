@@ -1,8 +1,9 @@
 <script setup>
 import Social from "./Social.vue";
-import Button from "../components/Button-giallo.vue";
+import Button from "../components/Button.vue";
 defineProps([
-    'pageTitle', 'imageSrc', 'imageAlt', 'linkLable', 'linkUrl', 'buttonlabel', 'buttonUrl'
+    'pageTitle', 'imageSrc', 'imageAlt', 'linkLable', 'linkUrl', 'buttonlabel', 'buttonUrl', 'buttonVariant'
+    
 
 ])
 </script setup>
@@ -44,6 +45,7 @@ defineProps([
                                 class="text-4xl"
                                 :text="buttonlabel"
                                 :link="buttonUrl"
+                                :variant="buttonVariant"
                             />
                         </div>
                         <div v-else class="row-start-1 col-end-11">

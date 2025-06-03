@@ -1,19 +1,27 @@
 <script setup>
-defineProps([
-    'link','text','target'
-])
+defineProps({
+  link: String,
+  text: String,
+  target: String,
+  variant: {
+    type: String,
+    default: 'default' // può essere 'default' o 'orange'
+  }
+})
 </script>
 
 <template>
-
-    <a
-        class="bg-secondary shadow-[0_0_4px_1px_rgba(255,255,255,1)] text-center w-96 px-4 py-2 text-3xl text-tertiary rounded-lg uppercase font-bold"
-        v-if="text"
-        :target="target"
-        :href="link"
-   >
-        {{ text }}
-    </a>
-
+  <a
+    v-if="text"
+    :href="link"
+    :target="target"
+    :class="[
+      'inline-block text-center px-4 py-2 text-3xl rounded-lg uppercase font-bold',
+      variant === 'default'
+        ? 'bg-secondary text-tertiary shadow-[0_0_4px_1px_rgba(255,255,255,1)]'
+        : 'bg-[#FFAE00] text-[#D13800]'
+    ]"
+  >
+    {{ text }}
+  </a>
 </template>
-
