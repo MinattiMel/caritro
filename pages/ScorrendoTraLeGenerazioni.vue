@@ -152,7 +152,7 @@ defineProps([
         </div>
 
 
-        <div class="bg-[#2e0059] text-white flex flex-col items-center">
+        <div class="bg-[#2e0059] text-white flex flex-col items-center pb-32">
             <div class="max-w-[1920px] w-full pt-24 pb-28 lg:pt-28 lg:pb-32 px-8 lg:px-36">
 
                 <h2 class="text-4xl lg:text-7xl font-regular text-[#07fbfb] [text-shadow:0px_0px_8px_#07fbfb] mb-8 lg:mb-16 uppercase">I temi</h2>
@@ -181,21 +181,10 @@ defineProps([
             </div>
 
             <ImageSlider
-                :imageSliderURL="[
-                    '../assets/foto-evento-gennaio/swipe-gennaio-01.jpg',
-                    '../assets/foto-evento-gennaio/swipe-gennaio-02.jpg',
-                    '../assets/foto-evento-gennaio/swipe-gennaio-03.jpg',
-                    '../assets/foto-evento-gennaio/swipe-gennaio-04.jpg',
-                    '../assets/foto-evento-gennaio/swipe-gennaio-05.jpg',
-                ]"
-                :imageSliderALT="[
-                    'Palco con gli ospiti',
-                    'Serena Valorzi',
-                    'Il Rosso',
-                    'Kid Yugi',
-                    'Ciro Buccolieri',
-                ]"
+                :imageSliderURL="['../assets/foto-evento-gennaio/swipe-gennaio-01.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-02.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-03.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-04.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-05.jpg']"
+                :imageSliderALT="['Palco con gli ospiti', 'Serena Valorzi sul palco', 'Il Rosso sul palco', 'Kid Yugi sul palco', 'Ciro Buccolieri sul palco']"
             />
+
         </div>
         <!--foto singola o slider quando è un evento passato
         <div class="max-h-[400px] overflow-hidden">

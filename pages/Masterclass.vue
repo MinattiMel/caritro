@@ -90,18 +90,8 @@ defineProps([
             </ul>
 
             <ImageSlider
-                :imageSliderURL="[
-                    '../assets/foto-evento-maggio-masterclass/masterclass-01.jpg',
-                    '../assets/foto-evento-maggio-masterclass/masterclass-02.jpg',
-                    '../assets/foto-evento-maggio-masterclass/masterclass-03.jpg',
-                    '../assets/foto-evento-maggio-masterclass/masterclass-04.jpg',
-                ]"
-                :imageSliderALT="[
-                    'Panoramica degli iscritti',
-                    'Andry The Hitmaker in azione',
-                    'Il programma di beatmaking',
-                    'Andry The Hitmaker al lavoro',
-                ]"
+                :imageSliderURL="['../assets/foto-evento-maggio-masterclass/masterclass-01.jpg', '../assets/foto-evento-maggio-masterclass/masterclass-02.jpg', '../assets/foto-evento-maggio-masterclass/masterclass-03.jpg', '../assets/foto-evento-maggio-masterclass/masterclass-04.jpg']"
+                :imageSliderALT="['Panoramica degli iscritti', 'Andry The Hitmaker in azione', 'Il programma di beatmaking', 'Andry The Hitmaker al lavoro']"
             />
 
         </div>

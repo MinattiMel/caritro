@@ -134,20 +134,11 @@ defineProps([
                 </p>
 
             </div>
-            <ImageSlider
-                :imageSliderURL="[
-                    '../assets/foto-evento-maggio-talk/talk-01.jpg',
-                    '../assets/foto-evento-maggio-talk/talk-02.jpg',
-                    '../assets/foto-evento-maggio-talk/talk-03.jpg',
-                    '../assets/foto-evento-maggio-talk/talk-04.jpg',
-                ]"
-                :imageSliderALT="[
-                    'Foto del pubblico',
-                    'Michele Nudo',
-                    'Shablo',
-                    'Marco Masoli',
-                ]"
+             <ImageSlider
+                :imageSliderURL="['../assets/foto-evento-maggio-talk/talk-01.jpg', '../assets/foto-evento-maggio-talk/talk-02.jpg', '../assets/foto-evento-maggio-talk/talk-03.jpg', '../assets/foto-evento-maggio-talk/talk-04.jpg']"
+                :imageSliderALT="['Foto del pubblico', 'Michele Nudo', 'Shablo', 'Marco Masoli']"
             />
+            
         </div>
 
         <div class=" text-white flex flex-col items-center">
