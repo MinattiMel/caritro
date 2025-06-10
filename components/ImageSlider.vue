@@ -33,7 +33,8 @@ function closeModal() {
 
 <template>
   <div class="w-full max-w-5xl mx-auto">
-    <Swiper :modules="[Autoplay, Pagination, Keyboard]" :slides-per-view="1" pagination
+    <Swiper :modules="[Autoplay, Pagination, Keyboard]" :slides-per-view="1" :loop="true"
+      :autoplay="{ delay: 4000, disableOnInteraction: false }" :keyboard="{ enabled: true }" pagination
       class="w-full h-[420px] lg:h-[700px]">
       <SwiperSlide v-for="(src, idx) in imageSliderURL" :key="idx" class="flex items-center justify-center">
         <div class="h-full flex items-center justify-center">
