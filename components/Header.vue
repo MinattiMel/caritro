@@ -14,7 +14,7 @@ defineProps([
             <div
                 class="flex flex-col items-start max-w-[1920px] w-full p-8 pt-18 lg:pt-24 pb-0 lg:grid grid-cols-12 grid-flow-row auto-rows-max gap-4">
                 <router-link class="max-w-lg lg:max-w-3xl lg:col-span-8 col-start-1 row-start-2 lg:-mt-36" to="/" aria-label="Vai alla pagina principale" title="Vai alla pagina principale">            
-                    <svg class="" viewBox="0 0 224 70">
+                    <svg class="block w-full h-auto" viewBox="0 0 224 70">
                         <title>Swipe</title>
                         <clipPath id="logo-swipe">
                             <path d="M 0.59 0.179993 L 223.399998 0.179993 L 223.399998 69.600006 L 0.59 69.600006 Z" />

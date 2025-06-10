@@ -35,7 +35,7 @@ defineProps([
                 <div
                     class="flex flex-col items-start max-w-[1920px] w-full p-8 pt-24 pb-0 lg:grid grid-cols-12 grid-flow-row auto-rows-max gap-8">
                     <router-link class="max-w-lg lg:max-w-4xl lg:col-span-8 col-start-1 row-start-2 lg:-mt-24" to="/" aria-label="Vai alla pagina principale" title="Vai alla pagina principale">
-                        <svg viewBox="0 0 224 70">
+                        <svg class="block w-full h-auto" viewBox="0 0 224 70">
                             <title>Swipe</title>
                             <clipPath id="logo-swipe">
                                 <path d="M 0.59 0.179993 L 223.399998 0.179993 L 223.399998 69.600006 L 0.59 69.600006 Z" />
@@ -54,6 +54,7 @@ defineProps([
                             </g>
                         </svg>
                     </router-link>
+
                     <h1
                         class="flex items-center uppercase text-4xl lg:text-5xl pb-4 text-secondary [text-shadow:0px_0px_2px_#ffffff] font-medium row-start-3 col-span-12">
                         <span class="sr-only">Swipe</span> Scorrendo tra le generazioni
