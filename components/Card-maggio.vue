@@ -7,7 +7,7 @@ const isMain = props.main
 </script>
 
 <template>
-    <div class=" py-8 flex grow-0 gap-2 text-left text-octree items-center"
+    <div class="py-8 flex grow-0 gap-2 text-left text-octree items-center"
         :class="{ 'flex-row-reverse': isReverse, 'lg:flex-row': isReverse, 'text-right': isReverse, 'lg:text-left': isReverse }">
 
         <img class="rounded-full w-32 lg:hidden" v-if="imageUrl" :alt="imageAlt" :src="imageUrl" />

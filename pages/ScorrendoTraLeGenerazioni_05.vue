@@ -7,7 +7,7 @@ import { LMap, LTileLayer } from "@vue-leaflet/vue-leaflet";
 
 import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
-import CardMaggio from "../components/Card-maggio.vue";
+import Card from "../components/Card.vue";
 import imgZerbi from "../assets/ospiti/rudy-zerbi.jpg";
 import imgShablo from "../assets/ospiti/maggio/shablo.png";
 import imgAndry from "../assets/ospiti/maggio/andry-new.png";
@@ -30,8 +30,6 @@ const onMapReady = (map) => {
 
 defineProps([
     'imageSliderURL', 'imageSliderAlt'
-
-
 ])
 
 </script>
@@ -50,27 +48,27 @@ defineProps([
 
                 <h2 class="text-4xl lg:text-7xl text-octree mb-8 lg:mb-16 uppercase">Ospiti</h2>
 
-                <CardMaggio title="Rudy Zerbi" details="Moderatore" socialTitle="@rudyzerbi"
+                <Card color="octree" title="Rudy Zerbi" details="Moderatore" socialTitle="@rudyzerbi"
                     socialUrl="https://www.instagram.com/rudy_zerbi/" imageAlt="immagine di Rudy Zerbi"
                     :imageUrl="imgZerbi" main="true" />
 
-                <CardMaggio title="Shablo" details="Produttore e manager" socialTitle="@shablo"
+                <Card color="octree" title="Shablo" details="Produttore e manager" socialTitle="@shablo"
                     socialUrl="https://www.instagram.com/shablo/" imageAlt="immagine di Shablo" :imageUrl="imgShablo"
                     reverse="true" />
 
-                <CardMaggio title="Andry The Hitmaker" details="Produttore musicale" socialTitle="@andrythehitmaker"
+                <Card color="octree" title="Andry The Hitmaker" details="Produttore musicale" socialTitle="@andrythehitmaker"
                     socialUrl="https://www.instagram.com/andrythehitmaker/" imageAlt="immagine di Andry the hitmaker"
                     :imageUrl="imgAndry" />
 
-                <CardMaggio title="Marco Masoli" details="AR director (Warner Music Italia)"
+                <Card color="octree" title="Marco Masoli" details="AR director (Warner Music Italia)"
                     socialTitle="@pleasecallmemaso" socialUrl="https://www.instagram.com/pleasecallmemaso/"
                     imageAlt="immagine di Marco Masoli" :imageUrl="imgMasoli" reverse="true" />
 
-                <CardMaggio title="Marta Blumi Tripodi" details="Autrice e comunicatrice" socialTitle="@tharealblumi"
+                <Card color="octree" title="Marta Blumi Tripodi" details="Autrice e comunicatrice" socialTitle="@tharealblumi"
                     socialUrl="https://www.instagram.com/tharealblumi/" imageAlt="immagine di Marta Blumi Tripodi"
                     :imageUrl="imgTripodi" />
 
-                <CardMaggio title="Michele Nudo" details="A&R Director (Emi/Universal Music Italia)"
+                <Card color="octree" title="Michele Nudo" details="A&R Director (Emi/Universal Music Italia)"
                     socialTitle="@jkuio" socialUrl="https://www.instagram.com/jkuio/"
                     imageAlt="immagine di Michele Nudo" :imageUrl="imgNudo" reverse="true" />
 
