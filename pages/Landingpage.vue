@@ -48,34 +48,40 @@ import Social from "../components/Social.vue";
         </div>
     </header>
 
-    <div
-        class="flex flex-col items-left pt-[32px] pb-[64px] lg:pt-[112px] lg:pl-40 lg:pb-[128px] max-w-[1920px] w-full bg-[#694197]">
-        <p class="text-white pb-[100px] text-2xl pl-12 text-left w-[90%] lg:text-4xl lg:w-[60%] ">SWIPE è uno spazio
-            autentico, ideato da Fondazione Caritro e Sideout, per connettere le generazioni!</p>
-        <h1 class="text-white uppercase text-[32px] font-bold pl-12 lg:text-6xl lg:pb-24">Edizioni passate</h1>
+    <div class="flex flex-col items-center pt-[32px] pb-[64px] lg:pt-[112px] lg:pb-[128px] bg-[#694197]">
+        <div class="max-w-[1920px] p-8 pt-18 lg:pt-24 pb-0">
 
-        <div class="mt-12 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 md:w-4/5 place-items-center">
-            <RouterLink to="/scorrendo-tra-le-generazioni-05">
-                <img class="block pb-12 md:hidden" alt="ateprima evento passato swipe talk di maggio"
-                    src="../assets/swipe-contenitore-card/swipe-maggio-mobile.png" />
-                <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300"
-                    alt="Swipe Maggio" src="../assets/swipe-contenitore-card/swipe-maggio-desktop.png" />
-            </RouterLink>
-            <RouterLink to="/masterclass-05">
-                <img class="block pb-12 md:hidden"
-                    alt="ateprima evento passato swipe masterclass come nasce un beat di maggio"
-                    src="../assets/swipe-contenitore-card/swipe-masterclass-maggio-mobile.png">
-                <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300"
-                    alt="Swipe Masterclass"
-                    src="../assets/swipe-contenitore-card/swipe-masterclass-maggio-desktop.png" />
-            </RouterLink>
-            <RouterLink to="/scorrendo-tra-le-generazioni-01">
-                <img class="block pb-12 md:hidden" alt="ateprima evento passato swipe di marzo"
-                    src="../assets/swipe-contenitore-card/swipe-marzo-mobile.png">
-                <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300"
-                    alt="Swipe Marzo" src="../assets/swipe-contenitore-card/swipe-marzo-desktop.png" />
-            </RouterLink>
+            <p class="text-white pb-[100px] text-2xl text-left w-[90%] lg:text-4xl lg:w-[60%] ">SWIPE è uno spazio
+                autentico, ideato da Fondazione Caritro e Sideout, per connettere le generazioni!</p>
 
+            <h1 class="text-white uppercase text-[32px] font-bold lg:text-6xl lg:pb-24">Edizioni passate</h1>
+
+            <div class="mt-12 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 md:w-4/5 place-items-center">
+
+                <RouterLink to="/scorrendo-tra-le-generazioni-05">
+                    <img class="block pb-12 md:hidden" alt="ateprima evento passato swipe talk di maggio"
+                        src="../assets/swipe-contenitore-card/swipe-maggio-mobile.png" />
+                    <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300"
+                        alt="Swipe Maggio" src="../assets/swipe-contenitore-card/swipe-maggio-desktop.png" />
+                </RouterLink>
+
+                <RouterLink to="/masterclass-05">
+                    <img class="block pb-12 md:hidden"
+                        alt="ateprima evento passato swipe masterclass come nasce un beat di maggio"
+                        src="../assets/swipe-contenitore-card/swipe-masterclass-maggio-mobile.png">
+                    <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300"
+                        alt="Swipe Masterclass"
+                        src="../assets/swipe-contenitore-card/swipe-masterclass-maggio-desktop.png" />
+                </RouterLink>
+
+                <RouterLink to="/scorrendo-tra-le-generazioni-01">
+                    <img class="block pb-12 md:hidden" alt="ateprima evento passato swipe di marzo"
+                        src="../assets/swipe-contenitore-card/swipe-marzo-mobile.png">
+                    <img class="hidden md:block pb-20 opacity-100 cursor-pointer hover:opacity-75 hover:scale-90 ease-in-out duration-300"
+                        alt="Swipe Marzo" src="../assets/swipe-contenitore-card/swipe-marzo-desktop.png" />
+                </RouterLink>
+
+            </div>
         </div>
     </div>
 
