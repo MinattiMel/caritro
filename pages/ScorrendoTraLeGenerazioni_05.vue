@@ -18,6 +18,12 @@ import ImageSlider from "../components/ImageSlider.vue";
 
 import fotoOspitiMaggio from "../assets/ospiti/maggio/panoramica-ospiti-maggio.png";
 
+import fotoSlider01 from "../assets/foto-evento-maggio-talk/talk-01.jpg";
+import fotoSlider02 from "../assets/foto-evento-maggio-talk/talk-02.jpg";
+import fotoSlider03 from "../assets/foto-evento-maggio-talk/talk-03.jpg";
+import fotoSlider04 from "../assets/foto-evento-maggio-talk/talk-04.jpg";
+import fotoSliderVideo from "../assets/foto-evento-maggio-talk/video-finale-maggio.png";
+
 const zoom = ref(20)
 const center = ref([46.065335, 11.123905])
 const markerPos = ref([46.065135, 11.123905])
@@ -41,7 +47,6 @@ defineProps([
         <Header pageTitle="Talk - 22.05.25 - ore 14:30 - Piazza Fiera"
             linkLable="Come nasce un beat - 23.05.25 - Fondazione Caritro" linkUrl="/masterclass-05"
             :imageSrc="fotoOspitiMaggio" imageAlt="Foto degli ospiti dell'evento" />
-
 
         <div class=" flex flex-col items-center">
             <div class="max-w-[1920px] w-full pt-24 pb-28 lg:pt-28 lg:pb-32 px-8 lg:px-36 text-octree">
@@ -96,7 +101,7 @@ defineProps([
 
             </div>
             <ImageSlider
-                :imageSliderURL="['../assets/foto-evento-maggio-talk/talk-01.jpg', '../assets/foto-evento-maggio-talk/talk-02.jpg', '../assets/foto-evento-maggio-talk/talk-03.jpg', '../assets/foto-evento-maggio-talk/talk-04.jpg', '../assets/foto-evento-maggio-talk/video-finale-maggio.png']"
+                :imageSliderURL="[fotoSlider01, fotoSlider02, fotoSlider03, fotoSlider04, fotoSliderVideo]"
                 :imageSliderALT="['Foto del pubblico', 'Michele Nudo', 'Shablo', 'Marco Masoli', 'Link al video finale evento di maggio']"
                 :imageSliderLink="['', '', '', '', 'https://youtu.be/IWyxve3uf14?si=pJl3Xza_pV4V1EmO']" />
 
