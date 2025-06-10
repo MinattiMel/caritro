@@ -48,7 +48,7 @@ import Social from "../components/Social.vue";
         </div>
     </header>
 
-    <div class="flex flex-col items-center pt-[32px] pb-[64px] lg:pt-[112px] lg:pb-[128px] bg-[#694197]">
+    <div class="flex flex-col items-center pt-[32px] pb-[64px] lg:pt-[112px] lg:pb-[128px] lg:pl-[15%] bg-[#694197]">
         <div class="max-w-[1920px] p-8 pt-18 lg:pt-24 pb-0">
 
             <p class="text-white pb-[100px] text-2xl text-left w-[90%] lg:text-4xl lg:w-[60%] ">SWIPE è uno spazio
