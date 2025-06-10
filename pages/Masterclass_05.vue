@@ -8,6 +8,10 @@ import Footer from "../components/Footer.vue";
 import Header from "../components/Header.vue";
 import Beat from "../components/Beat.vue";
 import ImageSlider from "../components/ImageSlider.vue";
+import fotoSlider01 from "../assets/foto-evento-maggio-masterclass/masterclass-01.jpg";
+import fotoSlider02 from "../assets/foto-evento-maggio-masterclass/masterclass-02.jpg";
+import fotoSlider03 from "../assets/foto-evento-maggio-masterclass/masterclass-03.jpg";
+import fotoSlider04 from "../assets/foto-evento-maggio-masterclass/masterclass-04.jpg";
 
 import fotoAndry from "../assets/ospiti/maggio/panoramica-ospite-andry.png";
 
@@ -88,7 +92,7 @@ defineProps([
             </ul>
 
             <ImageSlider
-                :imageSliderURL="['../assets/foto-evento-maggio-masterclass/masterclass-01.jpg', '../assets/foto-evento-maggio-masterclass/masterclass-02.jpg', '../assets/foto-evento-maggio-masterclass/masterclass-03.jpg', '../assets/foto-evento-maggio-masterclass/masterclass-04.jpg']"
+                :imageSliderURL="[fotoSlider01, fotoSlider02, fotoSlider03, fotoSlider04]"
                 :imageSliderALT="['Panoramica degli iscritti', 'Andry The Hitmaker in azione', 'Il programma di beatmaking', 'Andry The Hitmaker al lavoro']" />
 
         </div>
