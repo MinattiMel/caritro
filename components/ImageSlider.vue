@@ -40,7 +40,7 @@ function closeModal() {
       :autoplay="{ delay: 4000, disableOnInteraction: false }"
       :keyboard="{ enabled: true }"
       pagination
-      class="w-full h-[405px] lg:h-[650px]"
+      class="w-full h-[420px] lg:h-[700px]"
     >
       <SwiperSlide
         v-for="(src, idx) in imageSliderURL"
@@ -48,7 +48,9 @@ function closeModal() {
         class="flex items-center justify-center"
       >
         <div class="h-full flex items-center justify-center">
-          <!-- Se è presente un link per quell'immagine -->
+
+          <!-- L
+           ink per quell'immagine -->
           <a
             v-if="imageSliderLink[idx]"
             :href="imageSliderLink[idx]"
@@ -58,11 +60,11 @@ function closeModal() {
             <img
               :src="src"
               :alt="imageSliderALT[idx] || `Immagine ${idx + 1}`"
-              class="object-contain max-h-[400px] lg:max-h-[600px] max-w-[90%] rounded-2xl cursor-pointer transition-transform duration-200 hover:scale-105"
+              class="object-contain max-h-[350px] lg:max-h-[600px] max-w-[90%] rounded-2xl cursor-pointer transition-transform duration-200 hover:scale-105"
             />
           </a>
 
-          <!-- Altrimenti, apri la modale al click -->
+          <!-- Apri la modale al click -->
           <img
             v-else
             :src="src"
