@@ -9,7 +9,7 @@ defineProps([
 <template>
     <header
         class="bg-[url('./assets/sfondi/bg-arancione.png')] bg-no-repeat bg-cover bg-center text-white flex flex-col items-center relative">
-        <div class="min-h-screen max-h-[1080px] flex flex-col">
+        <div class="min-h-screen max-h-[1080px] flex flex-col overflow-visible lg:overflow-hidden">
 
             <div
                 class="flex flex-col items-start max-w-[1920px] w-full p-8 pt-18 lg:pt-24 pb-0 lg:grid grid-cols-12 grid-flow-row auto-rows-max gap-4">
