@@ -11,6 +11,12 @@ import imgValorzi from "../assets/ospiti/gennaio/serena-valorzi.jpg";
 import Social from "../components/Social.vue";
 import Button from "../components/Button.vue";
 import ImageSlider from "../components/ImageSlider.vue";
+import fotoSlider01 from "../assets/foto-evento-gennaio/swipe-gennaio-01.jpg";
+import fotoSlider02 from "../assets/foto-evento-gennaio/swipe-gennaio-02.jpg";
+import fotoSlider03 from "../assets/foto-evento-gennaio/swipe-gennaio-03.jpg";
+import fotoSlider04 from "../assets/foto-evento-gennaio/swipe-gennaio-04.jpg";
+import fotoSlider05 from "../assets/foto-evento-gennaio/swipe-gennaio-05.jpg";
+import fotoSliderVideo from "../assets/foto-evento-gennaio/video-finale-gennaio.png";
 
 defineProps([
     'imageSliderURL', 'imageSliderAlt'
@@ -159,7 +165,7 @@ defineProps([
             </div>
 
             <ImageSlider
-                :imageSliderURL="['../assets/foto-evento-gennaio/swipe-gennaio-01.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-02.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-03.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-04.jpg', '../assets/foto-evento-gennaio/swipe-gennaio-05.jpg', '../assets/foto-evento-gennaio/video-finale-gennaio.png']"
+                :imageSliderURL="[fotoSlider01, fotoSlider02, fotoSlider03, fotoSlider04, fotoSlider05, fotoSliderVideo]"
                 :imageSliderALT="['Palco con gli ospiti', 'Serena Valorzi sul palco', 'Il Rosso sul palco', 'Kid Yugi sul palco', 'Ciro Buccolieri sul palco', 'Link al video finale']"
                 :imageSliderLink="['', '', '', '', '', 'https://youtu.be/lZfIpMa4J9Y?si=EQpEo-gjDguf5ILF']" />
 
