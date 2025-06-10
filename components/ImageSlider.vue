@@ -33,55 +33,30 @@ function closeModal() {
 
 <template>
   <div class="w-full max-w-5xl mx-auto">
-    <Swiper
-      :modules="[Autoplay, Pagination, Keyboard]"
-      :slides-per-view="1"
-      :loop="true"
-      :autoplay="{ delay: 4000, disableOnInteraction: false }"
-      :keyboard="{ enabled: true }"
-      pagination
-      class="w-full h-[420px] lg:h-[700px]"
-    >
-      <SwiperSlide
-        v-for="(src, idx) in imageSliderURL"
-        :key="idx"
-        class="flex items-center justify-center"
-      >
+    <Swiper :modules="[Autoplay, Pagination, Keyboard]" :slides-per-view="1" :loop="true"
+      :autoplay="{ delay: 4000, disableOnInteraction: false }" :keyboard="{ enabled: true }" pagination
+      class="w-full h-[420px] lg:h-[700px]">
+      <SwiperSlide v-for="(src, idx) in imageSliderURL" :key="idx" class="flex items-center justify-center">
         <div class="h-full flex items-center justify-center">
 
           <!-- L
            ink per quell'immagine -->
-          <a
-            v-if="imageSliderLink[idx]"
-            :href="imageSliderLink[idx]"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              :src="src"
-              :alt="imageSliderALT[idx] || `Immagine ${idx + 1}`"
-              class="object-contain max-h-[350px] lg:max-h-[600px] max-w-[90%] rounded-2xl cursor-pointer transition-transform duration-200 hover:scale-105"
-            />
+          <a v-if="imageSliderLink[idx]" :href="imageSliderLink[idx]" target="_blank" rel="noopener noreferrer">
+            <img :src="src" :alt="imageSliderALT[idx] || `Immagine ${idx + 1}`"
+              class="object-contain max-h-[350px] lg:max-h-[600px] max-w-[90%] rounded-2xl cursor-pointer transition-transform duration-200 hover:scale-105" />
           </a>
 
           <!-- Apri la modale al click -->
-          <img
-            v-else
-            :src="src"
-            :alt="imageSliderALT[idx] || `Immagine ${idx + 1}`"
+          <img v-else :src="src" :alt="imageSliderALT[idx] || `Immagine ${idx + 1}`"
             class="object-contain max-h-[400px] lg:max-h-[600px] max-w-[90%] rounded-2xl cursor-pointer transition-transform duration-200 hover:scale-105"
-            @click="openImage(src)"
-          />
+            @click="openImage(src)" />
         </div>
       </SwiperSlide>
     </Swiper>
 
     <!-- Modal per zoom -->
-    <div
-      v-if="modalImage"
-      class="fixed inset-0 bg-black/80 z-50 flex items-center justify-center"
-      @click.self="closeModal"
-    >
+    <div v-if="modalImage" class="fixed inset-0 bg-black/80 z-50 flex items-center justify-center"
+      @click.self="closeModal">
       <img :src="modalImage" alt="Zoom" class="max-w-[90%] max-h-[90%] rounded-lg shadow-xl" />
     </div>
   </div>

@@ -8,16 +8,15 @@ const isMain = props.main || false;
 
 <template>
 
-    <footer class="flex flex-col items-center"
-            :class="{'bg-[#31006B]': isMain , 'bg-sextiary': !isMain}"
-    >
+    <footer class="flex flex-col items-center" :class="{ 'bg-[#31006B]': isMain, 'bg-sextiary': !isMain }">
         <div class="max-w-[1920px] w-full pt-28 pb-32 px-8 lg:px-36">
 
             <div class="flex flex-col lg:flex-row justify-between items-start gap-8">
 
                 <div class="pb-8 lg:-mt-10">
                     <img class="w-48 lg:w-[33vw] pb-4 lg:pb-8" src="../assets/swipe-logo.svg" alt="Swipe Festival">
-                    <a class="text-white lg:text-lg underline underline-offset-4" href="https://www.instagram.com/swipe.festival/">
+                    <a class="text-white lg:text-lg underline underline-offset-4"
+                        href="https://www.instagram.com/swipe.festival/">
                         @swipe.festival
                     </a>
                 </div>
@@ -27,7 +26,7 @@ const isMain = props.main || false;
                     <div>
                         <p class="text-white lg:hidden">Un progetto di:</p>
                         <div class="py-4">
-                            <Social/>
+                            <Social />
                         </div>
                     </div>
 

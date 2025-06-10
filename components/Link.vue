@@ -6,10 +6,6 @@ defineProps([
 
 <template>
 
-    <a
-        v-if="text"
-        :target="target"
-        :href="link"
-    >{{ text }}</a>
+    <a v-if="text" :target="target" :href="link">{{ text }}</a>
 
 </template>
